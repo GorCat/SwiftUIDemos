@@ -1,0 +1,6 @@
+framework module Pods_SwiftUIRefreshDemo {
+  umbrella header "Pods-SwiftUIRefreshDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,20 @@
+PODS:
+  - Introspect (0.2.3)
+  - MJRefresh (3.7.5)
+
+DEPENDENCIES:
+  - Introspect (= 0.2.3)
+  - MJRefresh
+
+SPEC REPOS:
+  trunk:
+    - Introspect
+    - MJRefresh
+
+SPEC CHECKSUMS:
+  Introspect: 6917895ed34004271bc8d75a75db6c07839fa971
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+
+PODFILE CHECKSUM: a4148cc04df0d9bbf084c8ef21593ac1d0832067
+
+COCOAPODS: 1.11.3
