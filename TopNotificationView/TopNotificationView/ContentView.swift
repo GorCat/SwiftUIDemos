@@ -8,10 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var model: PopupItemModel?
     var body: some View {
-        VStack {
+        ZStack {
             Spacer()
-            MgcPopups()
+            VStack {
+                Button("Show Notification") {
+                    model = PopupItemModel(imageName: "mgc_popups_Notification", title: "Notification", message: "some message")
+                }
+                Button("Show Success") {
+                    model = PopupItemModel(imageName: "mgc_popups_Success", title: "Success", message: "some message")
+                }
+                Button("Show Faild") {
+                    model = PopupItemModel(imageName: "mgc_popups_Error", title: "Faild", message: "some message")
+                }
+            }
+            .padding()
+            
+            MgcPopups(willShowModel: $model)
         }
     }
 }

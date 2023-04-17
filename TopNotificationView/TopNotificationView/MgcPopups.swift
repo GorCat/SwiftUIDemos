@@ -8,51 +8,67 @@
 import SwiftUI
 
 struct MgcPopups: View {
-    let model = PopupItemModel(imageName: "mgc_popups_Notification", title: "Notification", message: "some message")
+//    let model = PopupItemModel(imageName: "mgc_popups_Notification", title: "Notification", message: "some message")
+    
+    @State private var willDismissModel: PopupItemModel?
+    @State private var dismissY: CGFloat = 0
+    
+    @Binding var willShowModel: PopupItemModel?
+    @State private var showY: CGFloat = -200
     
     @State private var timer: Timer.TimerPublisher = Timer.publish(every: 1, on: .main, in: .common)
     @State private var count = 0
-    @State private var yOffset: CGFloat = -200
     @State private var originalY: CGFloat?
     
     var body: some View {
         ZStack(alignment: .top) {
             Color.clear
                 .edgesIgnoringSafeArea(.all )
-            PopupItem(model: model)
-                .offset(y: yOffset)
-                .contentShape(Rectangle())
-                .gesture(
-                    DragGesture(minimumDistance: 0)
-                        .onChanged { action in
-                            stopTimer()
-                            let y = action.location.y
-                            guard let oY = originalY else {
-                                originalY = y
-                                return
+            if let model = willDismissModel {
+                PopupItem(model: model)
+                    .offset(y: dismissY)
+                    .contentShape(Rectangle())
+                    .gesture(
+                        DragGesture(minimumDistance: 0)
+                            .onChanged { action in
+                                stopTimer()
+                                let y = action.location.y
+                                guard let oY = originalY else {
+                                    originalY = y
+                                    return
+                                }
+                                if y > oY {
+                                    // disabled move down gesture
+                                    return
+                                }
+                                let offset = y - oY
+                                if offset < -45 {
+                                    dismiss()
+                                    return
+                                }
+                                dismissY = offset
+                                print("offset\(dismissY)")
                             }
-                            if y > oY {
-                                // disabled move down gesture
-                                return
+                            .onEnded { action in
+                                startTimer()
+                                originalY = nil
                             }
-                            let offset = y - oY
-                            if offset < -45 {
-                                autoDismiss()
-                                return
-                            }
-                            yOffset = offset
-                            print("offset\(yOffset)")
-                        }
-                        .onEnded { action in
-                            startTimer()
-                            originalY = nil
-                        }
-                )
+                    )
+            }
+            if let model = willShowModel {
+                PopupItem(model: model)
+                    .offset(y: showY)
+            }
         }
+        .onChange(of: willShowModel, perform: { newValue in
+            if newValue != nil {
+                show()
+            }
+        })
         .onReceive(timer) { _ in
             count -= 1
             if count == 0 {
-                autoDismiss()
+                dismiss()
             }
         }
         .onAppear {
@@ -72,15 +88,25 @@ struct MgcPopups: View {
     
     
     func show() {
-        withAnimation {
-            yOffset = 0
+        withAnimation(.linear(duration: 0.15)) {
+            showY = 0
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            willDismissModel = willShowModel
+            willShowModel = nil
+            showY = -200
         }
         startTimer()
     }
     
-    func autoDismiss() {
-        withAnimation {
-            yOffset = -200
+    func dismiss() {
+        withAnimation(.linear(duration: 0.15)) {
+            dismissY = -200
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+//        withAnimation(.linear(duration: 2).delay(2)) {
+            willDismissModel = nil
+            dismissY = 0
         }
         stopTimer()
     }
@@ -88,7 +114,7 @@ struct MgcPopups: View {
 
 struct MgcPopups_Previews: PreviewProvider {
     static var previews: some View {
-        MgcPopups()
+        MgcPopups(willShowModel: .constant( PopupItemModel(imageName: "mgc_popups_Notification", title: "Notification", message: "some message")))
     }
 }
 
@@ -97,6 +123,11 @@ struct PopupItemModel {
     var title: String
     var message: String
     let date = Date()
+    let uuid = UUID()
+    
+}
+extension PopupItemModel: Equatable {
+    
 }
 
 struct PopupItem: View {
