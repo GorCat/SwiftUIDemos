@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Spacer()
-            MgcPopups(imageName: "mgc_popups_Notification", title: "Success", message: "This is a message")
+            MgcPopups()
         }
     }
 }
