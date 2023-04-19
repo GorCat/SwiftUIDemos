@@ -24,6 +24,8 @@ public struct ImagePreviewItemView<Placeholder: View>: View {
     @State private var showProgress = true
     @State private var progress: Int = 0
     
+    @State private var image: UIImage?
+    
     private var backgroudOpacity: CGFloat {
         let halfScreenHeight = UIScreen.main.bounds.height / 2
         let opacity = (1.0 - abs(dragOffset.height) / halfScreenHeight)
@@ -41,10 +43,12 @@ public struct ImagePreviewItemView<Placeholder: View>: View {
         ZStack {
             Color(red: 0.12, green: 0.12, blue: 0.12, opacity: backgroudOpacity)
                 .edgesIgnoringSafeArea(.all)
+
             
             WebImage(url: imageURL)
-                .onSuccess {_,_,_ in
+                .onSuccess {image, data, type in
                     showProgress = false
+                    self.image = image
                 }
                 .onProgress { (installed, total) in
                     guard installed > 0, total > 0 else {
@@ -83,10 +87,29 @@ public struct ImagePreviewItemView<Placeholder: View>: View {
                         }
                     )
 
-            
             if showProgress {
                 CircularProgressView(progress)
                     .frame(width: 45, height: 45)
+            }
+            
+            if let image = image {
+                VStack {
+                    HStack {
+                        Spacer()
+                        Image(systemName: "square.and.arrow.down")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .foregroundColor(.white)
+                            .padding(11)
+                            .frame(width: 45)
+                            .onTapGesture {
+                                ImageSaver().writeToPhotoAlbum(image: image)
+                            }
+                            .padding()
+                    }
+                    Spacer()
+                }
+                .edgesIgnoringSafeArea(.horizontal)
             }
         }
         .transition(AnyTransition.opacity.animation(.easeInOut(duration: 0.2)))
