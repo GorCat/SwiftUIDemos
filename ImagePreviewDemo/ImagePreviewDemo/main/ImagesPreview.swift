@@ -22,8 +22,6 @@ struct ImagesPreview: View {
     var body: some View {
         ZStack {
             Color.clear
-                .edgesIgnoringSafeArea(.all)
-            operaterView
                 .zIndex(2)
             TabView(selection: $selectedIndex) {
                 ForEach(imageURLs.indices, id: \.self) { index in
@@ -32,27 +30,12 @@ struct ImagesPreview: View {
             }
             .tabViewStyle(PageTabViewStyle())
         }
+        .edgesIgnoringSafeArea(.all)
         .onDisappear {
             UIView.setAnimationsEnabled(true)
         }
     }
     
-    var operaterView: some View {
-        VStack {
-            HStack {
-                Spacer()
-                Button {
-                    presentationMode.wrappedValue.dismiss()
-                } label: {
-                    Image(systemName: "xmark")
-                        .foregroundColor(Color(UIColor.white))
-                        .font(.system(size: UIFontMetrics.default.scaledValue(for: 24)))
-                }
-                .padding()
-            }
-            Spacer()
-        }
-    }
 }
 
 struct ImagesPreview_Previews: PreviewProvider {

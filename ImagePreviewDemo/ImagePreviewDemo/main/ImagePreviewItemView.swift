@@ -11,6 +11,7 @@ import SDWebImageSwiftUI
 import Combine
 
 
+
 @available(iOS 13.0, *)
 public struct ImagePreviewItemView<Placeholder: View>: View {
     private var imageURL: URL
@@ -23,6 +24,12 @@ public struct ImagePreviewItemView<Placeholder: View>: View {
     @State private var showProgress = true
     @State private var progress: Int = 0
     
+    private var backgroudOpacity: CGFloat {
+        let halfScreenHeight = UIScreen.main.bounds.height / 2
+        let opacity = (1.0 - abs(dragOffset.height) / halfScreenHeight)
+        debugPrint(opacity)
+        return opacity
+    }
     
     public init(_ url: URL, @ViewBuilder placeholderView: () -> Placeholder) {
         self.imageURL = url
@@ -32,7 +39,8 @@ public struct ImagePreviewItemView<Placeholder: View>: View {
     @ViewBuilder
     public var body: some View {
         ZStack {
-            Color(red: 0.12, green: 0.12, blue: 0.12, opacity: (1.0 - Double(abs(self.dragOffset.width) + abs(self.dragOffset.height)) / 1000)).edgesIgnoringSafeArea(.all)
+            Color(red: 0.12, green: 0.12, blue: 0.12, opacity: backgroudOpacity)
+                .edgesIgnoringSafeArea(.all)
             
             WebImage(url: imageURL)
                 .onSuccess {_,_,_ in
@@ -53,8 +61,7 @@ public struct ImagePreviewItemView<Placeholder: View>: View {
                 }
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .offset(x: self.dragOffset.width, y: self.dragOffset.height)
-                .rotationEffect(.init(degrees: Double(self.dragOffset.width / 30)))
+                .offset(y: dragOffset.height)
                 .pinchToZoom()
                 .gesture(
                     DragGesture(minimumDistance: 20)
@@ -63,9 +70,7 @@ public struct ImagePreviewItemView<Placeholder: View>: View {
                             self.dragOffsetPredicted = value.predictedEndTranslation
                         }
                         .onEnded { value in
-                            if (abs(self.dragOffset.height) + abs(self.dragOffset.width) > 570) ||
-                                ((abs(self.dragOffsetPredicted.height)) / (abs(self.dragOffset.height)) > 3)
-                            {
+                            if backgroudOpacity < 0.35 {
                                 withAnimation(.spring()) {
                                     self.dragOffset = self.dragOffsetPredicted
                                 }
@@ -84,7 +89,6 @@ public struct ImagePreviewItemView<Placeholder: View>: View {
                     .frame(width: 45, height: 45)
             }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
         .transition(AnyTransition.opacity.animation(.easeInOut(duration: 0.2)))
         .onAppear() {
             self.dragOffset = .zero
