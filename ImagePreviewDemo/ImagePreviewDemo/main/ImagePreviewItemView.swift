@@ -93,23 +93,7 @@ public struct ImagePreviewItemView<Placeholder: View>: View {
             }
             
             if let image = image {
-                VStack {
-                    HStack {
-                        Spacer()
-                        Image(systemName: "square.and.arrow.down")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .foregroundColor(.white)
-                            .padding(11)
-                            .frame(width: 45)
-                            .onTapGesture {
-                                ImageSaver().writeToPhotoAlbum(image: image)
-                            }
-                            .padding()
-                    }
-                    Spacer()
-                }
-                .edgesIgnoringSafeArea(.horizontal)
+                saveImageItem(image)
             }
         }
         .transition(AnyTransition.opacity.animation(.easeInOut(duration: 0.2)))
@@ -117,6 +101,26 @@ public struct ImagePreviewItemView<Placeholder: View>: View {
             self.dragOffset = .zero
             self.dragOffsetPredicted = .zero
         }
+    }
+    
+    func saveImageItem(_ image: UIImage) -> some View {
+        VStack {
+            HStack {
+                Spacer()
+                Image(systemName: "square.and.arrow.down")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .foregroundColor(.white)
+                    .padding(11)
+                    .frame(width: 45)
+                    .onTapGesture {
+                        ImageSaver().writeToPhotoAlbum(image: image)
+                    }
+                    .padding()
+            }
+            Spacer()
+        }
+        .edgesIgnoringSafeArea(.horizontal)
     }
 }
 
