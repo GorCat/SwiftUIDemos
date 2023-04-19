@@ -1,6 +1,6 @@
 import SwiftUI
 import UIKit
-import URLImage
+import SDWebImageSwiftUI
 import Combine
 
 @available(iOS 13.0, *)
@@ -62,8 +62,11 @@ public struct ImageViewerRemote: View {
                     VStack {
                         ZStack {
                             if(self.disableCache == nil || self.disableCache == false) {
-                                URLImage(url: URL(string: self.imageURL) ?? URL(string: "https://via.placeholder.com/150.png")!, content: { image in
-                                image
+                                
+                                WebImage(url: URL(string: "https://via.placeholder.com/150.png")!)
+                                //                                                    .placeholder {
+                                //                                                        placeholderView
+                                //                                                    }
                                     .resizable()
                                     .aspectRatio(self.aspectRatio?.wrappedValue, contentMode: .fit)
                                     .offset(x: self.dragOffset.width, y: self.dragOffset.height)
@@ -87,7 +90,7 @@ public struct ImageViewerRemote: View {
                                             }
                                         }
                                     )
-                                })
+                                //                                })
                             }
                             else {
                                 if loader.image != nil {
