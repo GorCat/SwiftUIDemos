@@ -15,6 +15,7 @@ import Combine
 public struct ImagePreviewItemView<Placeholder: View>: View {
     private var imageURL: URL
     private var placeholderView: Placeholder
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     
     @State private var dragOffset: CGSize = CGSize.zero
     @State private var dragOffsetPredicted: CGSize = CGSize.zero
@@ -31,6 +32,8 @@ public struct ImagePreviewItemView<Placeholder: View>: View {
     @ViewBuilder
     public var body: some View {
         ZStack {
+            Color(red: 0.12, green: 0.12, blue: 0.12, opacity: (1.0 - Double(abs(self.dragOffset.width) + abs(self.dragOffset.height)) / 1000)).edgesIgnoringSafeArea(.all)
+            
             WebImage(url: imageURL)
                 .onSuccess {_,_,_ in
                     showProgress = false
@@ -49,9 +52,32 @@ public struct ImagePreviewItemView<Placeholder: View>: View {
                     placeholderView
                 }
                 .resizable()
+                .aspectRatio(contentMode: .fit)
                 .offset(x: self.dragOffset.width, y: self.dragOffset.height)
                 .rotationEffect(.init(degrees: Double(self.dragOffset.width / 30)))
                 .pinchToZoom()
+                .gesture(
+                    DragGesture(minimumDistance: 20)
+                        .onChanged { value in
+                            self.dragOffset = value.translation
+                            self.dragOffsetPredicted = value.predictedEndTranslation
+                        }
+                        .onEnded { value in
+                            if (abs(self.dragOffset.height) + abs(self.dragOffset.width) > 570) ||
+                                ((abs(self.dragOffsetPredicted.height)) / (abs(self.dragOffset.height)) > 3)
+                            {
+                                withAnimation(.spring()) {
+                                    self.dragOffset = self.dragOffsetPredicted
+                                }
+                                presentationMode.wrappedValue.dismiss()
+                                return
+                            }
+                            withAnimation(.interactiveSpring()) {
+                                self.dragOffset = .zero
+                            }
+                        }
+                    )
+
             
             if showProgress {
                 CircularProgressView(progress)
@@ -59,8 +85,6 @@ public struct ImagePreviewItemView<Placeholder: View>: View {
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color(red: 0.12, green: 0.12, blue: 0.12, opacity: (1.0 - Double(abs(self.dragOffset.width) + abs(self.dragOffset.height)) / 1000)).edgesIgnoringSafeArea(.all))
-        .zIndex(1)
         .transition(AnyTransition.opacity.animation(.easeInOut(duration: 0.2)))
         .onAppear() {
             self.dragOffset = .zero

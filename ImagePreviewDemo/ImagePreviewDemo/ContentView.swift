@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     @State var showImageViewer: Bool = false
-    
     @State var images = [
             "https://r.iwlive.club/photos/cfd29a04e8817f92698816085488921b.jpg",
             "https://r.iwlive.club/photos/0e4fe405f66d34a23e01b1ecbdf06535.jpg",
@@ -24,10 +23,11 @@ struct ContentView: View {
         ZStack {
             Text("Example!")
                 .onTapGesture {
+                    UIView.setAnimationsEnabled(false)
                     showImageViewer = true
                 }
         }
-        .fullScreenCover(isPresented: $showImageViewer) {
+        .clearfullScreen($showImageViewer) {
             ImagesPreview(imageURLs: images)
         }
     }

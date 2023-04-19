@@ -37,7 +37,6 @@ struct CircularProgressView: View {
                     )
                 )
                 .rotationEffect(.degrees(-90))
-                // 1
                 .animation(.easeOut, value: Double(progress) / 100)
             
             Text("\(progress)%")

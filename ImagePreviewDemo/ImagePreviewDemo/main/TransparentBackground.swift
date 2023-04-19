@@ -19,3 +19,18 @@ struct TransparentBackground: UIViewRepresentable {
 
     func updateUIView(_ uiView: UIView, context: Context) {}
 }
+
+extension View {
+    func clearfullScreen<T>(_ isPresent: Binding<Bool>, backgroudColor: Color? = .clear, content: @escaping () -> T) -> some View where T: View {
+        self.fullScreenCover(isPresented: isPresent) {
+            content()
+                .edgesIgnoringSafeArea(.bottom)
+                .background(
+                    TransparentBackground()
+                        .onTapGesture {
+                            isPresent.wrappedValue = false
+                        }
+                )
+        }
+    }
+}

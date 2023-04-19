@@ -21,7 +21,7 @@ struct ImagesPreview: View {
     
     var body: some View {
         ZStack {
-            Color.black
+            Color.clear
                 .edgesIgnoringSafeArea(.all)
             operaterView
                 .zIndex(2)
@@ -31,6 +31,9 @@ struct ImagesPreview: View {
                 }
             }
             .tabViewStyle(PageTabViewStyle())
+        }
+        .onDisappear {
+            UIView.setAnimationsEnabled(true)
         }
     }
     
