@@ -104,7 +104,6 @@ struct MgcPopups: View {
             dismissY = -200
         }
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
-//        withAnimation(.linear(duration: 2).delay(2)) {
             willDismissModel = nil
             dismissY = 0
         }
