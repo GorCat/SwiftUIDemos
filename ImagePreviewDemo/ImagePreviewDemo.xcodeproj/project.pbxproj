@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		124CCDA451CEDC3FAC4C5E64 /* Pods_ImagePreviewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2579B415AF365A0BBA42FC8 /* Pods_ImagePreviewDemo.framework */; };
 		4D7B174E29EFCB5300A16BBA /* ImagePreviewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B174D29EFCB5300A16BBA /* ImagePreviewItemView.swift */; };
+		4D7B175029EFD62F00A16BBA /* TransparentBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B174F29EFD62F00A16BBA /* TransparentBackground.swift */; };
 		4DC0BAD229EF8BEE005C3932 /* ImagePreviewDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0BAD129EF8BEE005C3932 /* ImagePreviewDemoApp.swift */; };
 		4DC0BAD429EF8BEE005C3932 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0BAD329EF8BEE005C3932 /* ContentView.swift */; };
 		4DC0BAD629EF8BEE005C3932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC0BAD529EF8BEE005C3932 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		4D7B174D29EFCB5300A16BBA /* ImagePreviewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewItemView.swift; sourceTree = "<group>"; };
+		4D7B174F29EFD62F00A16BBA /* TransparentBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBackground.swift; sourceTree = "<group>"; };
 		4DC0BACE29EF8BEE005C3932 /* ImagePreviewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagePreviewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC0BAD129EF8BEE005C3932 /* ImagePreviewDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewDemoApp.swift; sourceTree = "<group>"; };
 		4DC0BAD329EF8BEE005C3932 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				4D7B174D29EFCB5300A16BBA /* ImagePreviewItemView.swift */,
 				4DC0BAEC29EFBF0F005C3932 /* CircularProgressView.swift */,
 				4DC0BAE529EF90C1005C3932 /* PinchToZoom.swift */,
+				4D7B174F29EFD62F00A16BBA /* TransparentBackground.swift */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 			files = (
 				4DC0BAD429EF8BEE005C3932 /* ContentView.swift in Sources */,
 				4DC0BAD229EF8BEE005C3932 /* ImagePreviewDemoApp.swift in Sources */,
+				4D7B175029EFD62F00A16BBA /* TransparentBackground.swift in Sources */,
 				4D7B174E29EFCB5300A16BBA /* ImagePreviewItemView.swift in Sources */,
 				4DC0BAEB29EF9BA2005C3932 /* ImagesPreview.swift in Sources */,
 				4DC0BAED29EFBF0F005C3932 /* CircularProgressView.swift in Sources */,
