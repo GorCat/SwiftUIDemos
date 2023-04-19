@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     @State var showImageViewer: Bool = false
-    @State var imgURL: String = "https://ilivegirl.s3.amazonaws.com/photos/7bf24171b485a35b4005304d25a316cb.jpg"
     
     @State var images = [
             "https://r.iwlive.club/photos/cfd29a04e8817f92698816085488921b.jpg",
@@ -19,7 +18,7 @@ struct ContentView: View {
             "https://r.iwlive.club/22m/AndroidImage/1679378222628_my_pic1679378222396.jpg",
             "https://r.iwlive.club/22m/AndroidImage/1679378232431_my_pic1679378231890.jpg",
             "https://r.iwlive.club/22m/AndroidImage/1679378244214_my_pic1679378244129.jpg",
-            "https://r.iwlive.club/22m/AndroidImage/1679378251982_my_pic1679378251663.jpg"]
+            "https://r.iwlive.club/22m/AndroidImage/1679378251982_my_pic1679378251663.jpg"].compactMap{ URL(string: $0) }
     
     var body: some View {
         ZStack {
@@ -27,12 +26,10 @@ struct ContentView: View {
                 .onTapGesture {
                     showImageViewer = true
                 }
-            
-            if showImageViewer {
-                ImageViewerRemote(URL(string: images[1])!)
-            }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .fullScreenCover(isPresented: $showImageViewer) {
+            ImagesPreview(imageURLs: images)
+        }
     }
     
 }
