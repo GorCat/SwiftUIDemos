@@ -48,7 +48,8 @@ public struct ImageViewerRemote<Placeholder: View>: View {
                 )
             
             if progress != 100 {
-                
+                CircularProgressView(progress)
+                    .frame(width: 45, height: 45)
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
