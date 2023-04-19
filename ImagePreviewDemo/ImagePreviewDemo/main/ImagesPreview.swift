@@ -14,7 +14,6 @@ struct ImagesPreview: View {
     
     var body: some View {
         ZStack {
-            
             Button {
                 presentationMode.wrappedValue.dismiss()
             } label: {

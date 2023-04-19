@@ -29,13 +29,7 @@ struct ContentView: View {
                 }
             
             if showImageViewer {
-                ImageViewerRemote(URL(string: images[1])!) {
-                    Rectangle()
-                        .fill(Color.white)
-                        .overlay(
-                            Image("image_placeholder")
-                        )
-                }
+                ImageViewerRemote(URL(string: images[1])!)
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)

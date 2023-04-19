@@ -10,7 +10,10 @@ public struct ImageViewerRemote<Placeholder: View>: View {
     
     @State private var dragOffset: CGSize = CGSize.zero
     @State private var dragOffsetPredicted: CGSize = CGSize.zero
+    
+    @State private var showProgress = true
     @State private var progress: Int = 0
+    
     
     public init(_ url: URL, @ViewBuilder placeholderView: () -> Placeholder) {
         self.imageURL = url
@@ -21,12 +24,18 @@ public struct ImageViewerRemote<Placeholder: View>: View {
     public var body: some View {
         ZStack {
             WebImage(url: imageURL)
+                .onSuccess {_,_,_ in
+                    showProgress = false
+                }
                 .onProgress { (installed, total) in
-                    
                     guard installed > 0, total > 0 else {
                         return
                     }
+                    showProgress = true
                     progress = installed * 100 / total // 0~100
+                }
+                .onFailure { error in
+                    showProgress = false
                 }
                 .placeholder {
                     placeholderView
@@ -35,19 +44,8 @@ public struct ImageViewerRemote<Placeholder: View>: View {
                 .offset(x: self.dragOffset.width, y: self.dragOffset.height)
                 .rotationEffect(.init(degrees: Double(self.dragOffset.width / 30)))
                 .pinchToZoom()
-                .gesture(DragGesture()
-                    .onChanged { value in
-                        self.dragOffset = value.translation
-                        self.dragOffsetPredicted = value.predictedEndTranslation
-                    }
-                    .onEnded { value in
-                        withAnimation(.interactiveSpring()) {
-                            self.dragOffset = .zero
-                        }
-                    }
-                )
             
-            if progress != 100 {
+            if showProgress {
                 CircularProgressView(progress)
                     .frame(width: 45, height: 45)
             }
@@ -60,6 +58,13 @@ public struct ImageViewerRemote<Placeholder: View>: View {
             self.dragOffset = .zero
             self.dragOffsetPredicted = .zero
         }
+    }
+}
+
+extension ImageViewerRemote where Placeholder == Rectangle {
+    public init(_ url: URL) {
+        self.imageURL = url
+        self.placeholderView = Rectangle()
     }
 }
 
