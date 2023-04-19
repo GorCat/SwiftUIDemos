@@ -1,6 +1,4 @@
 import SwiftUI
-import UIKit
-import SDWebImageSwiftUI
 import Combine
 
 class PinchZoomView: UIView {
