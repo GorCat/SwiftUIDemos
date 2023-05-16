@@ -6,16 +6,32 @@
 //
 
 import SwiftUI
+import AudioToolbox
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                Button("BELL RING") {
+                    BellRingManager.share.play(.call)
+                }
+                Button("BELL RING") {
+                    BellRingManager.share.play(.message)
+                }
+                Button("BELL RING") {
+                    BellRingManager.share.play(.send)
+                }
+                Button("BELL RING") {
+                    
+                    AudioServicesPlaySystemSound(1002)
+                }
+                Button("BELL RING") {
+                    
+                    AudioServicesPlaySystemSound(1004)
+                }
+            }
         }
-        .padding()
+        .navigationViewStyle(.stack)
     }
 }
 

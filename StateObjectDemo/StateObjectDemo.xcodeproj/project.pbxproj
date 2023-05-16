@@ -11,6 +11,10 @@
 		4D5264B12A07A3D800A81ADC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5264B02A07A3D800A81ADC /* ContentView.swift */; };
 		4D5264B32A07A3D900A81ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5264B22A07A3D900A81ADC /* Assets.xcassets */; };
 		4D5264B62A07A3D900A81ADC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5264B52A07A3D900A81ADC /* Preview Assets.xcassets */; };
+		4DD019A52A12311A006DA122 /* callRing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD019A22A123119006DA122 /* callRing.mp3 */; };
+		4DD019A62A12311A006DA122 /* sendRing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD019A32A123119006DA122 /* sendRing.mp3 */; };
+		4DD019A72A12311A006DA122 /* messageRing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD019A42A12311A006DA122 /* messageRing.mp3 */; };
+		4DD019A92A123279006DA122 /* BellRingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD019A82A123279006DA122 /* BellRingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		4D5264B02A07A3D800A81ADC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D5264B22A07A3D900A81ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D5264B52A07A3D900A81ADC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DD019A22A123119006DA122 /* callRing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = callRing.mp3; sourceTree = "<group>"; };
+		4DD019A32A123119006DA122 /* sendRing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sendRing.mp3; sourceTree = "<group>"; };
+		4DD019A42A12311A006DA122 /* messageRing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = messageRing.mp3; sourceTree = "<group>"; };
+		4DD019A82A123279006DA122 /* BellRingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BellRingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				4D5264AE2A07A3D800A81ADC /* StateObjectDemoApp.swift */,
 				4D5264B02A07A3D800A81ADC /* ContentView.swift */,
+				4DD019A22A123119006DA122 /* callRing.mp3 */,
+				4DD019A42A12311A006DA122 /* messageRing.mp3 */,
+				4DD019A32A123119006DA122 /* sendRing.mp3 */,
+				4DD019A82A123279006DA122 /* BellRingManager.swift */,
 				4D5264B22A07A3D900A81ADC /* Assets.xcassets */,
 				4D5264B42A07A3D900A81ADC /* Preview Content */,
 			);
@@ -125,7 +137,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD019A62A12311A006DA122 /* sendRing.mp3 in Resources */,
 				4D5264B62A07A3D900A81ADC /* Preview Assets.xcassets in Resources */,
+				4DD019A52A12311A006DA122 /* callRing.mp3 in Resources */,
+				4DD019A72A12311A006DA122 /* messageRing.mp3 in Resources */,
 				4D5264B32A07A3D900A81ADC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D5264B12A07A3D800A81ADC /* ContentView.swift in Sources */,
+				4DD019A92A123279006DA122 /* BellRingManager.swift in Sources */,
 				4D5264AF2A07A3D800A81ADC /* StateObjectDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
