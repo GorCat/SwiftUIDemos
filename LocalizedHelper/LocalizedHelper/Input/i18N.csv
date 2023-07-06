@@ -7,8 +7,8 @@ Gender,GGGGG,الجنس,NNNNNNNN
 Male,GGGGG,ذكر,NNNNNNNN
 Female,GGGGG,أنثى,NNNNNNNN
 Email,GGGGG,البريد الالكتروني,NNNNNNNN
-Password (6-12 characters),GGGGG,كلمة السر ( بين 6 و 12 حرفا),NNNNNNNN
-6-12 characters,GGGGG,( بين 6 و 12 حرفا),NNNNNNNN
+Password (6-32 characters),GGGGG,كلمة السر ( بين 6 و 32 حرفا),NNNNNNNN
+6-32characters,GGGGG,( بين 6 و 32 حرفا),NNNNNNNN
 Password,GGGGG,كلمة السر,NNNNNNNN
 Next,GGGGG,التالي,NNNNNNNN
 Upload your avatar,GGGGG,حمّل صورتك الرمزية,NNNNNNNN
@@ -18,10 +18,17 @@ Already have an account? Sign in,GGGGG,لديك حساب؟ سجّل الدخ
 New user? Sign up,GGGGG,جديد هنا؟ سجّل حسابك,NNNNNNNN
 Incorrect email format,GGGGG,صيغة بريد إلكتروني غير صحيح,NNNNNNNN
 Invalid password format,GGGGG,صيغة كلمة السر غير مسموح,NNNNNNNN
-Please enter the password again (6-12 characters),GGGGG, (بين 6 و 12 حرفا) الرجاء إدخال كلمة السر حسب طلب,NNNNNNNN
+Please enter the password again (6-32 characters),GGGGG, (بين 6 و 32 حرفا) الرجاء إدخال كلمة السر حسب طلب,NNNNNNNN
 Wrong account or password,GGGGG,بريد إلكتروني أو كلمة السر خاطئة,NNNNNNNN
 Account with this email already exists. Please log in with password.,GGGGG,تم ارتباط حساب بالبريد الالكتروني ، يرجى تسجيل الدخول به,NNNNNNNN
-,GGGGG,,NNNNNNNN
+We sent you a verification code,GGGGG,أرسلنا رمز التحقق لك,NNNNNNNN
+Enter it below to verify your email.,GGGGG,أدخل رمزك من اجل التحقق من إيمل خاس بك.,NNNNNNNN
+Too many requests. Please slow down and try later.,GGGGG,لا تكرر النقر,NNNNNNNN
+Didn't receive the email? Resend(59s),GGGGG,لم تستلم البريد؟حاول بعد %ld ثانية.,NNNNNNNN
+Didn't receive the email? ,GGGGG,لم تستلم الايملي؟,NNNNNNNN
+Resend(%lds),GGGGG,إعادة الارسال(%ldS),NNNNNNNN
+Resend,GGGGG,إعادة الارسال,NNNNNNNN
+Wrong code. Try again.,GGGGG,رمز خاطأ،يرجى اعادة المحاولة.,NNNNNNNN
 Welcome back! ,GGGGG,!مرحبا بعودتك,NNNNNNNN
 Log in to continue,GGGGG,!سجل الدخول لاستمرار,NNNNNNNN
 complete your profile,GGGGG,!اكمل معلوماتك,NNNNNNNN
@@ -40,7 +47,6 @@ Your account won’t be unblocked if it’s banned over 3 times. See community g
 community guide,GGGGG,دليل المجتمع,NNNNNNNN
 community guide,GGGGG,دليل المجتمع,NNNNNNNN
 You've been logged out due to inactivity or login from another device.,GGGGG,تم تسجيل الخروج من الحساب بسبب عدم وجود عملية أو تسجيل الدخول على جهاز آخر.,NNNNNNNN
-,GGGGG,,NNNNNNNN
 You've been logged out.,GGGGG,تم خروج من حسابك.,NNNNNNNN
 Upgrade,GGGGG,تحديث,NNNNNNNN
 "By continuing, you agree to our Terms of Service and EULA",GGGGG,EULAالاستمرار يعني انك توافق على شروط الاستخدام,NNNNNNNN
@@ -50,15 +56,28 @@ Terms of Service and EULA,GGGGG,EULA شروط الاستخدام و,NNNNNNNN
 Terms of Service,GGGGG,شروط الاستخدام,NNNNNNNN
 Skip,GGGGG,تخطّي,NNNNNNNN
 Skip(%ld),GGGGG,تخطّي(%ld),NNNNNNNN
+Change password,GGGGG,تغيير كلمة السر,NNNNNNNN
+Your password should be at least 6 characters,GGGGG,يجب ان لا تقل كلمة السر الجديدة عن 6 حرفا,NNNNNNNN
+Old password,GGGGG,كلمة السر القديمة,NNNNNNNN
+New password,GGGGG,كلمة السر الجديدة,NNNNNNNN
+Your new password cannot be the same as your old password,GGGGG,لا يمكن أن تكون كلمة السر الجديدة مطابقة لكلمة السر القديمة.,NNNNNNNN
+Forgot password?,GGGGG,نسيتَ كلمة السر؟,NNNNNNNN
+The old password you entered is incorrect.,GGGGG,كلمة السر القديمة غير صحيحة.,NNNNNNNN
+Send code,GGGGG,أرسل رمز التحقق,NNNNNNNN
+Reset password,GGGGG,غيّر كلمة السر,NNNNNNNN
+We'll send a verification code to your email.,GGGGG,سنرسل رمز التحقق الى الايمل خاص بك.,NNNNNNNN
+Confirm password,GGGGG,تأكد منم كلمة السر الجديدة.,NNNNNNNN
+Reenter new password,GGGGG,أدخل كلمة السر الجديدة مرة أخرى.,NNNNNNNN
+Please make sure both passwords match.,GGGGG,يجب ان تتطابقا كلمتا السر الجديدتان,NNNNNNNN
+Password changed,GGGGG,تم تغيير كلمة السر بنجاح.,NNNNNNNN
+Change password failed,GGGGG,فشل في تغير كلمة السر.,NNNNNNNN
 Hot Today,GGGGG,مثير اليوم,NNNNNNNN
 Hosts For You,GGGGG,المضيفات لك,NNNNNNNN
 In Room,GGGGG,في الغرفة,NNNNNNNN
 LIVE,GGGGG,بث,NNNNNNNN
 Popular Tags,GGGGG,العلامات الشائعة,NNNNNNNN
 ,GGGGG,,NNNNNNNN
-,GGGGG,,NNNNNNNN
 Recently Viewed,GGGGG,مشاهدة مؤخرا,NNNNNNNN
-,GGGGG,,NNNNNNNN
 ,GGGGG,,NNNNNNNN
 Search,GGGGG,البحث,NNNNNNNN
 Clear,GGGGG,حذف البينات السابقة,NNNNNNNN
@@ -111,10 +130,7 @@ Welcome to my world! I look forward to chilling out with you.,GGGGG,مرحبا �
 Hope I can brighten up your day.,GGGGG,اتمنى ان أضيء يومك.,NNNNNNNN
 ID,GGGGG,أيدي,NNNNNNNN
 Verified,GGGGG,مصدّق عليها,NNNNNNNN
-Call Now,GGGGG,اتصل الآن,NNNNNNNN
-Private,GGGGG,,NNNNNNNN
-Private call,GGGGG,,NNNNNNNN
-Call,GGGGG,,NNNNNNNN
+Call,GGGGG,اتصل الآن,NNNNNNNN
 More,GGGGG,المزيد,NNNNNNNN
 Back,GGGGG,العودة,NNNNNNNN
 Report,GGGGG,إبلاغ,NNNNNNNN
@@ -156,12 +172,13 @@ Like,GGGGG,لايك,NNNNNNNN
 Dislike,GGGGG,ديسلايك,NNNNNNNN
 Slide left to access pure mode,GGGGG,مرّر لليسار لدخول وضعية النقاء,NNNNNNNN
 Slide right to access pure mode,GGGGG,مرّر لليمين لدخول وضعية النقاء,NNNNNNNN
-Camera off,GGGGG,الماميرا مطفأ,NNNNNNNN
+Camera off,GGGGG,الكاميرا مطفأ,NNNNNNNN
 Are you sure you want to leave?,GGGGG,هل أنت متأكد من خروج؟,NNNNNNNN
 Leave,GGGGG,خروج ,NNNNNNNN
 Cancel,GGGGG,الغاء,NNNNNNNN
 Say something,GGGGG,تحية لها,NNNNNNNN
 Say hi…,GGGGG,تحية لها,NNNNNNNN
+,GGGGG,,NNNNNNNN
 Messages,GGGGG,رسائل,NNNNNNNN
 Message,GGGGG,رسالة,NNNNNNNN
 Calls,GGGGG,مكالمات,NNNNNNNN
@@ -225,7 +242,8 @@ Your Rank: %ld+,GGGGG,ترتيبك:30+,NNNNNNNN
 My Account,GGGGG,حسابي,NNNNNNNN
 Consumption Record,GGGGG,سجل الاستهلاك,NNNNNNNN
 No Record,GGGGG,لا سجل,NNNNNNNN
-Log in,GGGGG,سجّل الدخول,NNNNNNNN
+Log in,GGGGG,"
+سجّل الدخول",NNNNNNNN
 Sign up,GGGGG,سجل حساب جديد,NNNNNNNN
 Bind your email,GGGGG,ربط البريد الالكتروني,NNNNNNNN
 Available Coins,GGGGG,رصيد,NNNNNNNN
@@ -244,6 +262,11 @@ Please tell us what could we improve. We value your feedback.,GGGGG,ساعِدن
 Submit,GGGGG,قدّم,NNNNNNNN
 Clear Cache,GGGGG,مسح ذاكرة التخزين المؤقت,NNNNNNNN
 Settings,GGGGG,إعدادات,NNNNNNNN
+Stream Settings,GGGGG,إعدادات الفيديو,NNNNNNNN
+In-App floating window,GGGGG,نافذة عائمة داخل التطبيق,NNNNNNNN
+"Once disabled, the stream will not be played in mini player and you will exit from a room immediately. ",GGGGG,اذا تظفأ الميزة،لا تظهر نافذة عائمة اذا تخرج من الغرفة,NNNNNNNN
+Outside-App floating window,GGGGG,نافذة عائمة خارج التطبيق,NNNNNNNN
+"Once disabled, the stream will not be played in floating window over other apps.",GGGGG, اذا تطفأ الميزة ، لا تظهر نافذة عائمة خارج التطبيق عندما تدخل تطبيقات أخرى.,NNNNNNNN
 Language,GGGGG,لغة,NNNNNNNN
 Sign out,GGGGG,تسجيل الخروج,NNNNNNNN
 Are you sure you want to sign out?,GGGGG,متأكدة من تسجيل الخروج؟,NNNNNNNN
@@ -274,10 +297,10 @@ Private call via Live,GGGGG,اتصال خاص من العرض المباشر,NNN
 Private call via Multi-beam,GGGGG,مكالمة خاصة من ملتيبيم,NNNNNNNN
 Live,GGGGG,بث,NNNNNNNN
 Multi-beam,GGGGG,ملتيبيم,NNNNNNNN
-Apple,GGGGG,,NNNNNNNN
-Credit Card,GGGGG,,NNNNNNNN
-Mada,GGGGG,,NNNNNNNN
-Knet,GGGGG,,NNNNNNNN
+Apple,GGGGG,无需,NNNNNNNN
+Credit Card,GGGGG,无需,NNNNNNNN
+Mada,GGGGG,无需,NNNNNNNN
+Knet,GGGGG,无需,NNNNNNNN
 PayPal,GGGGG,PayPal,NNNNNNNN
 One-time discount,GGGGG,خصم لمرة واحدة,NNNNNNNN
 "The coins your purchased last time have been added to your account, please check.",GGGGG,لقد تم ارسال الكوينز الذي اشتريته الى  حسابك.,NNNNNNNN
@@ -287,7 +310,6 @@ One-time discount,GGGGG,خصم لمرة واحدة,NNNNNNNN
 "Recharge error, coins might be delayed to get to your account. If you don't received the coins in 5 minutes, please contact us through the email.",GGGGG,خطأ في الشحن، قد يتأخر استلام الكوينزات قليلا، اتصل بنا اذا لم تستلم اي كوينز بعد خمس دقائق.,NNNNNNNN
 Recharge failed,GGGGG,فشل,NNNNNNNN
 Recharge error! Contact us if you don't receive the coins.,GGGGG,فشل الشحن، اتصل بنا اذا لم تسلتلم  كوينز.,NNNNNNNN
-My Wallet,GGGGG,محفظة,NNNNNNNN
 Wallet,GGGGG,محفظة,NNNNNNNN
 Available Coins,GGGGG,رصيد,NNNNNNNN
 Limited Time,GGGGG,عرض محدود,NNNNNNNN
@@ -302,6 +324,7 @@ Nickname,GGGGG,لقب لقب,NNNNNNNN
 Nickname can not be empty,GGGGG,لا يمكن ان يكون اسمك المستعار فارغا,NNNNNNNN
 within 14 characters,GGGGG,（ضمن 14 حرفًا）,NNNNNNNN
 What's your age?,GGGGG,كم عمرك؟,NNNNNNNN
+Prefer not to say,GGGGG,لا اريد ان أكشف,NNNNNNNN
 Age,GGGGG,العمر,NNNNNNNN
 Change nickname,GGGGG,اللقب,NNNNNNNN
 About me (within 120 characters),GGGGG,عن （ضمن 120 حرفًا）,NNNNNNNN
@@ -343,7 +366,6 @@ You’ve got a private message,GGGGG,وصلتك رسالة خاصة جديدة,N
 Now,GGGGG,الآن,NNNNNNNN
 Each private message costs 2 coins,GGGGG,تدفع على كل رسالة خاصة 2 كوينز,NNNNNNNN
 Type something...,GGGGG,اكتب هنا,NNNNNNNN
-,GGGGG,,NNNNNNNN
 Video,GGGGG,فيديو,NNNNNNNN
 Voice,GGGGG,صوت,NNNNNNNN
 Photo,GGGGG,صورة,NNNNNNNN
@@ -443,7 +465,7 @@ Please select a cover,GGGGG,اختر صورة الغلاف,NNNNNNNN
 Please enter a title,GGGGG,لا يُسمح عنوان فارغ,NNNNNNNN
 Please upload a photo,GGGGG,لا تُسمح صورة فارغة,NNNNNNNN
 Please upload an avatar,GGGGG,,NNNNNNNN
-Password should be 6-12 characters,GGGGG,الرجاء وضع كلمة السر بين 6 و 12 حرفا,NNNNNNNN
+Password should be 6-32 characters,GGGGG,الرجاء وضع كلمة السر بين 6 و 32 حرفا,NNNNNNNN
 Nickname,GGGGG,لقب لقب,NNNNNNNN
 Please enter the correct nickname,GGGGG,الاسم المستعار غير صحيح,NNNNNNNN
 The nickname is already taken,GGGGG,الاسم المستعار مستعمل من قبل,NNNNNNNN
@@ -472,10 +494,10 @@ System is under maintenance,GGGGG,النظام تحت الصيانة,NNNNNNNN
 Please allow the access of your microphone in the 'Settings - Privacy - Microphone' option,GGGGG,يُرجى السماح بالوصول إلى الميكروفون الخاص بك في خيار’ الإعدادات - الخصوصية - ميكروفون ‘,NNNNNNNN
 Please allow the access of your camera in the 'Settings - Privacy - Camera' option,GGGGG,الرجاء السماح بالوصول إلى الكاميرا الخاصة بك في خيار’ الإعدادات - الخصوصية - الكاميرات ‘,NNNNNNNN
 Please allow the access of your photos in the 'Settings - Privacy - Photos' option,GGGGG,يُرجى السماح بالوصول إلى ألبوم الصور الخاص بك في الخيار’ إعدادات - الخصوصية - ألبوم الصور ‘,NNNNNNNN
-%@ needs to access camera to upload a avatar or post photo message,GGGGG,%@ يحتاج الى الوصول الى الكاميرا لتحميل صورتك او ارسال رسالة بصورة..,NNNNNNNN
-%@ needs access your microphone to send voice message,GGGGG,%@ يحتاج الى الوصول الى ميكروفون لارسال رسالة صوتية.,NNNNNNNN
-%@ needs to access photo album to upload a avator or post photo message,GGGGG,%@ يحتاج الى الوصول الى البوم لتحميل صورتك او نشر رسالة  بصورة.,NNNNNNNN
-"%@ needs IDFA authorization in order to provide better and safer personalized services. We will not use it for other purposes.You can turn it off from system \""Settings-Privacy\"" at any time after opening.",GGGGG,من اجل توفير خدمة المخصصة افضل واكثر امانأ ،%@ يحتاج الى رخصة IDFA، لا نستعمله لاغراض اخرى. يمكن ايقافها في اعدادات- خوصوصية في اي وقت.,NNNNNNNN
+%@ needs to access camera to upload a avatar or post photo message（首次）,GGGGG,%@ يحتاج الى الوصول الى الكاميرا لتحميل صورتك او ارسال رسالة بصورة..,NNNNNNNN
+%@ needs access your microphone to send voice message（首次）,GGGGG,%@ يحتاج الى الوصول الى ميكروفون لارسال رسالة صوتية.,NNNNNNNN
+%@ needs to access photo album to upload a avator or post photo message（首次）,GGGGG,%@ يحتاج الى الوصول الى البوم لتحميل صورتك او نشر رسالة  بصورة.,NNNNNNNN
+"%@ needs IDFA authorization in order to provide better and safer personalized services. We will not use it for other purposes.You can turn it off from system \""Settings-Privacy\"" at any time after opening.（首次）",GGGGG,من اجل توفير خدمة المخصصة افضل واكثر امانأ ،%@ يحتاج الى رخصة IDFA، لا نستعمله لاغراض اخرى. يمكن ايقافها في اعدادات- خوصوصية في اي وقت.,NNNNNNNN
 %@ need to access your location to find other users near you,GGGGG,@% يحتاج الى موقعك للعثور على مستخدمين آخرين بالقرب منك,NNNNNNNN
 No messages,GGGGG,لا توجد رسالة,NNNNNNNN
 No calls,GGGGG,لا اتصال,NNNNNNNN
@@ -522,9 +544,13 @@ Free Coins,GGGGG,كوينزات مجانية,NNNNNNNN
 Enter Effect,GGGGG,  تأثير الدخول,NNNNNNNN
 Special Livestream & Multi-beam enter effect only for SVIP,GGGGG, التأثير الخاص بعضو SVIP عند دخول غرفة البث  او الملتيبيم,NNNNNNNN
 Outstanding Comment,GGGGG,تعليق حصري,NNNNNNNN
-SVIP comments stand out with unique background in Livestream & Multi-beam,GGGGG," اطار التعليق الحصري بعضو SVIPفي غرفة البث والملتيبيم",NNNNNNNN
+SVIP comments stand out with unique background in Livestream & Multi-beam,GGGGG," اطار التعليق الحصري بعضو SVIPفي غرفة البث والملتيبيم
+英文左右对调",NNNNNNNN
+Top Ranking,GGGGG,أولوية في ترتيب المشاهدين,NNNNNNNN
+Shown in the front row of audience list in Multi-beam,GGGGG,أولية ظهر اسمك في قائمة المشاهدين في ملتيبيم,NNNNNNNN
 SVIP Gifts,GGGGG,SVIP هدايا ,NNNNNNNN
 Unlock Exclusive Gifts with surprising animation effect,GGGGG, SVIP إهداء هدايا حصرية بعضو ,NNNNNNNN
+More,GGGGG,المزيد,NNNNNNNN
 SVIP Bonus,GGGGG,  SVIP مكافآت,NNNNNNNN
 Receive coins,GGGGG,استلام كونبز,NNNNNNNN
 "Your daily free coins have been added to your account, have fun and enjoy!",GGGGG,تم اضافة كوينزات مجانية اليومية الى حسابك،اذهب واستمتع!,NNNNNNNN
@@ -554,8 +580,7 @@ joined the room,GGGGG,دخل الى الغرفة,NNNNNNNN
 Congratulations! %@ reached the room quota!,GGGGG,!مبروك! %@ انجزت حصة الغرفة,NNNNNNNN
 Say hi to the livestreamer!,GGGGG,قل مرحبا لصاحبة البث,NNNNNNNN
 Like her? Send a gift.,GGGGG, !ارسل لها هدية اذا  تعجبك,NNNNNNNN
-"Don't miss any precious moment with her!
-Don't miss any precious moment with her.",GGGGG,!تابِعها ولا تفوتك لحظاتها المتميزة,NNNNNNNN
+Don't miss any precious moment with her!,GGGGG,!تابِعها ولا تفوتك لحظاتها المتميزة,NNNNNNNN
 Sent,GGGGG,ارسل ,NNNNNNNN
 to,GGGGG,الى,NNNNNNNN
 Sent a %@ to ,GGGGG,ارسل %@ إلى,NNNNNNNN
@@ -613,10 +638,10 @@ Opposite,GGGGG,عكس,NNNNNNNN
 The host quit and lost this round!,GGGGG,المضيفة غادرت وخسرت الجولة!,NNNNNNNN
 "The other host quit. Congrats, your team wins this round!",GGGGG,لقد غادرة المذيعة الأخرى هنيئاً لك، لقد فزت في هذه الجولة.,NNNNNNNN
 Draw,GGGGG,مقابل,NNNNNNNN
-WIN,GGGGG,,NNNNNNNN
-LOSE,GGGGG,,NNNNNNNN
+WIN,GGGGG,无需,NNNNNNNN
+LOSE,GGGGG,无需,NNNNNNNN
 PUNISHING,GGGGG,عقاب,NNNNNNNN
-5 WINS,GGGGG,,NNNNNNNN
+5 WINS,GGGGG,无需,NNNNNNNN
 This round of PK is over. Please wait for the next round.,GGGGG, انتهت هذه الجولة من PK ،انتظر لجولة قادمة,NNNNNNNN
 Thank you for your support!,GGGGG,شكرا  على دعمكم!,NNNNNNNN
 READY,GGGGG,كن مستعدة,NNNNNNNN
@@ -646,7 +671,7 @@ Chat and enjoy with all hosts,GGGGG,دردشة واستمتاع الاوقات �
 Microphone,GGGGG,مايك,NNNNNNNN
 Camera,GGGGG,كاميرا,NNNNNNNN
 Cancel,GGGGG,إلغاء,NNNNNNNN
-Join ,GGGGG,خذ,NNNNNNNN
+Join ,GGGGG,خذ المايك,NNNNNNNN
 JOIN AS BOSS,GGGGG,خذ المايك,NNNNNNNN
 Private chat,GGGGG,مكالمة خاصة,NNNNNNNN
 Click here to start a private video call.,GGGGG,اضغط هنا لبدء مكالمة الفيديو الخاصة,NNNNNNNN
@@ -675,7 +700,8 @@ All hosts,GGGGG,كل المضيفات,NNNNNNNN
 Room Quota,GGGGG,حصة الغرفة,NNNNNNNN
 Discription,GGGGG,وصف,NNNNNNNN
 Send coins,GGGGG,ارسل قطع نقدية,NNNNNNNN
-Viewers,GGGGG,مشاهدون,NNNNNNNN
+Top Viewers,GGGGG,أكرم داعمين,NNNNNNNN
+Hosts,GGGGG,مضيفات,NNNNNNNN
 users,GGGGG,مستخدم,NNNNNNNN
 Swipe up and down to switch rooms quickly,GGGGG,مرر للأعلى او الاسفل بتغير الغرف بسرعة,NNNNNNNN
 More Events,GGGGG,المزيد,NNNNNNNN
@@ -723,6 +749,7 @@ Unable to load video,GGGGG,فشل تحميل الفيديو,NNNNNNNN
 Moments,GGGGG,لحظات,NNNNNNNN
 My moments,GGGGG,تعليقي,NNNNNNNN
 Say hi~,GGGGG,~قل مرحبا,NNNNNNNN
+"Failed to send message, please try again.",GGGGG,فشل في ارسال رسالة، يرجى إعادة المحاولة,NNNNNNNN
 Greeted,GGGGG,تم تحيتها,NNNNNNNN
 Long press the comment to report or delete,GGGGG,اضغط على تعليق باستمرار من اجل إبلاغ او حذف,NNNNNNNN
 ,GGGGG,لحظات,NNNNNNNN
@@ -763,3 +790,23 @@ Preview,GGGGG,معاينة,NNNNNNNN
 Tip: The cropped area is limited to the white line frame,GGGGG,ملاحظة : سيتم اقتصاص الصور في اطار ابيض مربع,NNNNNNNN
 Customize,GGGGG,خصّص,NNNNNNNN
 Oops! The background hasn't been saved,GGGGG,الخلفية المخصصة غير محفوظة,NNNNNNNN
+Save to apply background,GGGGG,احفظ لتطبيق التغيير,NNNNNNNN
+The background can't be deleted while in use.,GGGGG,الخلفية في استخدام، لا يمكن حذفها,NNNNNNNN
+The background can't be deleted during preview.,GGGGG,الخلفية في المعاينة، لا يمكن حذفها,NNNNNNNN
+Are you sure to delete the background? ,GGGGG,متأكدة لحذف الصورة؟,NNNNNNNN
+The maximum allowed limit is 30 background images. Remove unused ones before adding more,GGGGG,اكبر عدد صور الخلفية هو 30 واذا تتجاوز هذا العدد،يجب ان تحذف صورة قديمة قبل تحميل صورة جديدة,NNNNNNNN
+Room settings,GGGGG,,NNNNNNNN
+Notifications,GGGGG,,NNNNNNNN
+@@@ liked your post,GGGGG,,NNNNNNNN
+Available hosts,GGGGG,,NNNNNNNN
+Apply list,GGGGG,,NNNNNNNN
+Search ID/name,GGGGG,,NNNNNNNN
+"Sorry, the call ended due to the host hanging up/poor network within 1 min. We will return your coins soon.",GGGGG,انتهت المكالمة بسس خلل في شبكة الانترنت او المضيفة أغلقت الخط، والمكالمة ما تجاوزت دقيقة واحدة، سيتم ارجاع الكوينزات الى حاسابك لاحقا.,NNNNNNNN
+You hung up the call within 1 min. No charge for the user and he is unable to rate.,GGGGG,المضيفة أغلقت الخط، والمكالمة ما تجاوزت دقيقة واحدة، سيتم ارجاع الكوينزات الى حاسابك لاحقا ولا يمكن ان تقيّم هذا المكالمة.,NNNNNNNN
+It costs %ld coins to send the gift. Confirm to send?,GGGGG,متأكد لارسال الهدية بسعر %ld كوينز؟,NNNNNNNN
+Don't remind again,GGGGG,لا تظهر مرة اخرى,NNNNNNNN
+Cancel,GGGGG,الغاء,NNNNNNNN
+Send,GGGGG,ارسال,NNNNNNNN
+%@ will see your message first once you send gifts.,GGGGG,ستظهر رسالتك في أعلى قائمة رسائل %@ بعد ارسالها هدية.,NNNNNNNN
+You sent,GGGGG,أرسلتَ,NNNNNNNN
+You received,GGGGG,إستلمتِ,NNNNNNNN
