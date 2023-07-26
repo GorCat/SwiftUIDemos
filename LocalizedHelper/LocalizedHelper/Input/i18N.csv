@@ -297,10 +297,10 @@ Private call via Live,GGGGG,اتصال خاص من العرض المباشر,NNN
 Private call via Multi-beam,GGGGG,مكالمة خاصة من ملتيبيم,NNNNNNNN
 Live,GGGGG,بث,NNNNNNNN
 Multi-beam,GGGGG,ملتيبيم,NNNNNNNN
-Apple,GGGGG,无需,NNNNNNNN
-Credit Card,GGGGG,无需,NNNNNNNN
-Mada,GGGGG,无需,NNNNNNNN
-Knet,GGGGG,无需,NNNNNNNN
+Apple,GGGGG,,NNNNNNNN
+Credit Card,GGGGG,,NNNNNNNN
+Mada,GGGGG,,NNNNNNNN
+Knet,GGGGG,,NNNNNNNN
 PayPal,GGGGG,PayPal,NNNNNNNN
 One-time discount,GGGGG,خصم لمرة واحدة,NNNNNNNN
 "The coins your purchased last time have been added to your account, please check.",GGGGG,لقد تم ارسال الكوينز الذي اشتريته الى  حسابك.,NNNNNNNN
@@ -544,8 +544,7 @@ Free Coins,GGGGG,كوينزات مجانية,NNNNNNNN
 Enter Effect,GGGGG,  تأثير الدخول,NNNNNNNN
 Special Livestream & Multi-beam enter effect only for SVIP,GGGGG, التأثير الخاص بعضو SVIP عند دخول غرفة البث  او الملتيبيم,NNNNNNNN
 Outstanding Comment,GGGGG,تعليق حصري,NNNNNNNN
-SVIP comments stand out with unique background in Livestream & Multi-beam,GGGGG," اطار التعليق الحصري بعضو SVIPفي غرفة البث والملتيبيم
-英文左右对调",NNNNNNNN
+SVIP comments stand out with unique background in Livestream & Multi-beam,GGGGG," اطار التعليق الحصري بعضو SVIPفي غرفة البث والملتيبيم,NNNNNNNN
 Top Ranking,GGGGG,أولوية في ترتيب المشاهدين,NNNNNNNN
 Shown in the front row of audience list in Multi-beam,GGGGG,أولية ظهر اسمك في قائمة المشاهدين في ملتيبيم,NNNNNNNN
 SVIP Gifts,GGGGG,SVIP هدايا ,NNNNNNNN
@@ -553,7 +552,7 @@ Unlock Exclusive Gifts with surprising animation effect,GGGGG, SVIP إهداء �
 More,GGGGG,المزيد,NNNNNNNN
 SVIP Bonus,GGGGG,  SVIP مكافآت,NNNNNNNN
 Receive coins,GGGGG,استلام كونبز,NNNNNNNN
-"Your daily free coins have been added to your account, have fun and enjoy!",GGGGG,تم اضافة كوينزات مجانية اليومية الى حسابك،اذهب واستمتع!,NNNNNNNN
+Your daily free coins have been added to your account, have fun and enjoy!,GGGGG,تم اضافة كوينزات مجانية اليومية الى حسابك،اذهب واستمتع!,NNNNNNNN
 free coins,GGGGG,كوينزات مجانية,NNNNNNNN
 /Month,GGGGG,كل سهر,NNNNNNNN
 on ,GGGGG, في,NNNNNNNN
@@ -638,10 +637,10 @@ Opposite,GGGGG,عكس,NNNNNNNN
 The host quit and lost this round!,GGGGG,المضيفة غادرت وخسرت الجولة!,NNNNNNNN
 "The other host quit. Congrats, your team wins this round!",GGGGG,لقد غادرة المذيعة الأخرى هنيئاً لك، لقد فزت في هذه الجولة.,NNNNNNNN
 Draw,GGGGG,مقابل,NNNNNNNN
-WIN,GGGGG,无需,NNNNNNNN
-LOSE,GGGGG,无需,NNNNNNNN
+WIN,GGGGG,,NNNNNNNN
+LOSE,GGGGG,,NNNNNNNN
 PUNISHING,GGGGG,عقاب,NNNNNNNN
-5 WINS,GGGGG,无需,NNNNNNNN
+5 WINS,GGGGG,,NNNNNNNN
 This round of PK is over. Please wait for the next round.,GGGGG, انتهت هذه الجولة من PK ،انتظر لجولة قادمة,NNNNNNNN
 Thank you for your support!,GGGGG,شكرا  على دعمكم!,NNNNNNNN
 READY,GGGGG,كن مستعدة,NNNNNNNN
