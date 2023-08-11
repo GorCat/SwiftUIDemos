@@ -15,6 +15,8 @@
 		4DEF35002A862F6800E73D7E /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF34FF2A862F6800E73D7E /* CGFloatExtension.swift */; };
 		4DEF35022A86305600E73D7E /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF35012A86305600E73D7E /* FontExtension.swift */; };
 		4DEF35042A8630B900E73D7E /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF35032A8630B900E73D7E /* ColorExtension.swift */; };
+		4DEF35062A8636FB00E73D7E /* CAREULAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF35052A8636FB00E73D7E /* CAREULAView.swift */; };
+		4DEF35082A86374900E73D7E /* CustomCornersShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF35072A86374900E73D7E /* CustomCornersShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		4DEF34FF2A862F6800E73D7E /* CGFloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
 		4DEF35012A86305600E73D7E /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
 		4DEF35032A8630B900E73D7E /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		4DEF35052A8636FB00E73D7E /* CAREULAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAREULAView.swift; sourceTree = "<group>"; };
+		4DEF35072A86374900E73D7E /* CustomCornersShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCornersShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				4DEF34FC2A862F1000E73D7E /* CARLoginView.swift */,
+				4DEF35052A8636FB00E73D7E /* CAREULAView.swift */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -91,6 +96,7 @@
 				4DEF34FF2A862F6800E73D7E /* CGFloatExtension.swift */,
 				4DEF35012A86305600E73D7E /* FontExtension.swift */,
 				4DEF35032A8630B900E73D7E /* ColorExtension.swift */,
+				4DEF35072A86374900E73D7E /* CustomCornersShape.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -168,6 +174,8 @@
 				4DEF35022A86305600E73D7E /* FontExtension.swift in Sources */,
 				4DEF34FD2A862F1000E73D7E /* CARLoginView.swift in Sources */,
 				4DEF34F02A862C9800E73D7E /* ContentView.swift in Sources */,
+				4DEF35062A8636FB00E73D7E /* CAREULAView.swift in Sources */,
+				4DEF35082A86374900E73D7E /* CustomCornersShape.swift in Sources */,
 				4DEF35042A8630B900E73D7E /* ColorExtension.swift in Sources */,
 				4DEF35002A862F6800E73D7E /* CGFloatExtension.swift in Sources */,
 				4DEF34EE2A862C9800E73D7E /* CarModificationApp.swift in Sources */,

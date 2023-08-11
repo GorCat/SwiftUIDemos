@@ -12,6 +12,9 @@ extension Color {
     
     /// #FFD90F
     static let car_yellow = Color(hex: "#FFD90F")
+    
+    /// #8E8E94
+    static let car_textGray = Color(hex: "#8E8E94")
 }
 
 extension Color {
