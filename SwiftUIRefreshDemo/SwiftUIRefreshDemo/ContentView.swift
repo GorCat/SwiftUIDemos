@@ -19,6 +19,52 @@ extension View {
 }
 
 struct ContentView: View {
+    
+    var body: some View {
+        GorDemoView()
+    }
+}
+
+struct GorDemoView: View {
+    @State var datas: [String] = []
+    
+    @State var refresh = GorRefreshData()
+    
+    var body: some View {
+        NavigationView {
+            LazyVStack {
+                ForEach(datas.indices, id: \.self) { index in
+                    GGGGGGGGGCell(index: index)
+                }
+            }
+            .gor_refreshable(state: $refresh, refresh: {
+                reloadData()
+            }, loadMore: {
+                loadMoreData()
+            })
+            .border(.red)
+            .padding(.bottom, 40)
+            .navigationTitle("Refresh Demo")
+            .navigationBarTitleDisplayMode(.inline)
+        }
+    }
+    
+    private func reloadData() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            self.datas = Array(repeating: "", count: 10)
+            refresh.headerState = .stopped
+        }
+    }
+    
+    private func loadMoreData() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            self.datas.append(contentsOf: Array(repeating: "", count: 10))
+            refresh.footerState = .stopped
+        }
+    }
+}
+
+struct MgcDemoView: View {
     @State var datas: [String] = []
     @State private var headerRefreshing: Bool = false
     @State private var footerRefreshing: Bool = false
