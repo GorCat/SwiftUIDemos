@@ -73,11 +73,14 @@ struct RioRefreshModifier: ViewModifier {
                             .anchorPreference(key: GorHeaderBoundsPreferenceKey.self, value: .bounds) { [.init(bounds: $0)] } // 通过此方法将 header 的位置记录下来，传给父视图
                         
                         content
+                            .anchorPreference(key: GorFooterBoundsPreferenceKey.self, value: .bounds, transform: {
+                                [.init(bounds: $0)]
+                            })// 将 content 也加入 footer 记录的 key，目的是为了在计算 footer state 的时候，获取到列表的整体高度
                         
                         GorRefreshFooter(refreshState: $state)
                             .frame(maxWidth: .infinity)
                             .opacity(footerOpacity)
-                            .anchorPreference(key: GorFooterBoundsPreferenceKey.self, value: .bounds) { [.init(bounds: $0)] }
+                            .anchorPreference(key: GorFooterBoundsPreferenceKey.self, value: .bounds) { [.init(bounds: $0)] } // 通过此方法将 footer 的位置记录下来，传给父视图
                     }
                     .padding(.top, topPadding)
                     .padding(.bottom, bottomPadding)
@@ -199,14 +202,8 @@ extension RioRefreshModifier {
     }
     
     private func updateFooterRefreshState(_ proxy: GeometryProxy, value: [GorFooterBoundsPreferenceKey.Item]) {
+        // GorFooterBoundsPreferenceKey 记录了两个值，一个是 content view 的 bounds，一个是 footer 的 bounds
         // value = [content.bounds, footer.bounds]
-        guard let bounds = value.last?.bounds else {
-            return
-        }
-        guard let contentBounds = value.first?.bounds else {
-            return
-        }
-        
         // 如果是 loading 状态，则返回
         if state.footerState == .loading {
             return
@@ -217,46 +214,58 @@ extension RioRefreshModifier {
             return
         }
         
-        // 获取 footer 的 frame
-        let footerFrame = proxy[bounds]
+        guard let footerBounds = value.last?.bounds else {
+            return
+        }
+        guard let contentBounds = value.first?.bounds else {
+            return
+        }
+        
+        // 通过 proxy 获取到 footer 在 scrollow 上的 frame
+        // 获取 footer 的 frame，初始位置是列表底部位置 y = list.height ，height:20，上拉则 y 逐渐减小
+        let footerFrame = proxy[footerBounds]
+        
+        // 通过 proxy 获取到 content 在 scrollow 上的 frame
         let contentFrame = proxy[contentBounds]
         
-        let y = footerFrame.minY
-        let threshold = footerFrame.height
-        let bottomDistance: CGFloat = 30.0
         
-        let scrollViewHeight = min(proxy.size.height, contentFrame.height) // 如果满了就以屏幕下边沿计算，如果没填满就以内容下边沿计算
+        // 计算当前 scrollow 的高度
+        // 如果满了就以屏幕下边沿计算 contentFrame.height
+        // 如果没填满就以内容下边沿计算 proxy.size.height
+        let scrollViewHeight = min(proxy.size.height, contentFrame.height)
         
         // 初始化状态，将 invalid 状态改为 stop，只会在最开始时调用一次，作用是判断当前 scrollow 是否能正常显示 footer
         if state.footerState == .invalid {
             state.footerState = .stopped
         }
         
-        var contentOffset = scrollViewHeight - y
+        // 计算 footer 相对于 content view 高度的偏移量
+        // 没有拉动列表时候， scrollViewHeight == footerFrame.minY，contentOffset = 0
+        // 上拉则 footerFrame.minY 减小，contentOffset > 0
+        // 下拉则 footerFrame.minY 增加，contentOffset < 0
+        var contentOffset = scrollViewHeight - footerFrame.minY
         
         if contentOffset == 0 {
             state.footerProgress = 0.0
         }
         
-        guard contentOffset > bottomDistance else {
+        // 设定拉动响应范围为 30，如果上拉范围小于 30，认为是误触，不做处理
+        let bottomDistance: CGFloat = 30.0
+        if contentOffset < bottomDistance {
             return
         }
         
-        contentOffset -= bottomDistance
+        // 将偏移量减去响应初始点位范围，即当 contentOffset = 31 的时候，reactOffset = 1
+        let reactOffset = contentOffset - bottomDistance
         
-//        print("the footer frame is: \(footerFrame) | \(contentFrame) and scroll view size: \(proxy.size)")
-//        print("content offset is: \(contentOffset) / \(threshold)")
         
-        if contentOffset <= threshold && state.footerState == .stopped {
-//            let oldProgress = state.footerProgress
-            let progress = Double(contentOffset / threshold)
-//            if progress < oldProgress {
-//                return
-//            }
+        if reactOffset <= footerFrame.height && state.footerState == .stopped {
+            
+            let progress = Double(reactOffset / footerFrame.height)
             state.footerProgress = (progress >= 1.0) ? 1.0 : progress
         }
         
-        if contentOffset > threshold && state.footerState == .stopped {
+        if reactOffset > footerFrame.height && state.footerState == .stopped {
             // 进入预备刷新状态，条件
             // 1. 滚动到下方空白大于threshold(=footer的高度)
             // 2. 当前有滚动、不在初始状态
@@ -264,7 +273,8 @@ extension RioRefreshModifier {
             state.footerState = .triggered
             state.footerProgress = 1.0
         }
-        if contentOffset <= threshold && state.footerState == .triggered && state.footerState != .loading {
+        
+        if reactOffset <= footerFrame.height && state.footerState == .triggered && state.footerState != .loading {
             // 正式开始刷新，条件
             // 1. 当前在预备刷新状态（==.triggered）
             // 2. 回弹到下方空白小于threshold(=footer的高度)/或者在没滚动状态（也就是因为list太短没法滚动）
