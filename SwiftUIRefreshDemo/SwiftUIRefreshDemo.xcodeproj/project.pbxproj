@@ -18,6 +18,9 @@
 		4DE3A02329C85037003DA720 /* MgcRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A01E29C85037003DA720 /* MgcRefreshHeader.swift */; };
 		4DE3A02529C85492003DA720 /* MgcRefreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3A02429C85492003DA720 /* MgcRefreshable.swift */; };
 		B47673480B034E7079276E38 /* Pods_SwiftUIRefreshDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F014CD3F95550D886BDC4E1C /* Pods_SwiftUIRefreshDemo.framework */; };
+		E29A691C2AE4BED800EDBA74 /* GorRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A69192AE4BED800EDBA74 /* GorRefresh.swift */; };
+		E29A691D2AE4BED800EDBA74 /* GorRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A691A2AE4BED800EDBA74 /* GorRefreshFooter.swift */; };
+		E29A691E2AE4BED800EDBA74 /* GorRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A691B2AE4BED800EDBA74 /* GorRefreshHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		4DE3A01E29C85037003DA720 /* MgcRefreshHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MgcRefreshHeader.swift; sourceTree = "<group>"; };
 		4DE3A02429C85492003DA720 /* MgcRefreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MgcRefreshable.swift; sourceTree = "<group>"; };
 		A3A2E13CDA7A4891754D040C /* Pods-SwiftUIRefreshDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIRefreshDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIRefreshDemo/Pods-SwiftUIRefreshDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E29A69192AE4BED800EDBA74 /* GorRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GorRefresh.swift; sourceTree = "<group>"; };
+		E29A691A2AE4BED800EDBA74 /* GorRefreshFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GorRefreshFooter.swift; sourceTree = "<group>"; };
+		E29A691B2AE4BED800EDBA74 /* GorRefreshHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GorRefreshHeader.swift; sourceTree = "<group>"; };
 		F014CD3F95550D886BDC4E1C /* Pods_SwiftUIRefreshDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIRefreshDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,8 +78,8 @@
 			children = (
 				4DE39FF629C7ED51003DA720 /* SwiftUIRefreshDemoApp.swift */,
 				4DE39FF829C7ED51003DA720 /* ContentView.swift */,
-				4DE3A02429C85492003DA720 /* MgcRefreshable.swift */,
-				4DE3A01929C85037003DA720 /* Refresh */,
+				E29A69182AE4BEB600EDBA74 /* GorRefresh */,
+				4DE3A01929C85037003DA720 /* MgcRefresh */,
 				4DE39FFA29C7ED52003DA720 /* Assets.xcassets */,
 				4DE39FFC29C7ED52003DA720 /* Preview Content */,
 			);
@@ -88,16 +94,17 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4DE3A01929C85037003DA720 /* Refresh */ = {
+		4DE3A01929C85037003DA720 /* MgcRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				4DE3A02429C85492003DA720 /* MgcRefreshable.swift */,
 				4DE3A01A29C85037003DA720 /* MgcRefreshFooter.swift */,
 				4DE3A01B29C85037003DA720 /* RefreshState.swift */,
 				4DE3A01C29C85037003DA720 /* PullToRefreshModifier.swift */,
 				4DE3A01D29C85037003DA720 /* PullToRefreshView.swift */,
 				4DE3A01E29C85037003DA720 /* MgcRefreshHeader.swift */,
 			);
-			path = Refresh;
+			path = MgcRefresh;
 			sourceTree = "<group>";
 		};
 		72014863DC5A86570910328B /* Pods */ = {
@@ -115,6 +122,16 @@
 				F014CD3F95550D886BDC4E1C /* Pods_SwiftUIRefreshDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E29A69182AE4BEB600EDBA74 /* GorRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				E29A69192AE4BED800EDBA74 /* GorRefresh.swift */,
+				E29A691A2AE4BED800EDBA74 /* GorRefreshFooter.swift */,
+				E29A691B2AE4BED800EDBA74 /* GorRefreshHeader.swift */,
+			);
+			path = GorRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +249,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE3A02529C85492003DA720 /* MgcRefreshable.swift in Sources */,
+				E29A691D2AE4BED800EDBA74 /* GorRefreshFooter.swift in Sources */,
+				E29A691E2AE4BED800EDBA74 /* GorRefreshHeader.swift in Sources */,
 				4DE3A02129C85037003DA720 /* PullToRefreshModifier.swift in Sources */,
 				4DE3A01F29C85037003DA720 /* MgcRefreshFooter.swift in Sources */,
 				4DE3A02229C85037003DA720 /* PullToRefreshView.swift in Sources */,
@@ -239,6 +258,7 @@
 				4DE3A02029C85037003DA720 /* RefreshState.swift in Sources */,
 				4DE39FF929C7ED51003DA720 /* ContentView.swift in Sources */,
 				4DE39FF729C7ED51003DA720 /* SwiftUIRefreshDemoApp.swift in Sources */,
+				E29A691C2AE4BED800EDBA74 /* GorRefresh.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
