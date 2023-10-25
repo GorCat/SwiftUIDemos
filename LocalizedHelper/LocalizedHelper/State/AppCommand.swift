@@ -51,7 +51,7 @@ struct ProcessLanguageCommand: AppCommand {
         guard let csvPath = Bundle.main.path(forResource: "i18N", ofType: "csv") else { return }
         do {
             let csvString = try String(contentsOfFile: csvPath, encoding: String.Encoding.utf8).trimmingCharacters(in: .whitespacesAndNewlines)
-            let csvArray = csvString.components(separatedBy: ",NNNNNNNN")
+            let csvArray = csvString.components(separatedBy: ",NNNNNNNN,")
             
             for csvItem in csvArray {
                 if csvItem.isEmpty {

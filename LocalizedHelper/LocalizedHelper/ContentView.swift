@@ -19,21 +19,17 @@ struct ContentView: View {
     var body: some View {
         VStack {
             HStack {
-                Button("1.Process Enums") {
-                    step = 1
-                    store.dispatch(.processEnum)
-                }
-                Button("2.Process CSV") {
+                Button("1.Process CSV") {
                     step = 2
                     store.dispatch(.processLanguageFiles)
                 }
                 
-                Button("3.Conbine Datas") {
+                Button("2.Conbine Datas") {
                     step = 3
                     store.dispatch(.conbineDatas)
                 }
                 
-                Button("4.General Files") {
+                Button("3.General Files") {
                     store.dispatch(.generalFiles)
                 }
             }
