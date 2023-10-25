@@ -1,0 +1,249 @@
+//"bf_following" = "انا اتابع";
+"bf_following"  = "PZ029dFVDIUPE9nEVmS5DRCdhx2vHcAeWTbeqqpqwiY=";
+
+//"bf_followers" = "المتابعون";
+"bf_followers"  = "VUQ07TzYp7fUnec+KvdP0l54ay0dgSO3rCMv2WQFKUk=";
+
+//"bf_medals" = "ميداليات";
+"bf_medals"  = "2P3sowxY0eMqW3m7oRYA82cwjzM4E+HXLHHDvHOKJ6A=";
+
+//"bf_totalMedalFormat" = "عدد العلامات:%ld";
+"bf_totalMedalFormat"  = "amXhxNq0XptD4syfumR3tUUHFxY6/X+jUgwqD8xNeMU=";
+
+//"bf_message" = "رسالة";
+"bf_message"  = "/po3w7Ha++C8vJSVJEGuXQ==";
+
+//"bf_follow" = "تابع ";
+"bf_follow"  = "u8jfQ+gFTesceRXcimS/Kg==";
+
+//"bf_brightenUp" = "اتمنى ان أضيء يومك.";
+"bf_brightenUp"  = "UkZg9oqsuw/V860v/IggYcu4hNnxqmSQ71Nggh+eYafeLZZAxg/ZFNQC866v2d/+";
+
+//"bf_sendCoins" = "ارسل قطع نقدية";
+"bf_sendCoins"  = "gTUxfJswSFG6K1VjgqcgggU/uObbfRuOJT1B3YHDcrc=";
+
+//"bf_welcomeMyWorld" = "مرحبا بك! هل تريد الاستمتاع بأوقات ممتعة معي؟";
+"bf_welcomeMyWorld"  = "ZtxVUaxzccvMAjLzAYGdPwSELk57N9VhV7deFv8SMsP1gEsgjTh/xDBPwPlKg3c8blLAfMNinIzDcomw7zWKrmKgxX2sogSH5djCgJaP1LdILOyLB9MfDM5tZ1V3Yw1f";
+
+//"bf_aboutMe" = "عني";
+"bf_aboutMe"  = "QC+XryOgMOyUXujbFOI7dw==";
+
+//"bf_noEnoughCoin" = "ليس لديك قطع نقدية كافية.";
+"bf_noEnoughCoin"  = "TQSPyLumJlq0ykRx2LALsct2tLUsqZ8pJlQ6nGixDBb1JddeRtMFwKU1N4F2PlDM";
+
+//"bf_pkHostQuit" = "المذيعة غادرت، لقد خسرت الجولة.!";
+"bf_pkHostQuit"  = "fQRLE6UHCEw0Txg62dcqnpKkd09IjS+zcS4WK0MDZaSTj73zUfRqfc8wMSzUkaESYZGKP9tUIvyeofNt+e+cUg==";
+
+//"bf_pkOppositeQuit" = "لقد غادرة المذيعة الأخرى هنيئاً لك، لقد فزت في هذه الجولة";
+"bf_pkOppositeQuit"  = "OpmODqUuBHGLGvv92QrEC0EadmD4FC/VZ0egExhixBJDM/yCKIvgG7yWLHG8l72vvCrpjgVBKorcWq6SZnBI/IvsdkINCEUi6pd/KQJZ6rygd+WbSrw9zN6n9PfGhB/ReTJXW37OBG1EceafU2mpUw==";
+
+//"bf_beenMuted" = "لقد تم كتم صوت";
+"bf_beenMuted"  = "ahm6XRHnigutRnGPC8qTjB8hnoHq9Hlsbsu5OchLKAk=";
+
+//"bf_beenUnMuted" = "لقد تم تفعيل صوتك.";
+"bf_beenUnMuted"  = "4KrFG5MgC6PHJ6KKrrwuOh0ys7CRDpmWXKiEQr7ZFBsyo/YPiytI438qYwXZOu2V";
+
+//"bf_sendGift" = "ارسل ل %@";
+"bf_sendGift"  = "p2AsYd2+dFW5IXl+GSfhFw==";
+
+//"bf_reachedRoomQuota" = "وصلت %@ للحصة المطلوبة في الغرفة";
+"bf_reachedRoomQuota"  = "jcvBz8sOnfGtEIoZyuBCQ96ZV7+SgvbRJ4F5Ix9cSe88JN939BB04oLD7CZOX5C379PSvOefUlPeL6R/ZHwoeQ==";
+
+//"bf_hostOffline" = "المذيعة غير متوفرة حالياً، استمتع مع المذيعات الموجودين حالياً.";
+"bf_hostOffline"  = "fQRLE6UHCEw0Txg62dcqnnXxGH/+Vj+uFt502IEjtOfBfxU5ZtegX2/zxnhFDzMtreBufQuVbV5Km6BRkLOT4qpGXGrsdc4SWJYi6BNUZA5B1DztgoHJ5EziXd0uLTQ++B8KAOjwygAZPaeRy2h2TpYaVXj7yHiZQpzsKPKaz94=";
+
+//"bf_hostInPrivate" = "حالياً المذيعة بمكالمة خاصة، ارجوك عد لاحقاً.";
+"bf_hostInPrivate"  = "raK1xo+hmMjQjfPMfa6GLpiXv7POyRZjH7v3/pHc9A/z3VZMWzxWy87PeDyCNBRUwBUhb6URVqlJFLkheJHK+HdFZzk1Ls30gOT0mm8OG4rzfBE1sEpC9Pcs+Xf3veYQ";
+
+//"bf_Ready" = "كن مستعدة";
+"bf_Ready"  = "ZlnpdT6t3RYvm1BH9yOxAJykRCNFJurShNeQtocEHok=";
+
+//"bf_punishing" = "عقاب";
+"bf_punishing"  = "2xwmKvygdHfZLWCPP5+FDg==";
+
+//"bf_draw" = "مسحوب";
+"bf_draw"  = "9buOXHRWj8PyJMTcIcBmXQ==";
+
+//"bf_opposite" = "عكس";
+"bf_opposite"  = "URrAOkLgMeLIkcsaB1pAdw==";
+
+//"bf_helpHostWin" = "ساعد المضيفة على الفوز";
+"bf_helpHostWin"  = "XhoBrPX1u164eAtGANnHhzVWNkfZcug8vufID/PKL8UIbYBMqSUTCOYqsj1+AgZr";
+
+//"bf_wins" = "%d Wins";
+"bf_wins"  = "B+gNLcLiBcc/JYP6siKdyw==";
+
+//"bf_hi" = " مرحباً للمذيعة";
+"bf_hi"  = "+g1ysIIRJu22LbMGzCsxCRWw212umo9G4fxBKK9oGZk=";
+
+//"bf_followSuccess" = "تمت المتابعة";
+"bf_followSuccess"  = "CAyOd2qToutRNUJ/X69hDVfHqo/7zVTiT5yblf2oAmU=";
+
+//"bf_more" = " أكثر";
+"bf_more"  = "rGX1R5imElfW+KBEyaOE/A==";
+
+//"bf_sayHi" = "قل مرحبا...";
+"bf_sayHi"  = "lv3y6xpLruuM7+E7/27FEprWEI3GIoWuEfE06JeGJm0=";
+
+//"bf_sayHiToLiveStreamer" = "قل مرحباً للمذيعة";
+"bf_sayHiToLiveStreamer"  = "yMOH0cgKvp4of9l4uQwl1AaGuivXf/Z9X/wN/J+ECH0RRHjL1/PmmspdtSu/prxV";
+
+//"bf_likeAndSendGift" = "هل احببتها؟ ارسل هدية!";
+"bf_likeAndSendGift"  = "B0WHXNR+xEc6nNYPI7MujzWWoFeoeFjffHjMlU6J7ov2CsJ/rTvq4EdnmTGZL4Qk";
+
+//"bf_donotMiss" = "لا تفوت اية لحظة ثمينة معها !";
+"bf_donotMiss"  = "cM4zg2m/xm60zXuRfVYz7Hnavz6A1Eox42Q8iHbgaMNaEcDbnXmnQ4LUXxycvd5eLt5Zcdg7o1JUI8iXs8GU7g==";
+
+//"bf_moreEvents" = " المزيد من الأحداث";
+"bf_moreEvents"  = "Az8I4BAqp1+X0al3uPupviSQ4Dn2F1kgm0BPi81aRuBiqE9lJg0x/uPKUEoPCtig";
+
+//"bf_followed" = "لقد تمت المتابعة";
+"bf_followed"  = "fwqjEFu8YlxyXSdZJ3A1BmCUBO45OG0Rg6j4PZ9WTIg=";
+
+//"bf_medalList" = "قائمة الميداليات";
+"bf_medalList"  = "7Jjyft9ulLiYwcr8D3jwKd33/CTgn8n98rDHuFiR5o4=";
+
+//"bf_permanent" = "إلى الأبد";
+"bf_permanent"  = "7rh0HNbiC0jDynMDy84Xom5WRBZMxEkkhwCEoYdN8yU=";
+
+//"bf_days" = "%ld أيام";
+"bf_days"  = "Y2P5FtXG40rU/KhtJTHiuw==";
+
+//"bf_audience" = "جمهور";
+"bf_audience"  = "3zjenrn53AtoaO3vf8ggqg==";
+
+//"bf_showTopUsers" = "اعرض فقط أفضل 100 مستخدم";
+"bf_showTopUsers"  = "E+k1UFY5RRPKaDlmBVKar4wxWuNqKS2c2Xr20CoLPTaN+KnDywzONExHvlA8dZAA";
+
+//"bf_users" = "مستعملين";
+"bf_users"  = "JSp2ToZPgNcPVcx+/Ug4dc98Y/NxfnDmTTa6NSzPGtY=";
+
+//"bf_blockSuccess" = "تم الحظر بنجاح";
+"bf_blockSuccess"  = "0emEAieU01ip0sYtvE8YXB2nw7K3iKrC7ENaWphPQJg=";
+
+//"bf_unblockSuccess" = "تم الغاء الحظر بنجاح";
+"bf_unblockSuccess"  = "OjeylK6SKeRpm4TmnY43dA33XAIfeJk2/xsiVsXeS61Bna+eBmuFaGywcPRDBCCg";
+
+//"bf_reportSuccess" = "!تم تبليغ بنجاح";
+"bf_reportSuccess"  = "Ribfeq6j5CmdjP9FpBGtqJ8rMlT3p+459sRPa7Os4v0=";
+
+//"bf_hostInEngagedPrivate" = "حالياً المذيعة بمكالمة خاصة، ارجوك عد لاحقاً";
+"bf_hostInEngagedPrivate"  = "raK1xo+hmMjQjfPMfa6GLpiXv7POyRZjH7v3/pHc9A/z3VZMWzxWy87PeDyCNBRUwBUhb6URVqlJFLkheJHK+HdFZzk1Ls30gOT0mm8OG4rIzxgfGK0alObECAidYSZL";
+
+//"bf_wait" = "انتظر!";
+"bf_wait"  = "y7tBVNmlNZfLbRvjoI8Omw==";
+
+//"bf_moreHosts" = "المزيد من المذيعات";
+"bf_moreHosts"  = "505rMcE1CGYKLMfSg93MrpZ1w4BNKZ22FPljMTTFg0mKYvfOgtVn5LCA8zWALBN0";
+
+//"bf_reportTips" = "(0/300)يرجى وصف التبليغ بتفاصيل";
+"bf_reportTips"  = "U64vF+8KmPQ0nJDnuMFHXX5gjyJDx1K26b6iBj3N1jrDtubNcZncB5D8i9nzi+v6V+JLuDT0Rfnjsdk8VMajsQ==";
+
+//"bf_reportDetail" = "يرجى وصف التقرير بالتفصيل";
+"bf_reportDetail"  = "81jAuFWJieSxHuOM4JzWDDIyrUtQQj6/4y8sYIBi2nHC6Y2NDSjNKAzyamQugo4N";
+
+//"bf_reportImageMax" = "تحميل الصورة (4 كحد أقصى)";
+"bf_reportImageMax"  = "JOnoHQ1JZzrpOuMAO9Cds+Eit7TFunD2Njbm/2s1vEcPBlFpTkf0DzbAhkTgyNve";
+
+//"bf_submit" = "ارسال";
+"bf_submit"  = "ntcCcfMXcSOV0PAIAGF2IA==";
+
+//"bf_reportDetailNoEmpty" = "يرجى وصف التقرير بالتفصيل";
+"bf_reportDetailNoEmpty"  = "81jAuFWJieSxHuOM4JzWDDIyrUtQQj6/4y8sYIBi2nHC6Y2NDSjNKAzyamQugo4N";
+
+//"bf_reportTipsFormat" = "(%ld/300)يرجى وصف التبليغ بتفاصيل";
+"bf_reportTipsFormat"  = "wkfE4/r+H4IZFWvqnZ6M3+s3rF+HLu1ZjQ8yG89jXQvLbARlEMKKo2biV7PYh3KLlzIt7NqGaqPZD2wGG35NHw==";
+
+//"bf_report" = "تبليغ";
+"bf_report"  = "C+Vk+RW7s0mafR8MBNDfkQ==";
+
+//"bf_block" = "حظر";
+"bf_block"  = "SzRIeFd3yw+lgKdkemhkcw==";
+
+//"bf_cancel" = "الغاء";
+"bf_cancel"  = "JiZAkE6sLIIOvTFCp6kRzQ==";
+
+//"bf_unblock" = "إلغاء الحظر";
+"bf_unblock"  = "iQBBLJIO1GaY3fvYGS6n5dZo0UHaaIccN1pEn6XnTPs=";
+
+//"bf_roomTools" = "أداء الغرفة";
+"bf_roomTools"  = "jx7lgLqn6QykezXmsny7rRoJqQUM8RCZjelDHbsKn6A=";
+
+//"bf_recharge" = "تعبئة";
+"bf_recharge"  = "U/aMDySBnGudyelTqecscA==";
+
+//"bf_broadcast" = "البث";
+"bf_broadcast"  = "aKqn93VuIl6ZWjvHMnFIPA==";
+
+//"bf_privateChat" = "دردشة فيديو خاصة";
+"bf_privateChat"  = "xJ+vvpaiJwj9Ir4KS7HPG/pJsYiFj6lTVO+zM/hFSPw=";
+
+//"bf_startPrivateChat" = "ابدأ الدردشة الخاصة";
+"bf_startPrivateChat"  = "WteK8H+1IphraarfQ6JD2lXufUgjqxxaEAXNN1oQJRXmYBU5x8ku41iQFMGKAdR/";
+
+//"bf_privateChatPriceFormat" = "أول 5 دقائق مجانًا ، %ld قطعة نقدية للدقيقة بعد ذلك";
+"bf_privateChatPriceFormat"  = "dp63IXoaRYsc/KJD8WRvuXgWvtFZm3Vq97Fa9fCcSk74NB9YVO7M45KXl8KSHdsNkZhqVKOHpac0qATJImTGpBuJDDLWdiHU/f0veNiDLuqo+8GxyiLYkXVZeXv60/1P";
+
+//"bf_checkNetwork" = "ارجوك تحقق من شبكة الانترنت.";
+"bf_checkNetwork"  = "5B9t/jY8Ooh1Udr2DMCs/doNuBCqbuH3jCrKFo6XEqProZnhVm+E+VaDMLC3Qy/PwXOvqLzosJgw2g217Vzpcg==";
+
+//"bf_failedJoinRoom" = "لقد فشلت في الإنضمام الى البث المباشر، ارجوك غادر و اعد المحاولة مجدداً";
+"bf_failedJoinRoom"  = "cyisdDQH6BrptTGy9EbEBnlDCtc22gA5z6n87K55wbV9OeA1IroejxnSnELHJ6QtpJEmgMIO3HKUees4Oqq5Dfp0TLkLwi0XNviQIH4Ye3Eko7dTdZ+p5040oMIu3b7eHmunzHYSHuazqUngFof1wngduNamTmYmZiTMsckg1y4T3TiI/zERu6TOEfefHngt";
+
+//"bf_joinRoom" = "دخل الى الغرفة";
+"bf_joinRoom"  = "Lb3dH98WU2HbbPE9N5bKVuB58acElyGH4P8J9orAE0c=";
+
+//"bf_sent" = "ارسل ";
+"bf_sent"  = "VkIpY4AEK6/CLYbxnjW1kw==";
+
+//"bf_hasBeenMuted" = "تم اسكات ";
+"bf_hasBeenMuted"  = "x4FZrVgmSgMjyQwB8ViEv2jL67EJnQ7EZ4M/b8Ncma8=";
+
+//"bf_roomRule" = "يرجى عدم نشر محتوى مبتذل وإباحي ومسيء وأي محتوى ينتهك العادات والحقوق والقوانين. وايضا يحظر الكشف عن المعلومات الشخصية. سيتم إسكات حساب و حظره";
+"bf_roomRule"  = "CT/BPfwdHDlm7VTuqncfKvvOWXNHulcq2yWPkf7GPaBq/0+rGbcSS4Zu3C1iwuA+yxcM6I229cnf8geBB+KXa4X0QGtXajca097+ASNcyZn7sw+BseeBz6FqbQ52b/4SE0EM7TwxvngV9rh0bN6kpYOxjL2VSSKzsWoIbCxuj9s7YWHgZO1QFz4PNzmGI5rhc3NTBBPenxGPr/t93/LWYdNJ9WaDYpHw7ze4AXcM0GpX73KutLhPDpYhmyLEt3d8HoFBcMoRmN2zIfdk3n3YqOY87diGC66BjAiM2UEwfwYOHe6ert87ymqfFAfl71R/xBOfi3WaJGPvcEVYUYdiYvoFah90mpmwuHL7wSnAKow=";
+
+//"bf_pkRoundOver" = " انتهت هذه الجولة من PK ،انتظر لجولة قادمة";
+"bf_pkRoundOver"  = "6AFog+2oZNE2efOIUeOU6AVRfhtxwA/30mgDjFaiC3I0iMMpqfo59FGLT6n4fyMB/y1v3tZqlV+jK4ceolz4prEEuKqg5nx0nVJ6rrjbVfM=";
+
+//"bf_contentNotEmpty" = "لا يُسمح رسالة فارغة";
+"bf_contentNotEmpty"  = "pTXzTnq2JeopVwgKk9bjhT6iX2E5Bli2zBxPEyy82obQPgKBx5S57KO3VAWgiDtI";
+
+//"bf_chatWithEveryOne" = "دردش مع كل واحد";
+"bf_chatWithEveryOne"  = "BBFmLN7PkZ/4U0VJeT3MDYP0mGtJ8Oyz+XJ3Zkm/1E0=";
+
+//"bf_notice" = "وصف";
+"bf_notice"  = "IuBeLZsjnPzwYp79jHgw7A==";
+
+//"bf_sendGiftInRoom" = "ارسل هدايا";
+"bf_sendGiftInRoom"  = "21JHKrgO0WJXeNvDf0sw8I8UVSjTVYkitbbjMgFIZvU=";
+
+//"bf_sendGiftTo" = "الى";
+"bf_sendGiftTo"  = "ckUHFsreCz0vUkg8nrkUYA==";
+
+//"bf_broadCastStartPrivate" = "%@ و %@ بدأوا دردشة خاصة";
+"bf_broadCastStartPrivate"  = "QYO8rJ7iFntA8P9CJlaV93lJ/LYd6rj2EnY9zRqUwMpGig8ildrfjoCCVL2CRYfk";
+
+//"bf_broadCastSendGift" = "ارسل";
+"bf_broadCastSendGift"  = "fo1ESt1NPhvzUpMd8M4/sQ==";
+
+//"bf_vipMedal" = "علامة VIP";
+"bf_vipMedal"  = "qBtqyjhQea11qXSWDKPt+g==";
+
+//"bf_extraCoins" = "كوينز اضافي";
+"bf_extraCoins"  = "0n4sAzOwhTqSTOIzNXydv1aBo238wWPkAqQsiVqKlUw=";
+
+//"bf_broadCastIsOn" = "إذاعة الهدايا مشغّلة،سترى اشعار هدايا الغرفة الاخرى على الجانب الاعلى من الشاشة.";
+"bf_broadCastIsOn"  = "FwQxUNJH9qjHsO3dKWKhppbZimcjDqal5zIXd4Laq0erQMvZlgYwOQpiQZUBwToIHrO4pFNKBUNjZwTMcLJxYmR1UHg9XRupEF9xSMwOLNJTysn1Cl8I8oute0GM2drlCXQmJPG9d9diZGlnonWGkNZIKrQtx1Bjoq8HmY/LyuKvYaOToEzzWOIsfMC2T2bFtJnMfALTslLLOKjkEbzxLQ==";
+
+//"bf_broadCastIsOff" = "إذاعة الهدايا مقفلة،لا ترى اي اشعار هدايا الغرفة الاخرى على شاشتك.";
+"bf_broadCastIsOff"  = "FwQxUNJH9qjHsO3dKWKhprJo5dJrBBqmC9aOUSPzTWyuBweOPz2jRS9U//C+6HEnsWdJ2XA9g7TPSeG8By3+RsvMN6mGearDrqqnkT+Ws/RW7sbjc8XhSiXQcL3YjayIRSQtxmQ99VZYotY0Kl9sgCANXXYzwN0JDxBzgUxQTQA=";
+
+//"bf_byLuckBox" = "بصندوق الحظ";
+"bf_byLuckBox"  = "ZkzaOwvVvITfcNmuRAX/qvaK6FKZcpGUdULzN4fFxok=";
+
+//"bf_liveRoomHasBennClosed" = ".غرفة الملتيبيم مغلوقة";
+"bf_liveRoomHasBennClosed"  = "ewkXyUNQctp3dQP3zt/dBLAkzq91yUMOuccWzIs6S1WcQ9uUA/BF9Jflb5hvpyrT";
+
+//"bf_roomQuota" = "حصة الغرفة";
+"bf_roomQuota"  = "jrF6nAhUx6qe5/mUG8TRCctRbWOESYNlV8K14KBSi0E=";
+

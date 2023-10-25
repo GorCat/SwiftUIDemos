@@ -1,0 +1,249 @@
+//"bf_following" = "Following";
+"bf_following"  = "pCmib1uG3iczeiS9ZOA+6w==";
+
+//"bf_followers" = "Followers";
+"bf_followers"  = "aBIde/EZ3Wj+B0C9qEuxVw==";
+
+//"bf_medals" = "Medals";
+"bf_medals"  = "Y4Rpb72aU/KMpWLdOvVA9Q==";
+
+//"bf_totalMedalFormat" = "Total %d medals";
+"bf_totalMedalFormat"  = "r9WXVdzlFh0V4IMHteq1Aw==";
+
+//"bf_message" = "Message";
+"bf_message"  = "4duy9uGOmMbZNEkjAJtLCQ==";
+
+//"bf_follow" = "Follow";
+"bf_follow"  = "QN4JZTT9H3ZPIoyv/DFosA==";
+
+//"bf_brightenUp" = "Hope I can brighten up your day.";
+"bf_brightenUp"  = "LVB1ZL/ZVqcOVIp7A8g2vVMA0Eoobbmzx7ql2OF7EssARdbOjuGkv5STYjkfiCzh";
+
+//"bf_sendCoins" = "Send coins";
+"bf_sendCoins"  = "q8GpVQND3ypax5NGHgkExQ==";
+
+//"bf_welcomeMyWorld" = "Welcome to my world! I look forward to chilling out with you.";
+"bf_welcomeMyWorld"  = "BBZe3iz0wo3+8/yTJ2nOszVZwFV0aTUHMhql/bOmG6PFXaoMjgAqGP28QGsnaImEiHo9B7PgKSyDGvCaxDpd6A==";
+
+//"bf_aboutMe" = "About Me";
+"bf_aboutMe"  = "9FxQC6a7eT/ioAHOmq7c3A==";
+
+//"bf_noEnoughCoin" = "You don't have enough coins.";
+"bf_noEnoughCoin"  = "Y6c6WuvfVEqrn94wKbwwveurqdA6xeM1Cz+XZtAwKeE=";
+
+//"bf_pkHostQuit" = "The host quit, you lost this turn!";
+"bf_pkHostQuit"  = "l5Zpz1bMqlHKhiwrUMuc0XZPHei2Qht9mt6XDcxZDr1k6dT/sl2p4XkoTkW+SjSs";
+
+//"bf_pkOppositeQuit" = "The other host quit, congrats, you win this turn!";
+"bf_pkOppositeQuit"  = "Kh1y+TslhnKddElMcu9z6hDuM7GZDxTxa4p6+SKZQBleeFv9srBNoKHNCWzlb9KtZolwTUsFj//rwYwRpSaBVw==";
+
+//"bf_beenMuted" = "You have been muted.";
+"bf_beenMuted"  = "vdWbSykSd0+wzgoJZDyQTHyV2fgpsxeiViSYCPdeCtk=";
+
+//"bf_beenUnMuted" = "You have been unmuted.";
+"bf_beenUnMuted"  = "pCfTU5wdIfQ9XoNIfcr+3fUJXIhHXgiNr6kKq1xEsGA=";
+
+//"bf_sendGift" = "Sent a %@";
+"bf_sendGift"  = "g0qB+4Mw0XVqs30YGwryxg==";
+
+//"bf_reachedRoomQuota" = "%@ reached the room quota!";
+"bf_reachedRoomQuota"  = "Z5RwwOaTI0vmhH+LtVaeSWzESNYu5b6e3LLiNK/JRSg=";
+
+//"bf_hostOffline" = "The host is offline. Chat with other online hosts.";
+"bf_hostOffline"  = "zzVcSefD381DQrMVR9SzI2LmiebUQrx3tq8ZoDwlRnSDUOV/c6CFH5zX1EMVB5d3TOdpefike7dRIr6WugpwmA==";
+
+//"bf_hostInPrivate" = "The host is in a private call. Please come back later.";
+"bf_hostInPrivate"  = "wTbx7B33QrNQM94VnJmlgGeTIdzfjCwlapaalGkfyV1afrUOTfbfSmfbzIS8JvdE6JFUCdMiigeLGQ9FewlgBQ==";
+
+//"bf_Ready" = "Ready";
+"bf_Ready"  = "ZjIQlDGTsbocikmU97nqWQ==";
+
+//"bf_punishing" = "Punishing";
+"bf_punishing"  = "BzXcoj/vjUaBdzSeCntSKA==";
+
+//"bf_draw" = "Draw";
+"bf_draw"  = "LhLbthdiSEt9hysV6CvbKQ==";
+
+//"bf_opposite" = "Opposite";
+"bf_opposite"  = "FL85ISi2eWOSgnOmO3Am9w==";
+
+//"bf_helpHostWin" = "Help host to win";
+"bf_helpHostWin"  = "TIJ8fJ2ClyyyA8J3JmlBkm0AmExNvCX7tepovL/Lex8=";
+
+//"bf_wins" = "%d Wins";
+"bf_wins"  = "B+gNLcLiBcc/JYP6siKdyw==";
+
+//"bf_hi" = "hi";
+"bf_hi"  = "nWF2mVRGqTRJ5kGYE/akGw==";
+
+//"bf_followSuccess" = "Follow Successfully";
+"bf_followSuccess"  = "uYOa7mUJbeJkv3/+HNmWmj3IZoCqo+QdEv/I7V5A8l4=";
+
+//"bf_more" = "More";
+"bf_more"  = "W8kLcTjqKN2Ql9uMA9ludw==";
+
+//"bf_sayHi" = "Say hi~";
+"bf_sayHi"  = "hciFW/JwOlI6M12KavTQ9Q==";
+
+//"bf_sayHiToLiveStreamer" = "Say hi to the livestreamer!";
+"bf_sayHiToLiveStreamer"  = "7nxy5XFFTi+XDS3DErwrOeWcBdkHPF0aNqkjXMOp8Fw=";
+
+//"bf_likeAndSendGift" = "Like her? Send a gift!";
+"bf_likeAndSendGift"  = "eaOfNXkAxFmZ9lZb6iWaeEXy8kQ/2xKBCxft4YfeFfw=";
+
+//"bf_donotMiss" = "Don't miss each precious moment of her";
+"bf_donotMiss"  = "AKtNXSsspLeMrI4cgC1wfXqw31wIQxB3YfJDXkNP4Ix4bbPWjCXJQqpYzOPaLDZl";
+
+//"bf_moreEvents" = "More Events";
+"bf_moreEvents"  = "f1nV8/QReHGZK+s230caGw==";
+
+//"bf_followed" = "Followed";
+"bf_followed"  = "gZMcQWXx3Ty9jhb6LsMwDw==";
+
+//"bf_medalList" = "Medal list";
+"bf_medalList"  = "TxfZr3a++OlhSZjsmLRehQ==";
+
+//"bf_permanent" = "Permanent";
+"bf_permanent"  = "ldAGmFcHeR2WaSzkr0tGTw==";
+
+//"bf_days" = "%d days";
+"bf_days"  = "s5mro5yDFm+yCFa9eq9cjg==";
+
+//"bf_audience" = "Audience";
+"bf_audience"  = "FakkBXN/jtMYt7NQb6Fcgw==";
+
+//"bf_showTopUsers" = "Show only the top 100 users";
+"bf_showTopUsers"  = "VIXNUWTVPS8tiJ59Xk2jdKQJD/ylRdOpavJtkn1sgkI=";
+
+//"bf_users" = "Users";
+"bf_users"  = "NFgdIVipu3Tiy0Gz2DkZnA==";
+
+//"bf_blockSuccess" = "Block Successfully";
+"bf_blockSuccess"  = "skqPZJL8E0EDq299ALzvOq9xsWi33hXZ3UaVzHfRnms=";
+
+//"bf_unblockSuccess" = "Unblock Successfully";
+"bf_unblockSuccess"  = "Vu6SQSe77Mlzg/VDJhCf9IXZH+m2xiVp7GOyokYl/BI=";
+
+//"bf_reportSuccess" = "Report Successfully";
+"bf_reportSuccess"  = "zPTQvVqlEH8TWuLvMZe6VyGt1aHjfC4QBhZSiiJV2es=";
+
+//"bf_hostInEngagedPrivate" = "The host is engaged in a private call. Please come back later.";
+"bf_hostInEngagedPrivate"  = "QYjWCF2kHDI2Bqw4aNGzYSyO5tqCoAgiv/Ui2ytijvhmuPgURUrp/JiHb4BPKcUU4SpUIwKrEndCz7QgN2zxwg==";
+
+//"bf_wait" = "Wait";
+"bf_wait"  = "2ce36i2RDlTp6wQdOb3XsA==";
+
+//"bf_moreHosts" = "More hosts";
+"bf_moreHosts"  = "QNJRMsQ6Kok3wov7lTOSIA==";
+
+//"bf_reportTips" = "Please describe the report detail(0/300)";
+"bf_reportTips"  = "vxVCAoQteeMOZ4CQDi8FDfJ+qYjO4i4wQ1A5863cJgFIJQkdIXyJ3VAoytrCXd/u";
+
+//"bf_reportDetail" = "Please describe the report detail";
+"bf_reportDetail"  = "vxVCAoQteeMOZ4CQDi8FDfJ+qYjO4i4wQ1A5863cJgFG44NZzQ8KDFso+rdNbxag";
+
+//"bf_reportImageMax" = "Upload image(Maximum of 4)";
+"bf_reportImageMax"  = "V5OLHCb1ia2+dUT0W/1mZmC5i8P5ewwXOu4a2tEK1js=";
+
+//"bf_submit" = "Submit";
+"bf_submit"  = "HULCHuxwmqP8xFrvvW6LpA==";
+
+//"bf_reportDetailNoEmpty" = "The report detail cannot be empty";
+"bf_reportDetailNoEmpty"  = "Z3mHngwYH4ufw4j+JTXGlaWNGR1PfUVNrzkBNfHOvKKuEs8H6BwP+uCbdVsKvsgY";
+
+//"bf_reportTipsFormat" = "Please describe the report detail(%d/300)";
+"bf_reportTipsFormat"  = "vxVCAoQteeMOZ4CQDi8FDfJ+qYjO4i4wQ1A5863cJgE3ZJNN+lFKHiAbjJ6k5dkm";
+
+//"bf_report" = "Report";
+"bf_report"  = "PYoTDYX7ruIjhbmDP7yQLw==";
+
+//"bf_block" = "Block";
+"bf_block"  = "P3ssl2JvdQiAzTuqceR4oA==";
+
+//"bf_cancel" = "Cancel";
+"bf_cancel"  = "p1IHgpwRgtIHiF2BBM4v+A==";
+
+//"bf_unblock" = "Unblock";
+"bf_unblock"  = "tphcIwBRmO6L43SrVR3vCA==";
+
+//"bf_roomTools" = "Room tools";
+"bf_roomTools"  = "HL1gTqqWWwRwvY6nw0pDlg==";
+
+//"bf_recharge" = "Recharge";
+"bf_recharge"  = "sE6pXkuif/UKC+5yXfbRXg==";
+
+//"bf_broadcast" = "Broadcast";
+"bf_broadcast"  = "L8WzCTWRhuJOJAA2nIioMA==";
+
+//"bf_privateChat" = "Private video chat";
+"bf_privateChat"  = "60dOvopbQL/IgDSpkw4ReKXjZSxSMuPexUD/koLLnD8=";
+
+//"bf_startPrivateChat" = "Start private chat";
+"bf_startPrivateChat"  = "W3DoXSOZO/4bjUaoDY2Tz4Y82gAlvDkh4dqToiY496U=";
+
+//"bf_privateChatPriceFormat" = "5 minutes for free, afterwards %d coins/min";
+"bf_privateChatPriceFormat"  = "sw7V0yLrd7ldbXFGnn3j8DUntQnkUh8Gy4VQFdNKxsg1iK3R9Ixg/hsPZUI45PEJ";
+
+//"bf_checkNetwork" = "Please check your network";
+"bf_checkNetwork"  = "Q7pKREilpRppA2UcwtiNQyeTh0MrkUV0bKNd1DjvQOw=";
+
+//"bf_failedJoinRoom" = "Failed to join the Livestream, please try again.";
+"bf_failedJoinRoom"  = "o/Acy0Tm0fUds0CYj7gZmqioxZuJPBHxg5dFdBmnc5JbzBmjXjAIK19p7B8WY/JAEx0mfKYLcaB/qhA59oSKMg==";
+
+//"bf_joinRoom" = "join the room";
+"bf_joinRoom"  = "qmsece4eRtPYbpQBlweUIQ==";
+
+//"bf_sent" = "sent";
+"bf_sent"  = "rV8rb2Ytql/irQuh9Tpjng==";
+
+//"bf_hasBeenMuted" = "has been muted!";
+"bf_hasBeenMuted"  = "1G9VSnShQ+HZbbpnsPXcGA==";
+
+//"bf_roomRule" = "Please don't spread vulgar, pornographic, abuse content, or any content violating customs, rights or laws. Exposure of personal information is also prohibited. Violators will be muted or banned.";
+"bf_roomRule"  = "QcVXo9W2J4ZjKU7O085kIzE4foMeGrjE9j3ICRITr+BluzoHzGc3K16lLoLK1iEsz/NQWieS0VN5XcftB72bWpitfsV8Mr6oGfLv9UXH36024+kylngr0JaAD8fvWoza0ukDk4mjvT9EhNLT5qY1+YoUOtOFquZaSoeIWssblyalKnvIz4mFRqLHSQuTfBmGoqeOsA+EPjIHElLizJzKMngl2K+dxCz7qUQ0JpM13/uQniXqGstYz4GZONQeUPEgzOhIa6gL1e2oXEqDgk7dhA==";
+
+//"bf_pkRoundOver" = "This round of PK is over. Please wait for the next round.";
+"bf_pkRoundOver"  = "sOyRrVRzrygayyMSehT+MyHDneR8g8WsgytJwu+FhLZFXzUTfwCRMhvRqv3GewH6+tUi9kpvPyKI1fDi04iPgA==";
+
+//"bf_contentNotEmpty" = "Content cannot be empty";
+"bf_contentNotEmpty"  = "WSA/YGtN5+PeXXM4LWdP0OWI7igK02tsGR636r/JS5Q=";
+
+//"bf_chatWithEveryOne" = "Chat with everyone";
+"bf_chatWithEveryOne"  = "Cfz77urFw0rf6j/ULAhoBemMGHOE6Q1FUDFrZA3fyLQ=";
+
+//"bf_notice" = "Discription";
+"bf_notice"  = "tIHbvAk72y9yOH+NJ8831g==";
+
+//"bf_sendGiftInRoom" = "Send gift";
+"bf_sendGiftInRoom"  = "ulQH5VorNNys9Xpx7dWhmg==";
+
+//"bf_sendGiftTo" = "to";
+"bf_sendGiftTo"  = "0IU3MkVTT5nEFJGoIZKbkA==";
+
+//"bf_broadCastStartPrivate" = "%@ and %@ Start a private chat";
+"bf_broadCastStartPrivate"  = "+SmYwS9HfXvKkIV3p6IdM3Nx9ZceBqqYJRhwfKL9AP4=";
+
+//"bf_broadCastSendGift" = "Sent a";
+"bf_broadCastSendGift"  = "O4iXYMciArQPJrf4BwU69g==";
+
+//"bf_vipMedal" = "VIP Medal";
+"bf_vipMedal"  = "UwKjBX3TFNMKhjcsd3KVug==";
+
+//"bf_extraCoins" = "Extra Coins";
+"bf_extraCoins"  = "mrPoCdK3LLChjLC/vYGZrg==";
+
+//"bf_broadCastIsOn" = "Broadcast is ON. You will receive top-placed notification of gifts from other rooms.";
+"bf_broadCastIsOn"  = "P1D2v0HGxtOmGkPZTpvKAAUil7jljPPDfoKSqDeGydeRtv4MfSXBFv57yf8xMoQXPYn93z7wdALseGuhoaV9kUTkM5N47nsUaW5lNFpxteqlU8f8YXOQR+qGkR34N/H0";
+
+//"bf_broadCastIsOff" = "Broadcast is OFF. You won't receive top-placed notification of gifts from other rooms.";
+"bf_broadCastIsOff"  = "Jji0NKktSqry9V7xE98qwCLfzLqyWTERF8EjsC4/ebxLP9nyv8NAXA4UGkKVxZxBXnxSIOnYcHD1p8cwV0xz7Pw3osI3xjInH0XA1XdrXHvCh1K9zRyyffMaGc+cCsgh";
+
+//"bf_byLuckBox" = "by Lucky Box";
+"bf_byLuckBox"  = "2Ig31Wxu05DsAgHFU0wzqg==";
+
+//"bf_liveRoomHasBennClosed" = "Live room has been closed.";
+"bf_liveRoomHasBennClosed"  = "PLjSntCni+x813BjLmemJRkLOgcL6tlN6vpFqwbFMiU=";
+
+//"bf_roomQuota" = "Room Quota";
+"bf_roomQuota"  = "zNwfiRXPvAx2KJzhyk0kOA==";
+

@@ -1,0 +1,73 @@
+//
+//  XYCLivePch.pch
+//  qianDuoDuo
+//
+//  Created by 许琰 on 2023/2/9.
+//
+
+#ifndef XYCLivePch_pch
+#define XYCLivePch_pch
+
+#pragma mark - 定义类
+#import "XYCEnum.h"
+#import "XYCMacroDef.h"
+#import "XYCNotificationDef.h"
+
+#pragma mark - 三方库
+#import <AgoraRtmKit/AgoraRtmKit.h>
+#import <AgoraRtcKit/AgoraRtcEngineKit.h>
+#import <Masonry/Masonry.h>
+#import <MJExtension/MJExtension.h>
+#import <Foundation/Foundation.h>
+#import <Photos/Photos.h>
+#import <SDWebImage/SDWebImage.h>
+#import <SVGAPlayer/SVGA.h>
+
+#pragma mark --- 外部 ---
+#import "XYCLModuleEventLabelModel.h"
+#import "XYCLModuleRequestApiModel.h"
+#import "XYCLModulePayModel.h"
+#import "XYCLModuleFanInfoModel.h"
+#import "XYCLiveModuleDataSource.h"
+#import "XYCLiveModuleDelegate.h"
+#import "XYCLiveModuleManager.h"
+
+#pragma mark --- 内部 ---
+#pragma mark 定义
+#import "XYCLayoutDef.h"
+
+#pragma mark 分类
+#import "NSArray+XYLExtention.h"
+#import "NSObject+XYLExtention.h"
+#import "NSString+XYLExtention.h"
+#import "UIImage+XYLExtention.h"
+#import "NSDictionary+XYLExtention.h"
+#import "UITableView+XYLExtention.h"
+#import "UIView+XYLExtention.h"
+#import "NSMutableArray+XYLExtention.h"
+#import "UIScrollView+XYLExtention.h"
+#import "UILabel+XYLExtention.h"
+
+#pragma mark 模型
+#import "XYCLiveModuleBaseModel.h"
+#import "XYCLiveModuleUserModel.h"
+#import "XYCLiveModuleAnchorModel.h"
+#import "XYCLModuleRoomTotalModel.h"
+#import "XYCLModuleEnterConfigModel.h"
+#import "XYCLModuleMessageModel.h"
+#import "XYCLModuleAccountDetailInfoModel.h"
+
+#pragma mark 工具类
+#import "XYCStringTool.h"
+#import "XYCUtil.h"
+#import "XYCUtil+LoadSource.h"
+#import "XYCLModuleInsideManager.h"
+#import "XYCLiveModuleManagerConvertTool.h"
+#import "XYCLModuleRequestApiManager.h"
+#import "XYCLModuleTongJiTool.h"
+
+#pragma mark 协议
+#import "XYCLiveModuleBaseViewDelegate.h"
+#import "XYCLModuleSubManagerDataSource.h"
+
+#endif /* XYCLivePch_pch */
