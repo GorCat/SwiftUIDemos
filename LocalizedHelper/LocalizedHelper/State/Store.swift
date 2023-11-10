@@ -31,23 +31,10 @@ class Store: ObservableObject {
         var appCommand: AppCommand? = nil
         
         switch action {
-        case .processEnum:
-            appCommand = ProcessEnumCommand()
-        case .processEnumDone(let results):
-            appState.enumKeys = results.0
-            appState.enumValues = results.1
-            appState.step = .processCSV
-        case .processLanguageFiles:
-            appCommand = ProcessLanguageCommand()
-        case .processLanguageFilesDone(let result):
-            appState.enFileValues = result.0
-            appState.arFileValues = result.1
-        case .conbineDatas:
-            appCommand = ConbineDatasCommand()
-        case .conbineDatasDone(let result):
-            appState.allKeys = result.0
-            appState.enDictionary = result.1
-            appState.arDictionary = result.2
+        case .processCSVString(let scvModel):
+            appCommand = ProcessCSVCommand(csvModel: scvModel)
+        case .processCSVStringDone(let result):
+            appState.results = result
         case .generalFiles:
             appCommand = GeneralFilesCommand()
         }

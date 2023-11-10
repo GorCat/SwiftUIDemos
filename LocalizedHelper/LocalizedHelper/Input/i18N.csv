@@ -1,10 +1,980 @@
-It costs %ld coins to send the gift. Confirm to send?,GGGGG,متأكد لارسال الهدية بسعر %ld كوينز؟,NNNNNNNN,
-Don't remind again,GGGGG,لا تظهر مرة اخرى,NNNNNNNN,
-Cancel,GGGGG,الغاء,NNNNNNNN,
-Send,GGGGG,ارسال,NNNNNNNN,
-%@ will see your message first once you send gifts.,GGGGG,ستظهر رسالتك في أعلى قائمة رسائل %@ بعد ارسال لها هدية.,NNNNNNNN,
-You sent,GGGGG,أرسلتَ,NNNNNNNN,
-You received,GGGGG,إستلمتِ,NNNNNNNN,
-"As a host, you can only view the gifts without the option to send  them.",GGGGG,يمكن لمضيفة رؤية هدايا ولا يمكن ارسال اي هدية.,NNNNNNNN,
-Best Wishes!,GGGGG,أطيب التمنيات!,NNNNNNNN,
-Please enter the number,GGGGG,حدّد العدد,NNNNNNNN,
+Terms of Service,GGGGG,无,GGGGG,Kullanım Koşulları,NNNNNNNN
+I'm new,GGGGG,انا جديد,GGGGG,Ben yeniyim,NNNNNNNN
+Hello ,GGGGG,مرحبا!,GGGGG,Selam,NNNNNNNN
+Select your gender,GGGGG,اختر جنسك,GGGGG,Cinsiyetinizi seçin,NNNNNNNN
+,GGGGG,,GGGGG,,NNNNNNNN
+Gender,GGGGG,الجنس,GGGGG,Cinsiyet,NNNNNNNN
+Male,GGGGG,ذكر,GGGGG,Erkek,NNNNNNNN
+Female,GGGGG,أنثى,GGGGG,Bayan,NNNNNNNN
+Email,GGGGG,البريد الالكتروني,GGGGG,E-posta,NNNNNNNN
+Password (6-32 characters),GGGGG,كلمة السر ( بين 6 و 32 حرفا),GGGGG,Lütfen şifreyi tekrar girin (6-12 karakter),NNNNNNNN
+6-32 characters,GGGGG,( بين 6 و 32 حرفا),GGGGG,6-32 karakter,NNNNNNNN
+Password,GGGGG,كلمة السر,GGGGG,Şifre,NNNNNNNN
+Next,GGGGG,التالي,GGGGG,İleri,NNNNNNNN
+Upload your avatar,GGGGG,حمّل صورتك الرمزية,GGGGG,Avatarınızı yükleyin,NNNNNNNN
+Bind your email,GGGGG,اربط بريدك الالكتروني ,GGGGG,E postanızı bağlayın,NNNNNNNN
+Bind success,GGGGG,تم بنجاح,GGGGG,Bağlama başarılı,NNNNNNNN
+Already have an account? Sign in,GGGGG,لديك حساب؟ سجّل الدخول,GGGGG,Çoktan bir hesabınız var mı? Giriş yapın,NNNNNNNN
+New user? Sign up,GGGGG,جديد هنا؟ سجّل حسابك,GGGGG,Yeni kullanıcı? Kaydolun,NNNNNNNN
+Incorrect email format,GGGGG,صيغة بريد إلكتروني غير صحيح,GGGGG,Yanlış e-posta biçimi,NNNNNNNN
+Invalid password format,GGGGG,صيغة كلمة السر غير مسموح,GGGGG,Yanlış şifre formatı,NNNNNNNN
+Please enter the password again (6-32 characters),GGGGG, (بين 6 و 32 حرفا) الرجاء إدخال كلمة السر حسب طلب,GGGGG,Lütfen geçerli bir şifre girin.,NNNNNNNN
+Wrong account or password,GGGGG,بريد إلكتروني أو كلمة السر خاطئة,GGGGG,Yanlış E-posta veya Şifre.,NNNNNNNN
+Account with this email already exists. Please log in with password.,GGGGG,تم ارتباط حساب بالبريد الالكتروني ، يرجى تسجيل الدخول به,GGGGG,Kullanıcı adı zaten mevcut. Lütfen şifre ile giriş yapın.,NNNNNNNN
+,GGGGG,,GGGGG,,NNNNNNNN
+We sent you a verification code,GGGGG,أرسلنا رمز التحقق لك,GGGGG,Sana bir onay kodu gönderdik,NNNNNNNN
+Verification code,GGGGG,رمز التحقق,GGGGG,Doğrulama kodu,NNNNNNNN
+Enter it below to verify your email.,GGGGG,أدخل رمزك من اجل التحقق من إيمل خاس بك.,GGGGG,E postanızı onaylamak için aşağıya yazın.,NNNNNNNN
+Too many requests. Please slow down and try later.,GGGGG,لا تكرر النقر,GGGGG,Çok fazla denediniz. Lütfen bekleyin ve daha sonra tekrar deneyin.,NNNNNNNN
+Didn't receive the email? Resend(59s),GGGGG,لم تستلم البريد؟حاول بعد %ld ثانية.,GGGGG,E postayı almadınız mı? Tekrar gönder (59s),NNNNNNNN
+Didn't receive the email? ,GGGGG,لم تستلم الايملي؟,GGGGG,E postayı almadınız mı?,NNNNNNNN
+Resend(%lds),GGGGG,إعادة الارسال(%ldS),GGGGG,Yeniden gönder (%lds),NNNNNNNN
+Resend,GGGGG,إعادة الارسال,GGGGG,Yeniden gönder,NNNNNNNN
+Wrong code. Try again.,GGGGG,رمز خاطأ،يرجى اعادة المحاولة.,GGGGG,Yanlış kod. Tekrar deneyin,NNNNNNNN
+Welcome back! ,GGGGG,!مرحبا بعودتك,GGGGG,Yeniden hoşgeldiniz!,NNNNNNNN
+Log in to continue,GGGGG,!سجل الدخول لاستمرار,GGGGG,Devam etmek için giriş yapın,NNNNNNNN
+complete your profile,GGGGG,!اكمل معلوماتك,GGGGG,Profilinizi tamamlayın,NNNNNNNN
+Log in,GGGGG,تسجيل الدخول,GGGGG,Giriş Yap,NNNNNNNN
+Login failed,GGGGG, فشل دخول الي الحساب,GGGGG,Oturum açma başarısız,NNNNNNNN
+The account already exists!,GGGGG,!يوجد حساب بنفس الاسم,GGGGG,Bu hesap çoktan var!,NNNNNNNN
+This account has been banned,GGGGG,الحساب محظور,GGGGG,Hesap engellendi.,NNNNNNNN
+This account has been banned,GGGGG,الحساب محظور,GGGGG,Bu hesap bloke edildi.,NNNNNNNN
+Account banned,GGGGG,الحساب محظور,GGGGG,Bu hesap bloke edildi.,NNNNNNNN
+Your account has been temporarily banned,GGGGG,حسابك محظور مؤقتأ,GGGGG,Hesabınız geçici olarak bloke edildi,NNNNNNNN
+Your account has been banned,GGGGG,تم حظر حسابك,GGGGG,Hesabınız bloke edildi,NNNNNNNN
+Your device is blocked,GGGGG,جهازك محظور,GGGGG,Cihazınız bloke edildi,NNNNNNNN
+Unblock time,GGGGG, تاريخ لإلغاء الحظر,GGGGG,Bloke edilme kaldırılma süresi,NNNNNNNN
+Appeal,GGGGG,طلب إعادة النظر,GGGGG,Başvurmak,NNNNNNNN
+Your account won’t be unblocked if it’s banned over 3 times. See community guide for details.,GGGGG,لا يُرفع حظر عن حسابك اذا تم حظرها لاكثر من 3 مرات،اطلع على دليل المجتمع للتفاصيل.,GGGGG,Hesabınızın 3 defadan fazla yasaklanması durumunda blokesi kaldırılmayacaktır. Ayrıntılar için topluluk kılavuzuna bakın.,NNNNNNNN
+community guide,GGGGG,دليل المجتمع,GGGGG,Topluluk kılavuzu,NNNNNNNN
+community guide,GGGGG,دليل المجتمع,GGGGG,Topluluk kılavuzu,NNNNNNNN
+You've been logged out due to inactivity or login from another device.,GGGGG,تم تسجيل الخروج من الحساب بسبب عدم وجود عملية أو تسجيل الدخول على جهاز آخر.,GGGGG,Herhangi bir işlem yapılmadığı veya başka bir cihazda oturum açıldığı için hesaptan çıkış yapıldı.,NNNNNNNN
+You've been logged out.,GGGGG,تم خروج من حسابك.,GGGGG,Çıkış yaptınız,NNNNNNNN
+Upgrade,GGGGG,تحديث,GGGGG,Güncelleme,NNNNNNNN
+"By continuing, you agree to our Terms of Service and EULA",GGGGG,EULAالاستمرار يعني انك توافق على شروط الاستخدام,GGGGG,Devam ederek Hizmet Şartları ve EULA'yı kabul etmiş olursunuz,NNNNNNNN
+"By continuing, you agree to our ",GGGGG,اذا تستمر، انت توافع على,GGGGG,"Devam ederek, bize onay veriyorsunuz",NNNNNNNN
+agree,GGGGG,موافق,GGGGG,Onay veriyorsunuz,NNNNNNNN
+Terms of Service and EULA,GGGGG,EULA شروط الاستخدام و,GGGGG,Hizmet Şartları ve EULA,NNNNNNNN
+Terms of Service,GGGGG,شروط الاستخدام,GGGGG,Hizmet şartları,NNNNNNNN
+Skip,GGGGG,تخطّي,GGGGG,atla,NNNNNNNN
+Skip(%ld),GGGGG,تخطّي(%ld),GGGGG,atla (%ld),NNNNNNNN
+Bind,GGGGG,ربط,GGGGG,Bağla,NNNNNNNN
+Change password,GGGGG,تغيير كلمة السر,GGGGG,Şifre değiştir,NNNNNNNN
+Your password should be at least 6 characters,GGGGG,يجب ان لا تقل كلمة السر الجديدة عن 6 حرفا,GGGGG,Şifreniz en az 6 karakter olmalı,NNNNNNNN
+Old password,GGGGG,كلمة السر القديمة,GGGGG,Eski şifre,NNNNNNNN
+New password,GGGGG,كلمة السر الجديدة,GGGGG,Yeni şifre,NNNNNNNN
+Your new password cannot be the same as your old password,GGGGG,لا يمكن أن تكون كلمة السر الجديدة مطابقة لكلمة السر القديمة.,GGGGG,Yeni şifreniz eski şifrenizle aynı olamaz,NNNNNNNN
+Forgot password?,GGGGG,نسيتَ كلمة السر؟,GGGGG,Şifrenizi mi unuttunuz?,NNNNNNNN
+The old password you entered is incorrect.,GGGGG,كلمة السر القديمة غير صحيحة.,GGGGG,Girdiğiniz eski şifre yanlış.,NNNNNNNN
+Send code,GGGGG,أرسل رمز التحقق,GGGGG,Kod gönderin,NNNNNNNN
+Reset password,GGGGG,غيّر كلمة السر,GGGGG,Şifre sıfırlayın,NNNNNNNN
+We'll send a verification code to your email.,GGGGG,سنرسل رمز التحقق الى الايمل خاص بك.,GGGGG,E postanıza onay kodu göndereceğiz.,NNNNNNNN
+Confirm password,GGGGG,تأكد منم كلمة السر الجديدة.,GGGGG,Şifreyi onaylayın,NNNNNNNN
+Reenter new password,GGGGG,أدخل كلمة السر الجديدة مرة أخرى.,GGGGG,Yeni şifreyi tekrar girin,NNNNNNNN
+Please make sure both passwords match.,GGGGG,يجب ان تتطابقا كلمتا السر الجديدتان,GGGGG,Lütfen iki şifrenin aynı olduğuna emin olun,NNNNNNNN
+Password changed,GGGGG,تم تغيير كلمة السر بنجاح.,GGGGG,Şifre değiştirildi,NNNNNNNN
+Change password failed,GGGGG,فشل في تغير كلمة السر.,GGGGG,Şifre değiştirme başarısız,NNNNNNNN
+Hot Today,GGGGG,مثير اليوم,GGGGG,Bugün Popüler,NNNNNNNN
+Hosts For You,GGGGG,المضيفات لك,GGGGG,Senin İçin Yayıncılar,NNNNNNNN
+In Room,GGGGG,في الغرفة,GGGGG,Odada,NNNNNNNN
+LIVE,GGGGG,بث,GGGGG,CANLI,NNNNNNNN
+Country or Region,GGGGG,بلد أو منطقة,GGGGG,Ülke veya Bölge,NNNNNNNN
+Popular Tags,GGGGG,العلامات الشائعة,GGGGG,Popüler etiketler,NNNNNNNN
+Recently Viewed,GGGGG,مشاهدة مؤخرا,GGGGG,Son görüntülenenler,NNNNNNNN
+Search,GGGGG,البحث,GGGGG,Ara,NNNNNNNN
+Clear,GGGGG,حذف البينات السابقة,GGGGG,Temizle,NNNNNNNN
+Please enter the key words,GGGGG,ارجوك قم بادخال كلمة السر,GGGGG,Lütfen anahtar sözcükleri girin,NNNNNNNN
+Search History,GGGGG,سجل البحث,GGGGG,Arama Geçmişi,NNNNNNNN
+Young,GGGGG,شابة,GGGGG,Genç,NNNNNNNN
+Mature,GGGGG,ناضجة,GGGGG,Olgun,NNNNNNNN
+The host doesn't exist,GGGGG,المضيفة غير موجودة,GGGGG,Böyle bir yayıncı bulunmamakta,NNNNNNNN
+Hot,GGGGG,مشهورة,GGGGG,Popüler,NNNNNNNN
+New,GGGGG,جديدات,GGGGG,Yeni,NNNNNNNN
+Following,GGGGG,متابعة,GGGGG,Takipte,NNNNNNNN
+Online,GGGGG,متّصلة,GGGGG,Çevrimiçi,NNNNNNNN
+Busy,GGGGG,مشغولة,GGGGG,Meşgul,NNNNNNNN
+Offline,GGGGG,غير متصلة,GGGGG,Çevrimdışı,NNNNNNNN
+Share,GGGGG,شارِك,GGGGG,Paylaş,NNNNNNNN
+This host is offline. Chat with other online hosts.,GGGGG,المضيفة غير متوفرة حاليا،اطلع على أخرين.,GGGGG,Bu yayınıcı çevrimdışı. Diğer çevrimiçi yayıncılarla sohbet edin.,NNNNNNNN
+Connection unavailable now; please try again later.,GGGGG,لا يمكن الاتصال بالمكالمة حاليًا، يرجى المحاولة مرة أخرى لاحقًا...,GGGGG,Bağlantı şu anda kullanılamıyor; lütfen daha sonra tekrar deneyin.,NNNNNNNN
+The host is busy now. Try to leave her a message.,GGGGG,المضيفة مشغولة حاليا. اترك رسالة لها.,GGGGG,Kullanıcı şu anda meşgul.  Ona bir mesaj bırakmayı dene.,NNNNNNNN
+Global,GGGGG,عالمية,GGGGG,Dünya çapında,NNNNNNNN
+EU & NA,GGGGG,EU & NA,GGGGG,Batı,NNNNNNNN
+Latin,GGGGG,لاتينية,GGGGG,Latince,NNNNNNNN
+MENA,GGGGG,MENA,GGGGG,Arapça,NNNNNNNN
+Asia,GGGGG,آسيوية,GGGGG,Asya,NNNNNNNN
+E-Europe,GGGGG,شرق اوروبا,GGGGG,E-Avrupa,NNNNNNNN
+About me,GGGGG,عني,GGGGG,Hakkımda,NNNNNNNN
+Impression,GGGGG,انطباع,GGGGG,İzlenim,NNNNNNNN
+%ld coins/min,GGGGG,كوينز/ دقيقة %ld,GGGGG,20 coins / dk,NNNNNNNN
+coins/min,GGGGG,كوينز لكل دقيقة,GGGGG,coins/dk,NNNNNNNN
+%ld followers,GGGGG,متابع %ld,GGGGG,100 Takipçi,NNNNNNNN
+followers: %ld ,GGGGG,عدد المبايعين:%ld ,GGGGG,Takipçi: %ld,NNNNNNNN
+%ld Likes,GGGGG, لايك %ld,GGGGG,100 Beğeni,NNNNNNNN
+%ld Dislikes,GGGGG, ديسلايك %ld,GGGGG,100 Beğenmeme,NNNNNNNN
+Likes,GGGGG,لايك,GGGGG,Beğeniler,NNNNNNNN
+Dislikes,GGGGG,ديسلايك,GGGGG,Beğenmemeler,NNNNNNNN
+Positive Tags,GGGGG,العلامات الإيجابية,GGGGG,Pozitif Etiketler,NNNNNNNN
+Negative Tags,GGGGG,العلامات السلبية,GGGGG,Negatif Etiketler,NNNNNNNN
+Pretty Look,GGGGG,حسَنُ المنظر,GGGGG,Güzel Görünüş,NNNNNNNN
+Good Attitude,GGGGG,موقف جيد,GGGGG,İyi Tavır,NNNNNNNN
+Talkative,GGGGG,يطلع كثير الكلام,GGGGG,Konuşkan,NNNNNNNN
+Satisfying,GGGGG,مرضية,GGGGG,Tatmin Edici,NNNNNNNN
+Attractive Voice,GGGGG,صوت جذاب,GGGGG,Çekici Ses,NNNNNNNN
+Nice Figure,GGGGG, جسم مذهل,GGGGG,İyi Figür,NNNNNNNN
+Glitches,GGGGG,خلل تقني,GGGGG,Bulanıklık,NNNNNNNN
+Bad Conditions,GGGGG,شبكة الإنترنت ضعيفة,GGGGG,Kötü Koşullar,NNNNNNNN
+Negative Attitude,GGGGG,موقف العمل السلبي,GGGGG,Negatif Tavır,NNNNNNNN
+Fake Photos,GGGGG,صور مزورة,GGGGG,Sahte Görseller,NNNNNNNN
+Over-retouched Photos,GGGGG, المبالغة في تعديل الصور,GGGGG,Fazla editlenmiş Görseller,NNNNNNNN
+Others,GGGGG,اسباب أخرى,GGGGG,Diğerleri,NNNNNNNN
+Submit,GGGGG,قدّم,GGGGG,Gönder,NNNNNNNN
+Welcome to my world! I look forward to chilling out with you.,GGGGG,مرحبا بك! هل تريد الاستمتاع بأوقات ممتعة معي؟,GGGGG,Dünyama hoş geldin! Seninle tanışmayı istiyorum,NNNNNNNN
+Hope I can brighten up your day.,GGGGG,اتمنى ان أضيء يومك.,GGGGG,Umarım gününü aydınlatabilirim,NNNNNNNN
+ID,GGGGG,أيدي,GGGGG,Kimlik (ID),NNNNNNNN
+Verified,GGGGG,مصدّق عليها,GGGGG,Onaylı,NNNNNNNN
+Call Now,GGGGG,اتصل الآن,GGGGG,Şimdi ara,NNNNNNNN
+Private,GGGGG,اتصل الآن,GGGGG,Özel,NNNNNNNN
+Private call,GGGGG,اتصل الآن,GGGGG,Özel arama,NNNNNNNN
+Call,GGGGG,اتصل الآن,GGGGG,Ara,NNNNNNNN
+More,GGGGG,المزيد,GGGGG,Daha fazla,NNNNNNNN
+Back,GGGGG,العودة,GGGGG,Geri,NNNNNNNN
+Report,GGGGG,إبلاغ,GGGGG,Bildir,NNNNNNNN
+Report Successfully,GGGGG,تم الإبلاغ بنجاح,GGGGG,Raporlama başarılı,NNNNNNNN
+ Failed to report,GGGGG,فشل في الإبلاغ,GGGGG,Rapor verme başarısız!,NNNNNNNN
+Block,GGGGG,أحظر,GGGGG,Engelle,NNNNNNNN
+Unblock,GGGGG,إلغاء الحظر,GGGGG,Engeli kaldır,NNNNNNNN
+Failed to unblock,GGGGG,فشل في رفع الحظر,GGGGG,Engelleme başarısız,NNNNNNNN
+Block Successfully,GGGGG,تم الحظر بنجاح,GGGGG,Bloke işlemi başarılı,NNNNNNNN
+Unblock Successfully,GGGGG,تم الغاء الحظر بنجاح,GGGGG,Engeli kaldırma başarılı,NNNNNNNN
+ Failed to block,GGGGG,فشل في الحظر,GGGGG,Engelleme başarısız,NNNNNNNN
+"You're blocked by the host, so the action is unavailable.",GGGGG,انت محظور من طرف المضيفة،وفعلك غير مسموح.,GGGGG,Toplantı sahibi sizi engellediği için geçici olarak bu işlemi gerçekleştiremezsiniz.,NNNNNNNN
+"To follow or interact with %@, you need to unblock her first.",GGGGG,يجب رفع الحظر أولا للتواصل مع %@ أو متابعتها.,GGGGG,"%@ ile etkileşime geçmek istiyorsanız, onu takip edip etkileşime geçmeden önce onun engelini kaldırmanız gerekir.",NNNNNNNN
+"After blocking %@, she won't be able to message you or check your profile.",GGGGG,لا يمكن ان تراسلك  او ترى صفحتك بعد ان تحظر %@,GGGGG,Engellendikten sonra %@ size mesaj gönderemeyecek veya profil sayfanıza erişemeyecek,NNNNNNNN
+Followed,GGGGG,تمت المتابعة,GGGGG,Takip edildi,NNNNNNNN
+Unfollowed,GGGGG,تم إلغاء المتابعة  بنجاح,GGGGG,Takipten çıkıldı,NNNNNNNN
+This host is offline. Chat with other online hosts.,GGGGG,المضيفة غير متوفرة حاليا،اطلع على أخرين.,GGGGG,Bu yayınıcı çevrimdışı. Diğer çevrimiçi yayıncılarla sohbet edin.,NNNNNNNN
+Failed to call. Please try again later.,GGGGG,لقد فشل الاتصال. الرجاء معاودة المحاولة في وقت لاحق.,GGGGG,Arama başarısız. Lütfen sonra tekrar dene.,NNNNNNNN
+The host is busy now. Try to leave her a message.,GGGGG,المضيفة مشغولة حاليا. اترك رسالة لها.,GGGGG,Canlı yayıncı şu anda meşgul. Ona bir mesaj bırakmayı deneyin.,NNNNNNNN
+You have been blocked by the host or she is in your blacklist.,GGGGG,انت محظور بالمضيفة او حظرتها.,GGGGG,Diğer kullanıcı tarafından engellendiniz veya kişi artık sizin kara listenizde.,NNNNNNNN
+You don't have enough coins. Recharge to enjoy more.,GGGGG,ليس لديك كوينزات كافية. اشحن واستمتع أكثر.,GGGGG,Yeterli coinsin yok. Daha fazla keyif almak için daha fazla coins satın al.,NNNNNNNN
+Insufficient Coins,GGGGG,عملات غير كافية,GGGGG,Yetersiz coins.,NNNNNNNN
+Reason,GGGGG,سبب,GGGGG,Sebep,NNNNNNNN
+Tips,GGGGG,ملاحظات,GGGGG,İpuçları,NNNNNNNN
+Connecting...,GGGGG,جاري الاتصال...,GGGGG,Bağlanıyor...,NNNNNNNN
+All your privacy is protected!,GGGGG,كل خصوصيتك محمية هنا.,GGGGG,Tüm gizliliğiniz burada korunmaktadır.,NNNNNNNN
+Have a good time!,GGGGG,استمتع بوقتك!,GGGGG,İyi vakit geçir!,NNNNNNNN
+"If the call is not answered, you will not be charged.",GGGGG,إذا لم تكن المكالمة متصلة، فلن يتم خصم الكوينز منك.,GGGGG,Çağrıya cevap verilmediği takdirde sizden ücret alınmayacaktır.,NNNNNNNN
+You may also like...,GGGGG,ألق نظرة على مضيفات رائعات أخرى,GGGGG,Bunları da beğenebilirsiniz...,NNNNNNNN
+Gifts,GGGGG,هدايا,GGGGG,Hediye,NNNNNNNN
+%ld% extra coins,GGGGG,كوينز اضافي %ld%,GGGGG,%ld% ekstra coins,NNNNNNNN
+Extra Coins,GGGGG,كوينز اضافي,GGGGG,Ekstra coins,NNNNNNNN
+Recharge,GGGGG,شحن,GGGGG,Yükleme,NNNNNNNN
+Confirm,GGGGG,تأكد,GGGGG,Onayla,NNNNNNNN
+Hunting,GGGGG,مطابقة عشوائية,GGGGG,Rastegele eşleşme,NNNNNNNN
+"No, thanks",GGGGG,لا،وشكرا,GGGGG,Hayır! Teşekkürler,NNNNNNNN
+SAVE %ld%,GGGGG,%ld% وفّر ,GGGGG,%50 TASARRUF EDİN,NNNNNNNN
+One-time discount,GGGGG,خصم لمرة واحدة,GGGGG,Tek seferlik indirim,NNNNNNNN
+Call me again,GGGGG,اتصل بي مرة اخرى,GGGGG,Beni tekrar ara,NNNNNNNN
+Call ended,GGGGG,انتهت المكالمة,GGGGG,Arama sona erdi,NNNNNNNN
+How do you feel about this call?,GGGGG,ما رأيك في هذه المكالمة؟,GGGGG,Bu arama hakkında ne düşünüyorsun?,NNNNNNNN
+Like,GGGGG,لايك,GGGGG,Beğen,NNNNNNNN
+Dislike,GGGGG,ديسلايك,GGGGG,Beğenme,NNNNNNNN
+Slide left to access pure mode,GGGGG,مرّر لليسار لدخول وضعية النقاء,GGGGG,Saf moda erişmek için sola kaydırın,NNNNNNNN
+Slide right to access pure mode,GGGGG,مرّر لليمين لدخول وضعية النقاء,GGGGG,Saf moda erişmek için sağa kaydırın,NNNNNNNN
+Camera off,GGGGG,الكاميرا مطفأ,GGGGG,Kamera kapalı,NNNNNNNN
+Are you sure you want to leave?,GGGGG,هل أنت متأكد من خروج؟,GGGGG,Ayrılmak istediğinden emin misin,NNNNNNNN
+Leave,GGGGG,خروج ,GGGGG,Çık,NNNNNNNN
+Cancel,GGGGG,الغاء,GGGGG,İptal,NNNNNNNN
+Say something,GGGGG,تحية لها,GGGGG,Bir şey söyle,NNNNNNNN
+Say hi…,GGGGG,تحية لها,GGGGG,Selam verin,NNNNNNNN
+Messages,GGGGG,رسائل,GGGGG,Mesaj,NNNNNNNN
+Message,GGGGG,رسالة,GGGGG,Mesaj,NNNNNNNN
+Calls,GGGGG,مكالمات,GGGGG,aramalar,NNNNNNNN
+Call,GGGGG,مكالمة,GGGGG,Arama,NNNNNNNN
+Missed,GGGGG,فائتة,GGGGG,Cevaplanmamış,NNNNNNNN
+Refused,GGGGG,مرفوضة,GGGGG,Reddedildi,NNNNNNNN
+Outgoing,GGGGG,صادرة,GGGGG,Giden,NNNNNNNN
+Incoming,GGGGG,واردة,GGGGG,Gelen,NNNNNNNN
+Outgoing %ld min,GGGGG,صادرة %ld دقيقة,GGGGG,Giden %ld dakika,NNNNNNNN
+Outgoing %ld mins,GGGGG,صادرة %ld دقائق,GGGGG,Giden %ld dakika,NNNNNNNN
+Incoming %ld min,GGGGG,واردة %ld دقيقة,GGGGG,Gelen %ld dakika,NNNNNNNN
+Incoming %ld mins,GGGGG,واردة %ld دقائق,GGGGG,Gelen %ld dakika,NNNNNNNN
+mins,GGGGG,دقائق,GGGGG,Dakika,NNNNNNNN
+min,GGGGG,دقيقة,GGGGG,dakika,NNNNNNNN
+No strangers’ message,GGGGG,لا توجد رسالة غريب,GGGGG,Yabancı mesaj yok,NNNNNNNN
+Me,GGGGG,أنا,GGGGG,Ben,NNNNNNNN
+Turn off screen recording,GGGGG,اوقف تسجيل الشاشة,GGGGG,Ekran kaydetmeyi kapat,NNNNNNNN
+Turn off screen recording to close the pop-up window.,GGGGG,قم بإيقاف  تسجيل الشاشة لإغلاق اشعار الحذار. ,GGGGG,Açılır pencereyi kapatmak için ekran kaydını kapatın.,NNNNNNNN
+"Sorry, the host is not available now…",GGGGG,عذرا، المضيفة غير متوفرة الآن...,GGGGG,"Üzgünüz, yayıncı şu anda müsait değil...",NNNNNNNN
+You may also like…,GGGGG,ألق نظرة على مضيفات رائعة أخرى,GGGGG,Bunları da beğenebilirsiniz...,NNNNNNNN
+The call will end in 180 seconds. Please recharge as soon as possible.,GGGGG,ستنتهي هذه المكالمة بعد 180 ثانية. الرجاء إعادة الشحن في أقرب وقت ممكن.,GGGGG,Bu arama 180 saniye içinde sona erecek. Lütfen en kısa zamanda yükleme yapın.,NNNNNNNN
+The call will end in %ld seconds. Please recharge as soon as possible.,GGGGG,ستنتهي هذه المكالمة بعد %ld ثانية. الرجاء إعادة الشحن في أقرب وقت ممكن.,GGGGG,Arama %ld saniye içinde sona erecek. Lütfen mümkün olan en kısa sürede şarj edin.,NNNNNNNN
+Recharge to continue this fabulous experience.,GGGGG, اشحن لمواصلة هذه التجربة الرائعة,GGGGG,Bu muhteşem deneyime devam etmek için yükleyın,NNNNNNNN
+Wanna see me again? Just call me baby!,GGGGG, اتصل بي حبيبي اذا تريد رؤيتي مرة اخرى!,GGGGG,Beni yeniden görmek istiyor musun? Sadece beni tekrar araman yeterli !,NNNNNNNN
+You don't have enough coins. Recharge to enjoy more.,GGGGG,ليس لديك كوينزات كافية. اشحن واستمتع أكثر.,GGGGG,Yeterli coinsin yok. Daha fazla keyif almak için daha fazla coins satın al.,NNNNNNNN
+The host hung up the call,GGGGG,المضيفة أنهت المكالمة,GGGGG,Arayan telefonu kapattı.,NNNNNNNN
+The user hung up,GGGGG,المضيفة اغلقت الخط,GGGGG,Kullanıcı telefonu kapattı.,NNNNNNNN
+The call ended because the user didn't recharge,GGGGG,انتهت المكالمة بسبب عدم شحن الداعم,GGGGG,Kullanıcı yükleme yapmadığı için çağrı sona erdi,NNNNNNNN
+You don't have enough coins to continue,GGGGG,ليس لديك كوينزات كافية,GGGGG,Devam etmek için yeterli coinsiniz yok,NNNNNNNN
+ User network error,GGGGG,خطأ في شبكة انترنت الداعم,GGGGG,Kullanıcı internet hatası,NNNNNNNN
+"Network error, reconnecting...",GGGGG, ...خطأ في شبكة الانترنت، جاري إعادة الاتصال,GGGGG,"İnternet hatası, yeniden bağlanılıyor...",NNNNNNNN
+No connections,GGGGG,لا اتصلات,GGGGG,Bağlantı yok,NNNNNNNN
+Host network error,GGGGG,خطأ في شبكة انترنت المضيفة,GGGGG,Sunucu internet hatası,NNNNNNNN
+Cannot connect to the server. Please try again later.,GGGGG,خطأ في الاتصال بخادم،يرجى المحاولة مرة اخرى لاحقا.,GGGGG,Sunucuya bağlanılamıyor. Daha sonra tekrar deneyin.,NNNNNNNN
+Call Ended,GGGGG,انتهت المكالمة,GGGGG,Arama bitti.,NNNNNNNN
+Private call is closed,GGGGG,مكالمة خاصة غير متاحة,GGGGG,Özel arama kapandı.,NNNNNNNN
+This call will end in %ld seconds. Please recharge as soon as you can.,GGGGG,ستنتهي هذه المكالمة بعد %ld  ثانية،اشحث في اسرع وقت ممكن,GGGGG,Bu çağrı %ld saniye içinde sona erecek. Lütfen mümkün olan en kısa sürede yükleme yapın.,NNNNNNNN
+How do you feel about this call?,GGGGG,ما رأيك في هذه المكالمة؟,GGGGG,Bu arama hakkında ne hissediyorsun?,NNNNNNNN
+Call me again,GGGGG,اتصل بي مرة اخرى,GGGGG,Beni yeniden ara,NNNNNNNN
+Calling you…,GGGGG,جاري اتصال بك,GGGGG,Seni arıyor...,NNNNNNNN
+Calling...,GGGGG,جاري الاتصال,GGGGG,Arıyor...,NNNNNNNN
+Blur,GGGGG,ضباب,GGGGG,Bulanıklaştır,NNNNNNNN
+Wanna see me again？Call me baby！,GGGGG,اتصل بي مرة اخرى لترى المزيد,GGGGG,Beni yeniden görmek ister misin? Ara beni bebeğim !,NNNNNNNN
+Countdown: %lds,GGGGG,العد التنازلي:%ld ثانية,GGGGG,Geri sayım: %lds,NNNNNNNN
+Recharge to continue the fabulous experience.,GGGGG,أعد الشحن لمواصلة هذه التجربة الرائعة.,GGGGG,Muhteşem deneyime devam etmek için yeniden yükle.,NNNNNNNN
+One-time discount,GGGGG,خصم لمرة واحدة,GGGGG,Tek seferlik indirim,NNNNNNNN
+Leaderboard,GGGGG,جدول الترتيب,GGGGG,Lider Tablosu,NNNNNNNN
+Follow,GGGGG,تابِع,GGGGG,Takip et,NNNNNNNN
+Followed,GGGGG, متابَعة,GGGGG,Takip ediliyor,NNNNNNNN
+Failed to follow,GGGGG, فشلت المتابعة,GGGGG,Yükleme başarısız,NNNNNNNN
+Failed to Unfollow,GGGGG,فشل الغاء المتابعة,GGGGG,Takipten çıkma başarısız,NNNNNNNN
+Daily,GGGGG,يومياً,GGGGG,Günlük,NNNNNNNN
+Weekly,GGGGG,أسبوعيا,GGGGG,Hafta,NNNNNNNN
+Hottest,GGGGG,مشهورة,GGGGG,En Popüler,NNNNNNNN
+Popular,GGGGG,مشهورة,GGGGG,Popüler,NNNNNNNN
+Deluxe,GGGGG,كرام,GGGGG,ihtişamlı,NNNNNNNN
+Intimacy,GGGGG,عشاق,GGGGG,Samimiyet,NNNNNNNN
+You are Top1,GGGGG,انت في مركز اول,GGGGG,1'inci oldunuz,NNNNNNNN
+Your Rank: %ld,GGGGG,ترتيبك:%ld,GGGGG,Sıralaman: %ld,NNNNNNNN
+Your Rank: %ld+,GGGGG,ترتيبك:30+,GGGGG,Senin sıralaman: %ld+,NNNNNNNN
+My Account,GGGGG,حسابي,GGGGG,Hesabım,NNNNNNNN
+Consumption Record,GGGGG,سجل الاستهلاك,GGGGG,Tüketim Kaydı,NNNNNNNN
+No Record,GGGGG,لا سجل,GGGGG,Kayıt yok,NNNNNNNN
+Log in,GGGGG,"
+سجّل الدخول",GGGGG,Giriş,NNNNNNNN
+Sign up,GGGGG,سجل حساب جديد,GGGGG,Kayıt,NNNNNNNN
+Bind your email,GGGGG,ربط البريد الالكتروني,GGGGG,E postanı bağla,NNNNNNNN
+Available Coins,GGGGG,رصيد,GGGGG,mevcut coins,NNNNNNNN
+Remove,GGGGG,إزالة,GGGGG,Çıkar,NNNNNNNN
+Blacklist,GGGGG,قائمة الحظر,GGGGG,Kara Liste,NNNNNNNN
+Account,GGGGG,حساب,GGGGG,Hesap,NNNNNNNN
+Delete Account,GGGGG,حذف حساب,GGGGG,Hesabı sil,NNNNNNNN
+Feedback,GGGGG,ردود الافعال,GGGGG,Geri Bildirim,NNNNNNNN
+Terms of Service,GGGGG,شروط الخدمة,GGGGG,Hizmet Şartları,NNNNNNNN
+Privacy Policy,GGGGG,سياسة الخصوصية,GGGGG,Gizlilik Politikası,NNNNNNNN
+Contact us,GGGGG,تواصل معنا,GGGGG,Bize ulaşın,NNNNNNNN
+Followed hosts online notification,GGGGG,ستتلقى إشعار عندما تكون المضيفات التي تتابعهم متصلين,GGGGG,Takip edilen hostlar çevrimiçi bildirim,NNNNNNNN
+Rate Us in App Store,GGGGG,قيّمنا في متجر آب ستور,GGGGG,App Store'da bizi değerlendirin,NNNNNNNN
+Your opinion matters to us,GGGGG,رأيك مهم لنا,GGGGG,Görüşünüz bizim için önemli,NNNNNNNN
+Please tell us what could we improve. We value your feedback.,GGGGG,ساعِدنا على تحسين التطبيق ونهتم بردود افعالكم,GGGGG,Lütfen neyi iyileştirebileceğimizi söyleyin. Geri dönüşünüzü önemsiyoruz.,NNNNNNNN
+Submit,GGGGG,قدّم,GGGGG,Gönder,NNNNNNNN
+Clear Cache,GGGGG,مسح ذاكرة التخزين المؤقت,GGGGG,Önbelleği temizle,NNNNNNNN
+Settings,GGGGG,إعدادات,GGGGG,Ayarlar,NNNNNNNN
+Stream Settings,GGGGG,إعدادات الفيديو,GGGGG,Yayın ayarları,NNNNNNNN
+In-App floating window,GGGGG,نافذة عائمة داخل التطبيق,GGGGG,Uygulama içinde kayan pencere,NNNNNNNN
+"Once disabled, clicking 'x' will directly exit the Live room. However, the floating window will remain active when navigating other pages.",GGGGG,اذا تطفأ الميزة،لا تظهر نافذة عائمة اذا تضغط على زر غلق الغرفة.وستظهر نافذة عائمة اذا تعود الى صفحات أخرى.,GGGGG,"Devre dışı bırakıldığında, 'x' tıklandığında doğrudan Canlı odadan çıkılır. Ancak diğer sayfalarda gezinirken kayan pencere etkin kalacaktır.",NNNNNNNN
+Outside-App floating window,GGGGG,نافذة عائمة خارج التطبيق,GGGGG,Uygulama dışında kayan pencere,NNNNNNNN
+"Once disabled, the stream will not be played in floating window over other apps.",GGGGG, اذا تطفأ الميزة ، لا تظهر نافذة عائمة خارج التطبيق عندما تدخل تطبيقات أخرى.,GGGGG,"Devre dışı bırakıldığında akış, diğer uygulamaların üzerinde kayan pencerede oynatılmayacaktır.",NNNNNNNN
+Notification,GGGGG,اشعارات,GGGGG,Bildirim,NNNNNNNN
+Enable notification,GGGGG,شغل الاشعارات,GGGGG,Bildirimlere izin ver,NNNNNNNN
+Following host online,GGGGG,اشعار مضيفات متصلات,GGGGG,Takip edilen yayıncı çevrimiçi,NNNNNNNN
+Private messages,GGGGG,اشعار رسائل خاصة,GGGGG,Özel mesajlar,NNNNNNNN
+Following host start Live,GGGGG,إشعار بدأ بث مضيفات تتابعهم,GGGGG,Takip edilen yayıncı yayına başladı,NNNNNNNN
+Following host post,GGGGG,إشعار نشر لحظات مضيفات تتابعهم,GGGGG,Takip edilen yayıncı paylaştı,NNNNNNNN
+Language,GGGGG,لغة,GGGGG,Dil,NNNNNNNN
+Sign out,GGGGG,تسجيل الخروج,GGGGG,Oturumu kapat,NNNNNNNN
+Are you sure you want to sign out?,GGGGG,متأكدة من تسجيل الخروج؟,GGGGG,Oturumu kapatmak istediğinden emin misin?,NNNNNNNN
+Start now,GGGGG,ابدأ الان,GGGGG,Şimdi başla,NNNNNNNN
+Edit,GGGGG,تعديل,GGGGG,Düzenle,NNNNNNNN
+Save,GGGGG,حفظ,GGGGG,Kaydet,NNNNNNNN
+Save success,GGGGG,تم بنجاح,GGGGG,Kaydetme başarılı,NNNNNNNN
+Preview,GGGGG,معاينة,GGGGG,Önizle,NNNNNNNN
+Set as cover,GGGGG,استعملها كغلاف,GGGGG,Kapak olarak ayarla,NNNNNNNN
+Album,GGGGG,صور,GGGGG,Albüm,NNNNNNNN
+Take a photo,GGGGG,التقط صورة,GGGGG,Fotoğraf çek,NNNNNNNN
+Upload failed,GGGGG,فشل التحميل,GGGGG,Yükleme başarısız,NNNNNNNN
+Followers,GGGGG,المتابعين ,GGGGG,Takipçiler,NNNNNNNN
+Following,GGGGG,متابعة ,GGGGG,Takipte,NNNNNNNN
+Are you sure you want to delete your account?,GGGGG,هل أنت متأكد من حذف حسابك؟,GGGGG,Hesabınızı silmek istediğinizden emin misiniz?,NNNNNNNN
+Cancel,GGGGG,إلغاء,GGGGG,İptal,NNNNNNNN
+Delete,GGGGG,إحذف,GGGGG,Sil,NNNNNNNN
+Yes,GGGGG,تأكد,GGGGG,Evet,NNNNNNNN
+No,GGGGG,لا,GGGGG,Hayır,NNNNNNNN
+Block Strangers' Messages,GGGGG,حظر رسائل الغرباء,GGGGG,Yabancıların Mesajlarını Engelle,NNNNNNNN
+Strangers,GGGGG,غرباء,GGGGG,Yabancı insanlar,NNNNNNNN
+minutes,GGGGG,دقائق,GGGGG,Dakika,NNNNNNNN
+minute,GGGGG,دقيقة,GGGGG,Dakika,NNNNNNNN
+Call time %ld mins,GGGGG,وقت المكالمة %ld دقيقة,GGGGG,Çağrı süresi 4 dakika,NNNNNNNN
+Call time %ld mins,GGGGG,وقت المكالمة %ld دقيقة,GGGGG,Çağrı süresi %ld dakika,NNNNNNNN
+Call time %ld min,GGGGG,وقت المكالمة %ld دقيقة,GGGGG,Çağrı süresi %ld dakika,NNNNNNNN
+Private call via Live,GGGGG,اتصال خاص من العرض المباشر,GGGGG,Yayın aracılığıyla özel arama,NNNNNNNN
+Private call via Multi-beam,GGGGG,مكالمة خاصة من ملتيبيم,GGGGG,Çoklu yayın aracılığıyla özel arama,NNNNNNNN
+Live,GGGGG,بث,GGGGG,Canlı,NNNNNNNN
+Multi-beam,GGGGG,ملتيبيم,GGGGG,Çoklu yayın,NNNNNNNN
+Apple,GGGGG,无需,GGGGG,Apple,NNNNNNNN
+Credit Card,GGGGG,无需,GGGGG,Kredi Kartı,NNNNNNNN
+Mada,GGGGG,无需,GGGGG,无需,NNNNNNNN
+Knet,GGGGG,无需,GGGGG,无需,NNNNNNNN
+PayPal,GGGGG,PayPal,GGGGG,PayPal,NNNNNNNN
+One-time discount,GGGGG,خصم لمرة واحدة,GGGGG,Tek seferlik indirim,NNNNNNNN
+"The coins your purchased last time have been added to your account, please check.",GGGGG,لقد تم ارسال الكوينز الذي اشتريته الى  حسابك.,GGGGG,"En son satın aldığınız coinler hesabınıza eklendi, lütfen kontrol ediniz.",NNNNNNNN
+"Recharge successfully. Please restart the app and check. If you haven't received the coins yet, please contact us.",GGGGG,تم الشحن بنجاح. شغّل التطبيق من جديد وتحقق من رصيدك . إذا لم تستلم الكوينز بعد ، اتصل بنا  في ’ الإعدادات‘.,GGGGG,"Başarıyla yükleme yapıldı. Lütfen uygulamayı yeniden başlatın ve kontrol edin. Henüz coinsleri almadıysanız, lütfen bizimle iletişime geçin.",NNNNNNNN
+"Recharge successfully, please check your coins.",GGGGG,تم شحن بنجاح، تحقق من رصيدك.,GGGGG,"Yükleme başarılı, lütfen coinsleri kontrol edin.",NNNNNNNN
+"Purchase successfully! There is a delay in the receipt of the coins, please pay attention to check!",GGGGG,تم شراء بنجاح! قد يتأخر استلام الكوينزات قليلا، يرجى اطلاع على رصيدك !,GGGGG,"Başarıyla satın alındı! Paraların alınmasında gecikme var, lütfen kontrol etmeye dikkat edin!",NNNNNNNN
+"Recharge error, coins might be delayed to get to your account. If you don't received the coins in 5 minutes, please contact us through the email.",GGGGG,خطأ في الشحن، قد يتأخر استلام الكوينزات قليلا، اتصل بنا اذا لم تستلم اي كوينز بعد خمس دقائق.,GGGGG,"Yeniden yükleme hatası; coinslerin hesabınıza ulaşması gecikebilir. Coinsleri 5 dakika içinde almazsanız, lütfen e-posta yoluyla bizimle iletişime geçin.",NNNNNNNN
+Recharge failed,GGGGG,فشل,GGGGG,Yükleme başarısız.,NNNNNNNN
+Recharge error! Contact us if you don't receive the coins.,GGGGG,فشل الشحن، اتصل بنا اذا لم تسلتلم  كوينز.,GGGGG,Yükleme başarısız! Coinsleri almadıysanız lütfen bize ulaşın.,NNNNNNNN
+My Wallet,GGGGG,محفظة,GGGGG,Cüzdan,NNNNNNNN
+Wallet,GGGGG,,GGGGG,Cüzdan,NNNNNNNN
+Available Coins,GGGGG,رصيد,GGGGG,mevcut coins,NNNNNNNN
+Limited Time,GGGGG,عرض محدود,GGGGG,Sınırlı bir süre için,NNNNNNNN
+Edit Profile ,GGGGG,حرّر البروفايل,GGGGG,Profili düzenle,NNNNNNNN
+Profile,GGGGG,الملف الشخصي,GGGGG,Profil,NNNNNNNN
+Edit profile successfully,GGGGG,تم تعديل الملف بنجاح,GGGGG,Profil başarıyla düzenlendi,NNNNNNNN
+Information,GGGGG, معلومات,GGGGG,Bilgi,NNNNNNNN
+Basic Information,GGGGG,معلومات اساسية,GGGGG,Temel Bilgiler,NNNNNNNN
+Nickname (within 14 characters),GGGGG,اللقب（ضمن 14 حرفًا）,GGGGG,Takma ad (14 karakter veya daha az),NNNNNNNN
+What's your name? ,GGGGG,ما اسمك؟,GGGGG,Adın nedir?,NNNNNNNN
+Nickname,GGGGG,لقب لقب,GGGGG,Takma adınızı girin,NNNNNNNN
+Nickname can not be empty,GGGGG,لا يمكن ان يكون اسمك المستعار فارغا,GGGGG,Takma ad boş bırakılamaz,NNNNNNNN
+within 14 characters,GGGGG,（ضمن 14 حرفًا）,GGGGG,14 karakterle,NNNNNNNN
+What's your age?,GGGGG,كم عمرك؟,GGGGG,Yaşınız nedir?,NNNNNNNN
+Prefer not to say,GGGGG,لا اريد ان أكشف,GGGGG,Söylememeyi tercih ederim,NNNNNNNN
+Age,GGGGG,العمر,GGGGG,Yaş,NNNNNNNN
+Change nickname,GGGGG,اللقب,GGGGG,Takma adı değiştir,NNNNNNNN
+About me (within 120 characters),GGGGG,عن （ضمن 120 حرفًا）,GGGGG,Hakkımda(120 karakter veya daha az),NNNNNNNN
+Enter your nickname,GGGGG,اكتب اسمك,GGGGG,Takma adınızı girin,NNNNNNNN
+Profile photos (maximum 7 pics),GGGGG,(صورك(لا تتجاوز 7 صور,GGGGG,Profil resimleri (maksimum 7 resim),NNNNNNNN
+Done,GGGGG,انتهى,GGGGG,Bitti,NNNNNNNN
+A maximum of 7 photos is permitted for upload,GGGGG,يمكنك تحميل 7 صور على الاكثر,GGGGG,En fazla 7 fotoğrafın yüklenmesine izin verilir,NNNNNNNN
+10 Messages,GGGGG,10 رسالة,GGGGG,10 Mesaj,NNNNNNNN
+Sent %@,GGGGG,أرسل %@,GGGGG,Muz*1 gönder,NNNNNNNN
+7 Days,GGGGG,7 أيام,GGGGG,7 gün,NNNNNNNN
+Store,GGGGG,متجر,GGGGG,Market,NNNNNNNN
+My bag,GGGGG,حقيبتي,GGGGG,Çantam,NNNNNNNN
+Enter Effect,GGGGG,تأثير الدخول,GGGGG,Giriş Efekti,NNNNNNNN
+Store,GGGGG,متجر,GGGGG,Market,NNNNNNNN
+Legend,GGGGG,أسطوري,GGGGG,Efsane,NNNNNNNN
+Get,GGGGG,إشتري,GGGGG,Al,NNNNNNNN
+%@ / day,GGGGG,@% / يوم,GGGGG,%@ gün,NNNNNNNN
+%@ day,GGGGG,@% يوم ,GGGGG,%@ gün,NNNNNNNN
+%@ days,GGGGG,@% يوم ,GGGGG,%@ günler,NNNNNNNN
+Quantity,GGGGG,عدد,GGGGG,Miktar,NNNNNNNN
+Automatically equip,GGGGG,التزويد اوتوماتيكيا,GGGGG,Otomatik olarak donat,NNNNNNNN
+Use,GGGGG,زوِّد,GGGGG,Kullan,NNNNNNNN
+Using,GGGGG,مزوَّد,GGGGG,Kullanılıyor,NNNNNNNN
+Renew,GGGGG,جدد,GGGGG,Yenile,NNNNNNNN
+Purchase successfully! Go equip it! ,GGGGG,تم شراء ينجاح!اذهب وزوِّده,GGGGG,Başarıyla satın alındı! Haydi donat!,NNNNNNNN
+"Insufficient coins, please recharge",GGGGG,رصيدك لا يكفي،إشحن اولا,GGGGG,"Yetersiz coins, lütfen yükleme yapın",NNNNNNNN
+"Oops, this item is removed from the store.",GGGGG,للأسف، هذا التأثير غير متوفر الآن.,GGGGG,"Oops, bu öğe mağazadan kaldırıldı.",NNNNNNNN
+Removed,GGGGG,غير متوفر,GGGGG,Kaldırıldı,NNNNNNNN
+Expired,GGGGG,انتهى,GGGGG,Süresi geçti,NNNNNNNN
+Enable,GGGGG,شغّل,GGGGG,Etkinleştir,NNNNNNNN
+Enable notification,GGGGG,شغّل الاشارة,GGGGG,Bildirimleri etkinleştir,NNNNNNNN
+You don't want to miss important messages.,GGGGG,لا تريد ان تفوتك رسائل مهمة,GGGGG,Önemli mesajları kaçırmak istemezsin,NNNNNNNN
+The host you follow goes online,GGGGG,مضيفة متابعة متصلة,GGGGG,Takip ettiğin host çevrimiçi oldu,NNNNNNNN
+The host you follow starts Live,GGGGG,مضيفة متابعة تبدأ البث,GGGGG,Takip ettiğin host canlı yayına başladı,NNNNNNNN
+Got a private message,GGGGG,وصلت راسالة خاصة جديدة,GGGGG,Özel bir mesaj aldın,NNNNNNNN
+Turn on notification,GGGGG,شغّل الاشعار,GGGGG,Bildirimleri açın,NNNNNNNN
+Turn on,GGGGG,شغّل,GGGGG,Açın,NNNNNNNN
+You’ve got a private message,GGGGG,وصلتك رسالة خاصة جديدة,GGGGG,Özel bir mesajın var,NNNNNNNN
+Now,GGGGG,الآن,GGGGG,Şimdi,NNNNNNNN
+Each private message costs 2 coins,GGGGG,تدفع على كل رسالة خاصة 2 كوينز,GGGGG,Her özel mesajın maliyeti 2 coinstir.,NNNNNNNN
+Type something...,GGGGG,اكتب هنا,GGGGG,Bir şey yaz...,NNNNNNNN
+Video,GGGGG,فيديو,GGGGG,Video,NNNNNNNN
+Voice,GGGGG,صوت,GGGGG,Ses,NNNNNNNN
+Photo,GGGGG,صورة,GGGGG,Fotoğraf,NNNNNNNN
+Link,GGGGG,رابط,GGGGG,[Link],NNNNNNNN
+Chat,GGGGG,دردشة,GGGGG,Sohbet,NNNNNNNN
+%f hours ago,GGGGG,قبل %f ساعات,GGGGG,%f saat önce,NNNNNNNN
+%f hour ago,GGGGG,قبل %f ساعة,GGGGG,%f saat önce,NNNNNNNN
+%f minutes ago,GGGGG,قبل %f دقيقة,GGGGG,%f dakika önce,NNNNNNNN
+%dd ago,GGGGG,قبل %dd ايام,GGGGG,%dd önce,NNNNNNNN
+%dh ago,GGGGG,قبل %dh ساعات,GGGGG,%dh önce,NNNNNNNN
+%dm ago,GGGGG,قبل %dm دقائق,GGGGG,%dm önce,NNNNNNNN
+Just now,GGGGG,قبل قليل,GGGGG,Az önce,NNNNNNNN
+Hold to record,GGGGG,اضغط باستمرار للتسجيل,GGGGG,Kaydetmek için basılı tutun,NNNNNNNN
+Release to send the voice message,GGGGG,حرّر يدك لارسال,GGGGG,Sesli mesajı göndermek için bırakın,NNNNNNNN
+Release to send,GGGGG,حرر لارسال,GGGGG,Göndermek için bırakın,NNNNNNNN
+Swipe up to cancel,GGGGG,  مرر لأعلى للإلغاء,GGGGG,İptal etmek için yukarı kaldırın,NNNNNNNN
+"Recording failed, please try again.",GGGGG,فشك تسجيل، يرجى محاولة مرة اخرى,GGGGG,"Kaydetme başarısız, lütfen tekrar deneyin",NNNNNNNN
+No Messages,GGGGG,لا توجد رسالة,GGGGG,Mesaj yok…,NNNNNNNN
+Retry,GGGGG,حاول مرة اخرى,GGGGG,Yeniden Dene,NNNNNNNN
+Are you sure you want to delete this message?,GGGGG,متاكد من حذف هذه الرسالة؟,GGGGG,Mesajı silmek istediğinden emin misin?,NNNNNNNN
+All,GGGGG,كل شيء,GGGGG,Tümü,NNNNNNNN
+Are you sure you want to delete these messages?,GGGGG,متأكد من حذف هذه الرسائل؟,GGGGG,Bu mesajları silmek istediğinizden emin misiniz?,NNNNNNNN
+Translation turned on,GGGGG,تم تشغيل الترجمة,GGGGG,Çeviri açık,NNNNNNNN
+Translation turned off,GGGGG,تم إيقاف الترجمة,GGGGG,Çeviri kapalı,NNNNNNNN
+"Translation failed, please try again later.",GGGGG,فشل الترجمة ، يرجى محاولة لاحقا,GGGGG,"Çeviri başarısız, lütfen daha sonra tekrar deneyin",NNNNNNNN
+Auto,GGGGG,اوتوماتيكي,GGGGG,Otomatik,NNNNNNNN
+Language unavailbale,GGGGG,اللغة غير متاحة,GGGGG,Dil kullanılamıyor,NNNNNNNN
+Strangers,GGGGG,غرباء,GGGGG,Yabancılar,NNNNNNNN
+No strangers’ message,GGGGG,لا توجد رسالة من غريب,GGGGG,Yabancı mesaj yok,NNNNNNNN
+Block Strangers’ Messages,GGGGG,حظر رسائل الغرباء,GGGGG,Yabancıların mesajını engelle,NNNNNNNN
+January,GGGGG,يناير,GGGGG,Ocak,NNNNNNNN
+February,GGGGG,فبراير,GGGGG,Şubat,NNNNNNNN
+March,GGGGG,مارس,GGGGG,Mart,NNNNNNNN
+April,GGGGG,أبريل,GGGGG,Nisan,NNNNNNNN
+May,GGGGG,ماي,GGGGG,Mayıs,NNNNNNNN
+June,GGGGG,يونيو,GGGGG,Haziran,NNNNNNNN
+July,GGGGG,يوليوز,GGGGG,Temmuz,NNNNNNNN
+August,GGGGG,غشت,GGGGG,Ağustos,NNNNNNNN
+September,GGGGG,سبتمبر,GGGGG,Eylül,NNNNNNNN
+October,GGGGG,أكتوبر,GGGGG,Ekim,NNNNNNNN
+November,GGGGG,نونبر,GGGGG,Kasım,NNNNNNNN
+December,GGGGG,دجنبر,GGGGG,Aralık,NNNNNNNN
+Sunday,GGGGG,الأحد,GGGGG,Pazar,NNNNNNNN
+Monday,GGGGG,الاثنين,GGGGG,Pazartesi,NNNNNNNN
+Tuesday,GGGGG,الثلاثاء,GGGGG,Salı,NNNNNNNN
+Wednesday,GGGGG,الاربعاء,GGGGG,Çarşamba,NNNNNNNN
+Thursday,GGGGG,الخميس,GGGGG,Perşembe,NNNNNNNN
+Friday,GGGGG,الجمعة,GGGGG,Cuma,NNNNNNNN
+Saturday,GGGGG,السبت,GGGGG,Cumartesi,NNNNNNNN
+Yesterday,GGGGG,البارحة,GGGGG,Dün,NNNNNNNN
+Now,GGGGG,الآن,GGGGG,Bugün,NNNNNNNN
+Submit,GGGGG,قدّم,GGGGG,Gönder,NNNNNNNN
+ No longer display,GGGGG,لا تظهر مرة اخرى,GGGGG,Daha fazla gösterimde değil,NNNNNNNN
+"Network error, reconnecting",GGGGG,خطأ في الشبكة ، جاري إعادة الاتصال,GGGGG,Ağ hatası. Yeniden bağlanıyor,NNNNNNNN
+Please check your network,GGGGG,ارجوك تحقق من شبكة الانترنت.,GGGGG,Lütfen internetinizi kontrol edin,NNNNNNNN
+You got a private message,GGGGG,لقد استلمت رسالة خاصة,GGGGG,Özel mesaj var,NNNNNNNN
+Please ensure that the message field is not left empty,GGGGG,لا تُسمح رسالة فارغة,GGGGG,Lütfen mesaj alanının boş bırakılmadığından emin olun,NNNNNNNN
+Activity,GGGGG,اشعارات,GGGGG,Etkinlik,NNNNNNNN
+Welcome to,GGGGG,مرحبا بك في,GGGGG,Hoşgeldiniz,NNNNNNNN
+Welcome to %@！,GGGGG,مرحبا بك في %@!,GGGGG,%@ hoşgeldiniz!,NNNNNNNN
+Event Details,GGGGG,تفاصيل الحدث,GGGGG,Etkinlik Detayları,NNNNNNNN
+Details,GGGGG,تفاصيل,GGGGG,Ayrıntılar,NNNNNNNN
+Reset,GGGGG,اعادة الضبط,GGGGG,Sıfırla,NNNNNNNN
+Maybe Later,GGGGG,ربما لاحقاً,GGGGG,Belki Daha Sonra,NNNNNNNN
+Later,GGGGG,لاحقا,GGGGG,Daha sonra,NNNNNNNN
+Continue,GGGGG,واصِل,GGGGG,Devam Et,NNNNNNNN
+Error,GGGGG,خطأ,GGGGG,Hata,NNNNNNNN
+Failed,GGGGG,فشل,GGGGG,Başarısız,NNNNNNNN
+Alert,GGGGG,انذار,GGGGG,Uyarı,NNNNNNNN
+Success,GGGGG,تم بنجاح,GGGGG,Başarılı,NNNNNNNN
+Successful,GGGGG,ناجح,GGGGG,Başarılı,NNNNNNNN
+Notification,GGGGG,اشعار,GGGGG,Bildirim,NNNNNNNN
+Purchase successfully,GGGGG,تم الشراء بنجاح,GGGGG,Başarıyla satın alındı,NNNNNNNN
+Failed to purchase ,GGGGG,فشل الشراء,GGGGG,Satın alma başarısız,NNNNNNNN
+Operation failed,GGGGG,فشل العملية,GGGGG,Operasyon başarısız,NNNNNNNN
+This user is invisible,GGGGG,هذا المستخدم غير مرئي الآن,GGGGG,Bu kullanıcı görünmez,NNNNNNNN
+Reminder,GGGGG,اشعار,GGGGG,Hatırlatma,NNNNNNNN
+Please enter your age,GGGGG,أكتب عمرك,GGGGG,Lütfen yaşınızı girin,NNNNNNNN
+Please select the age,GGGGG,الرجاء تحديد العمر,GGGGG,Lütfen yaşınızı seçin,NNNNNNNN
+Enter your email,GGGGG,الرجاء إدخال عنوان البريد الإلكتروني الخاص بك,GGGGG,E postanızı girin,NNNNNNNN
+Please enter your nickname,GGGGG,أكتب اسمك المستعار,GGGGG,Takma adınızı girin,NNNNNNNN
+Your Email,GGGGG,بريدك الإلكتروني,GGGGG,E-postanız,NNNNNNNN
+Enter your password,GGGGG,اكتب كلمة السر,GGGGG,Şifrenizi girin,NNNNNNNN
+Your Password,GGGGG,كلمة السر,GGGGG,Şifreniz,NNNNNNNN
+Password,GGGGG,كلمة السر,GGGGG,Şifre,NNNNNNNN
+Upload an avatar you like,GGGGG,حمل الصورة الرمزية التي تعجبك,GGGGG,Beğendiğiniz bir avatarı yükleyin,NNNNNNNN
+Your Avatar,GGGGG,صورتك الرمزية,GGGGG,Avatar,NNNNNNNN
+Avatar,GGGGG,صورة رمزية,GGGGG,Avatar,NNNNNNNN
+Nickname cannot be empty,GGGGG,لا يُسمح اسم فارغ,GGGGG,Rumuz boş olamaz,NNNNNNNN
+Please enter your age,GGGGG,لم تكتب عمرك,GGGGG,Lütfen yaşınızı girin,NNNNNNNN
+The age range is from 18 to 99,GGGGG,نطاق العمر هو من 18 إلى 99 سنة,GGGGG,Yaş limiti 18-99 arası,NNNNNNNN
+The recording time is too short,GGGGG,وقت التسجيل قصير جداً,GGGGG,Kayıt süresi çok kısa,NNNNNNNN
+Content cannot be empty,GGGGG,لا يُسمح رسالة فارغة,GGGGG,İçerik boş olamaz,NNNNNNNN
+cover,GGGGG,غلاف,GGGGG,Kapak,NNNNNNNN
+Please select a cover,GGGGG,اختر صورة الغلاف,GGGGG,Lütfen kapak seçin,NNNNNNNN
+Please enter a title,GGGGG,لا يُسمح عنوان فارغ,GGGGG,Başlık boş olamaz,NNNNNNNN
+Please upload a photo,GGGGG,لا تُسمح صورة فارغة,GGGGG,Fotoğraf boş olamaz,NNNNNNNN
+Please upload an avatar,GGGGG,لا تُسمح صورة فارغة,GGGGG,Lütfen avatar yükleyin,NNNNNNNN
+Password should be 6-32 characters,GGGGG,الرجاء وضع كلمة السر بين 6 و 32 حرفا,GGGGG,Şifre 6-32 karakter olmalı,NNNNNNNN
+Nickname,GGGGG,لقب لقب,GGGGG,Takma ad,NNNNNNNN
+Please enter the correct nickname,GGGGG,الاسم المستعار غير صحيح,GGGGG,Girilen takma ad yanlış.,NNNNNNNN
+The nickname is already taken,GGGGG,الاسم المستعار مستعمل من قبل,GGGGG,Bu takma ad zaten var,NNNNNNNN
+Login failed,GGGGG,فشل في تسجيل الدخول,GGGGG,Oturum açma başarısız,NNNNNNNN
+Loading failed ,GGGGG,فشل تحميل الصورة,GGGGG,Yükleme başarısız,NNNNNNNN
+"Account already exists, please log in.",GGGGG,الحساب مرتبط ببريد،يمكنك تسجيل الدخول.,GGGGG,"Bu hesap zaten var, lütfen giriş yapın",NNNNNNNN
+Wrong password,GGGGG,كلمة السر خاطئة,GGGGG,Yanlış şifre.,NNNNNNNN
+Please enter your password,GGGGG,ادخل كلمة مرورك ,GGGGG,Lütfen şifrenizi girin,NNNNNNNN
+You are watching live now. Please close it and try again.,GGGGG,انت حاليا في غرفة البث.الرجاء خروج منها ومحاولة مرة أخرى,GGGGG,Şu anda diğer canlı yayınlardasınız. Lütfen kapatın ve tekrar deneyin,NNNNNNNN
+Leave,GGGGG,خروج,GGGGG,Çık,NNNNNNNN
+Already have an account?,GGGGG, لديك حساب؟,GGGGG,Zaten hesabınız var mı?,NNNNNNNN
+"The photo does not meet our standards, please try another one. ",GGGGG,الصورة التي حمّلتها لا تفي بمعاييرنا ، يرجى تعغيرها.,GGGGG,Yüklenen resim standartlarımızı karşılamıyor. Lütfen başka bir resim deneyin.,NNNNNNNN
+Uploading photo...please try later,GGGGG,تحميل الصورة جاري الآن،يرجى محاولة لاحقا,GGGGG,Resim yükleniyor... Lütfen daha sonra tekrar deneyin,NNNNNNNN
+Uploading,GGGGG,التحميل جاري,GGGGG,Yükleniyor,NNNNNNNN
+loading,GGGGG,جاري التحميل,GGGGG,Yükleniyor,NNNNNNNN
+You can't log in user account with host information,GGGGG,لا يمكن تسجيل الدخول بحساب المضيفة في تطبيق المستخدم,GGGGG,Kullanıcı hesabına host hesabı bilgileriyle giremezsin.,NNNNNNNN
+Important update,GGGGG,تحديث هام,GGGGG,Önemli güncelleme,NNNNNNNN
+96% users have updated to enjoy,GGGGG,قام 96 بالمائة من الداعمين بتحديث لاستمتاع أكثر,GGGGG,Kullanıcıların %96'sı eğlenmek için güncelledi,NNNNNNNN
+Update Required,GGGGG,تحديث إلزامي,GGGGG,Önemli güncelleme!,NNNNNNNN
+Update,GGGGG,تحديث,GGGGG,Güncelle,NNNNNNNN
+Version,GGGGG,اصدار,GGGGG,Sürüm,NNNNNNNN
+"To continue using the app, please update to the latest version.",GGGGG,تحديث الاصدار الجديد مطلوب.,GGGGG,"Uygulamayı kullanmaya devam etmek için, lütfen son sürüme güncelleyin.",NNNNNNNN
+Server Maintenance,GGGGG,صيانة السيرفر,GGGGG,Sunucu bakımı,NNNNNNNN
+System is under maintenance,GGGGG,النظام تحت الصيانة,GGGGG,Sistem bakımı,NNNNNNNN
+"The server is under maintenance, please try again later.",GGGGG, صيانة السيرفر جارية الآن، الرجاء المحاولة مرة أخرى لاحقًا,GGGGG,"Sunucu bakımı yapılıyor, lütfen daha sonra tekrar deneyin",NNNNNNNN
+Please allow the access of your microphone in the 'Settings - Privacy - Microphone' option,GGGGG,يُرجى السماح بالوصول إلى الميكروفون الخاص بك في خيار’ الإعدادات - الخصوصية - ميكروفون ‘,GGGGG,Lütfen \Ayarlar - Gizlilik - Mikrofon\ seçeneğinde Mikrofonunuza erişime izin verin,NNNNNNNN
+Please allow the access of your camera in the 'Settings - Privacy - Camera' option,GGGGG,الرجاء السماح بالوصول إلى الكاميرا الخاصة بك في خيار’ الإعدادات - الخصوصية - الكاميرات ‘,GGGGG,Lütfen \Ayarlar - Gizlilik - Kamera\ seçeneğinde kameranıza erişime izin verin,NNNNNNNN
+Please allow the access of your photos in the 'Settings - Privacy - Photos' option,GGGGG,يُرجى السماح بالوصول إلى ألبوم الصور الخاص بك في الخيار’ إعدادات - الخصوصية - ألبوم الصور ‘,GGGGG,Lütfen \Ayarlar - Gizlilik - Fotoğraf Albümü\ seçeneğinde fotoğraf albümünüze erişime izin verin,NNNNNNNN
+Your camera is turned off,GGGGG,تم إيقاف كاميرتك,GGGGG,Kameranız kapalı,NNNNNNNN
+Her camera has been forcibly turned off,GGGGG,تم إيقاف كاميرتها بشكل قسري,GGGGG,Kamerası zorla kapatılmış.,NNNNNNNN
+%@ needs to access camera to upload a avatar or post photo message（首次）,GGGGG,%@ يحتاج الى الوصول الى الكاميرا لتحميل صورتك او ارسال رسالة بصورة..,GGGGG,%@'nin bir avatar yüklemek veya fotoğraf mesajı göndermek için kameraya erişmesi gerekiyor（首次）,NNNNNNNN
+%@ needs access your microphone to send voice message（首次）,GGGGG,%@ يحتاج الى الوصول الى ميكروفون لارسال رسالة صوتية.,GGGGG,%@'nin sesli mesaj gönderebilmesi için mikrofonunuza erişmesi gerekiyor（首次）,NNNNNNNN
+%@ needs to access photo album to upload a avator or post photo message（首次）,GGGGG,%@ يحتاج الى الوصول الى البوم لتحميل صورتك او نشر رسالة  بصورة.,GGGGG,%@'nin bir avatar yüklemek veya fotoğraf mesajı göndermek için fotoğraf albümüne erişmesi gerekiyor（首次）,NNNNNNNN
+"%@ needs IDFA authorization in order to provide better and safer personalized services. We will not use it for other purposes.You can turn it off from system \""Settings-Privacy\"" at any time after opening.（首次）",GGGGG,من اجل توفير خدمة المخصصة افضل واكثر امانأ ،%@ يحتاج الى رخصة IDFA، لا نستعمله لاغراض اخرى. يمكن ايقافها في اعدادات- خوصوصية في اي وقت.,GGGGG,"%@'nin daha iyi ve daha güvenli kişiselleştirilmiş hizmetler sunabilmesi için IDFA yetkilendirmesine ihtiyacı var. Başka amaçlarla kullanmayacağız. Açıldıktan sonra istediğiniz zaman ""Ayarlar-Gizlilik"" sisteminden kapatabilirsiniz.（首次）",NNNNNNNN
+%@ need to access your location to find other users near you,GGGGG,@% يحتاج الى موقعك للعثور على مستخدمين آخرين بالقرب منك,GGGGG,Yakınınızdaki diğer kullanıcıları bulmak için %@'nin konumunuza erişmesi gerekiyor,NNNNNNNN
+No messages,GGGGG,لا توجد رسالة,GGGGG,Mesaj yok…,NNNNNNNN
+No calls,GGGGG,لا اتصال,GGGGG,Arama yok,NNNNNNNN
+Nothing,GGGGG,لا شيئ,GGGGG,Hiçbir şey,NNNNNNNN
+The following list is empty,GGGGG,قائمة المتابعة فارغة,GGGGG,Takip etme listesi boş,NNNNNNNN
+The follower list is empty,GGGGG,قائمة المتابعين فارغة,GGGGG,Takip edilen listesi boş,NNNNNNNN
+The blacklist is empty,GGGGG,قائمة المحظورين فارغة,GGGGG,Kara liste boş,NNNNNNNN
+No data,GGGGG,لا توجد بيانات,GGGGG,Veri yok...,NNNNNNNN
+No results,GGGGG,لا نتيجة,GGGGG,Sonuç yok,NNNNNNNN
+Host doesn't exist,GGGGG,المضيفة غير موجودة,GGGGG,Yayıncı yok,NNNNNNNN
+No call history,GGGGG,لا يوجد سجل المكالمات,GGGGG,Arama geçmişi yok,NNNNNNNN
+No Record,GGGGG,لا سجلات,GGGGG,Kayıt yok,NNNNNNNN
+No network,GGGGG,لا يوجد الانترنت,GGGGG,Ağ yok…,NNNNNNNN
+SVIP,GGGGG,SVIP,GGGGG,SVIP,NNNNNNNN
+Restore SVIP,GGGGG,استعادة SVIP,GGGGG,SVIP'i eski haline döndürün,NNNNNNNN
+Join & Enjoy benefits! ,GGGGG,إشترك واستمتع بامتيازات,GGGGG,Katılın & avantajlardan faydalanın,NNNNNNNN
+You are not a SVIP user yet,GGGGG,لست عضوSVIP,GGGGG,SVIP üyeliğiniz yok,NNNNNNNN
+You are already a SVIP user,GGGGG,انت عضوSVIP,GGGGG,SVIP kullanıcılarısınız,NNNNNNNN
+Membership expires on %@,GGGGG,ستنتهي العضوية في  %@,GGGGG,Üyelik %@ tarihinde sona eriyor,NNNNNNNN
+Membership expired,GGGGG,انتهت العضوية,GGGGG,Üyelik bitti,NNNNNNNN
+Become SVIP,GGGGG,كن SVIP,GGGGG,SVIP olun,NNNNNNNN
+Enjoy more privileges,GGGGG,امستمتع بالمزيد من المزايا,GGGGG,Daha fazla ayrıcalığın tadını çıkarın,NNNNNNNN
+Get now,GGGGG,اشحن الآن,GGGGG,Şimdi al,NNNNNNNN
+Get SVIP,GGGGG,كن SVIP,GGGGG,SVIP alın,NNNNNNNN
+"You can cancel at least a day before each renewal date on the ""SVIP"" page. The plan will renew automatically until cancelled.",GGGGG,"يمكنك إلغاء التجديد التلقائي في صفحة ""SVIP"" في أي وقت قبل يوم واحد على الأقل من انتهاء الاشتراك الحالي، وإلا سيتم تجديد الاشتراك تلقائيًا.",GGGGG,"Her yenileme tarihinden en az bir gün önce ""SVIP"" sayfasından iptal edebilirsiniz. Plan iptal edilene kadar otomatik olarak yenilenecektir.",NNNNNNNN
+Auto-Renewal service is now activated. ,GGGGG,تم تشغيل التجديد التلقائي للاشتراك.,GGGGG,Otomatik Yenileme hizmeti artık aktiftir.,NNNNNNNN
+Cancel Auto-Renewal ,GGGGG,إلغاء التجديد التلقائي,GGGGG,Oto yenilemeyi iptal et,NNNNNNNN
+Confirm cancellation,GGGGG,متأكد من الالغاء,GGGGG,İptal etmeyi onayla,NNNNNNNN
+"If you confirm and end your subscription now, you can still access to it until %@/%@/%@",GGGGG,"اذا تتأكد من الغاء الاشتراك الآن،يمكنك الاشتراك من جديد
+قبل %@-%@-%@",GGGGG,Aboneliğinizi şimdi onaylayıp sonlandırırsanız %@/%@/%@ tarihine kadar aboneliğinize hâlâ erişebilirsiniz.,NNNNNNNN
+Not Now,GGGGG,لاحقا,GGGGG,Şimdi değil,NNNNNNNN
+Confirm,GGGGG,متأكد,GGGGG,Onayla,NNNNNNNN
+"We are processing your subscription, please try again later",GGGGG,جاري التحقق من طلب الشراء، يرجى محاولة لاحقا,GGGGG,"Aboneliğinizi işliyoruz, lütfen daha sonra tekrar deneyin.",NNNNNNNN
+Automatic Renewal service is not available. Please subscribe again after expiration.,GGGGG,خدمة التجديد التلقائي غير متوفرة. يرجى الاشتراك مرة أخرى بعد انتهاء الصلاحية.,GGGGG,Otomatik Yenileme hizmeti mevcut değildir. Lütfen süre dolduktan sonra tekrar abone olun.,NNNNNNNN
+VIP Medal,GGGGG,علامة VIP,GGGGG,VIP Madalya,NNNNNNNN
+Premium Features,GGGGG,مزايا متميّزة,GGGGG,Premium Özellikleri,NNNNNNNN
+Special Logo,GGGGG,شعار خاص,GGGGG,Özel Logo,NNNNNNNN
+Unique logo for SVIP,GGGGG,SVIPشعار فريد ل ,GGGGG,SVIP için benzersiz logo,NNNNNNNN
+Free Messages,GGGGG, رسائل مجانية,GGGGG,Ücretsiz Mesaj,NNNNNNNN
+Send unlimited messages for free,GGGGG,ارسل رسائل خاصة مجانا,GGGGG,Ücretsiz mesaj gönder,NNNNNNNN
+Free Coins,GGGGG,كوينزات مجانية,GGGGG,ücretsiz coins,NNNNNNNN
+20 bonus coins per day (600 coins/month),GGGGG,20 عملة إضافية يوميًا (600 عملة شهريًا),GGGGG,Günde 20 bonus jeton (ayda 600 jeton),NNNNNNNN
+Enter Effect,GGGGG,  تأثير الدخول,GGGGG,Efektli giriş,NNNNNNNN
+Special Livestream & Multi-beam enter effect only for SVIP,GGGGG, التأثير الخاص بعضو SVIP عند دخول غرفة البث  او الملتيبيم,GGGGG,Canlı yayın & çoklu yayın için sadece SVIP'e özel giriş efekti,NNNNNNNN
+Outstanding Comment,GGGGG,تعليق حصري,GGGGG,Özel Yorum,NNNNNNNN
+SVIP comments stand out with unique background in Livestream & Multi-beam,GGGGG, اطار التعليق الحصري بعضو SVIPفي غرفة البث والملتيبيم,GGGGG,Çoklu ışında daha fazla dikkat çekmek için SVIP'ye özel yorumlar,NNNNNNNN
+Top Ranking,GGGGG,أولوية في ترتيب المشاهدين,GGGGG,Üst Sıralama,NNNNNNNN
+Shown in the front row of audience list,GGGGG,أولية عرض اسمك في قائمة المشاهدين في الملتيبيم,GGGGG,En baştaki izleyicide görüntülenir,NNNNNNNN
+SVIP Gifts,GGGGG,SVIP هدايا ,GGGGG,SVIP Hediyeleri,NNNNNNNN
+Unlock Exclusive Gifts with surprising animation effect,GGGGG, SVIP إهداء هدايا حصرية بعضو ,GGGGG,Şaşırtıcı animasyon efektiyle Özel Hediyelerin kilidini açın,NNNNNNNN
+More,GGGGG,المزيد,GGGGG,Daha fazla,NNNNNNNN
+SVIP Bonus,GGGGG,  SVIP مكافآت,GGGGG,SVIP Bonusları,NNNNNNNN
+Receive coins,GGGGG,استلام كونبز,GGGGG,Coins kazan,NNNNNNNN
+"Your daily free coins have been added to your account, have fun and enjoy!",GGGGG,تم اضافة كوينزات مجانية اليومية الى حسابك،اذهب واستمتع!,GGGGG,"Günlük bedava jetonlarınız hesabınıza eklendi, iyi eğlenceler ve keyifler!",NNNNNNNN
+free coins,GGGGG,كوينزات مجانية,GGGGG,Ücretsiz coins,NNNNNNNN
+/Month,GGGGG,كل سهر,GGGGG,/Ay,NNNNNNNN
+on ,GGGGG, في,GGGGG,üstünde,NNNNNNNN
+Your membership expired. Restore SVIP to have privileges below:,GGGGG,انتهت صلاحية عضوية SVIP، جدّد عضويتك لاستمتاع بمزايا متميزة التالية:,GGGGG,Üyeliğiniz sona erdi. Aşağıdaki ayrıcalıklara sahip olmak için SVIP'i geri yükleyin:,NNNNNNNN
+Restore SVIP,GGGGG,جدّد عضويتك,GGGGG,SVIP'i geri yükleyin,NNNNNNNN
+Each private message costs 2 coins. SVIP can send unlimited messages for free.,GGGGG,تدفع 2 كوينز على كل رسالة خاصة وعضو SVIP يمكن ارسال رسائل غير محدودة مجانا.,GGGGG,Her özel mesajın maliyeti 2 coinstir. SVIP ücretsiz olarak sınırsız mesaj gönderebilir.,NNNNNNNN
+Each private message costs %ld coins. SVIP can send unlimited messages for free.,GGGGG,تدفع %ld كوينز على كل رسالة خاصة و عضو SVIP يمكن ارسال رسائل غير محدودة مجانا.,GGGGG,Her özel mesajın maliyeti %ld coinstir. SVIP ücretsiz olarak sınırsız mesaj gönderebilir.,NNNNNNNN
+SVIP,GGGGG,SVIP,GGGGG,SVIP,NNNNNNNN
+Use coins,GGGGG,استخدم الكوينز,GGGGG,Coinsleri kullan,NNNNNNNN
+Send for free,GGGGG,ارسل مجانا,GGGGG,Ücretsiz gönder,NNNNNNNN
+Exclusive Gifts only for SVIP users. Become SVIP and unlock the gifts!,GGGGG,!لافتح الهدايا SVIP كن ،SVIP الهدايا الحصرية فقط لمستخدمي,GGGGG,Yalnızca SVIP kullanıcılarına özel Hediyeler. SVIP olun ve hediyelerin kilidini açın!,NNNNNNNN
+Become SVIP,GGGGG,SVIP كن,GGGGG,SVIP olun,NNNNNNNN
+SVIP description,GGGGG, SVIP وصف ,GGGGG,SVIP Açıklaması:,NNNNNNNN
+SVIP Package,GGGGG,حزمة SVIP,GGGGG,SVIP paketi,NNNNNNNN
+More about SVIP>,GGGGG,المزيد عن SVIP>,GGGGG,SVIP> hakkında daha fazla,NNNNNNNN
+600 + Free messages,GGGGG,600+ رسائل مجانية,GGGGG,600+ Ücretsiz Mesaj,NNNNNNNN
+Gain exclusive privileges and benefits,GGGGG,احصل على امتيازات وفوائد حصرية,GGGGG,Ayrıcalıklar ve avantajlar kazan,NNNNNNNN
+Choose your payment method,GGGGG,اختر طريقة الدفع الخاصة بك,GGGGG,Ödeme yöntemini seç,NNNNNNNN
+Unlock SVIP gifts & Free coins,GGGGG,فتح الهدايا والكوينزات المجانية لأعضاء SVIP,GGGGG,SVIP hediyelerini & ücretsiz coinsleri aç,NNNNNNNN
+SVIP are displayed with priority and enjoy special logo.,GGGGG,سيتم عرض أعضاء SVIP بأولوية ويستمتعون بشعار خاص.,GGGGG,SVIP öncelikli olarak görüntülenir ve özel logonun keyfini çıkarır.,NNNNNNNN
+Get SVIP,GGGGG,كن SVIP,GGGGG,SVIP olun.,NNNNNNNN
+"Your SVIP is expiring, and priority display will be lost...",GGGGG,انتهاء اشتراكك SVIP قريب، وسيتم فقدان عرض الأولوية...,GGGGG,SVIP'inizin süresi doluyor ve öncelik ekranı kaybolacak...,NNNNNNNN
+Renew,GGGGG,جدِّد اشتراك ,GGGGG,Yenile,NNNNNNNN
+SVIP can send unlimited free messages.,GGGGG,أعضاء SVIP يمكنهم إرسال رسائل مجانية غير محدودة.,GGGGG,SVIP sınırsız ücretsiz mesaj gönderebilir,NNNNNNNN
+Get Now,GGGGG,احصل علي SVIP الآن,GGGGG,Şimdi al,NNNNNNNN
+Your free messaging privilege is expiring soon.,GGGGG,امتياز الرسائل المجانية سينتهي قريبًا.,GGGGG,Ücretsiz mesaj özelliğin yakında sona eriyor.,NNNNNNNN
+Renew,GGGGG,جدِّد اشتراك SVIP,GGGGG,Yenile,NNNNNNNN
+Free coins & messages,GGGGG,كوينزات ورسائل مجانية,GGGGG,Ücretsiz coins & mesajlaşma,NNNNNNNN
+Enjoy unlimited messages,GGGGG,استمتع برسائل غير محدودة,GGGGG,Sınırsız mesajın keyfini çıkart,NNNNNNNN
+Special enter effect for you,GGGGG,تأثير دخول خاص لك,GGGGG,Senin için özel giriş efekti,NNNNNNNN
+Make yourself stand out,GGGGG,اجعل نفسك مميزًا,GGGGG,Kendini öne çıkart,NNNNNNNN
+Upgrade your status,GGGGG,قم بترقية وضعك,GGGGG,Statünü yükselt,NNNNNNNN
+Get free coins,GGGGG,احصل على كوينزات مجانية,GGGGG,Ücretsiz coins kazan,NNNNNNNN
+Buy 1 Get 7 Free,GGGGG,اشتر 1 واحصل على 7 مجانًا,GGGGG,1 alana 7 hediye,NNNNNNNN
+Get Now,GGGGG,اشحن الآن,GGGGG,Şimdi al,NNNNNNNN
+Many gorgeous girls are waiting here only for you!,GGGGG, !مضيفات جميلات في اانتظارك,GGGGG,Sayısız güzel kız sadece seni bekliyor!,NNNNNNNN
+"Please don't spread vulgar, pornographic, abusive content, or any content violating customs, rights or laws. Exposure of personal information is also prohibited. Violators will be muted or banned.",GGGGG,يرجى عدم نشر محتوى مبتذل وإباحي ومسيء وأي محتوى ينتهك العادات والحقوق والقوانين. وايضا يحظر الكشف عن المعلومات الشخصية. سيتم إسكات حساب و حظره,GGGGG,"Lütfen kaba, pornografik, taciz edici veya gelenekleri, hakları veya yasaları ihlal eden herhangi bir içeriği yaymayın.  Kişisel bilgilerin ifşa edilmesi de yasaktır.  İhlal edenler susturulacak veya yasaklanacaktır.",NNNNNNNN
+Live,GGGGG,بث,GGGGG,Canlı,NNNNNNNN
+Multi-beam,GGGGG,ملتيبيم,GGGGG,çoklu yayın,NNNNNNNN
+Live now,GGGGG,بث الان,GGGGG,Şimdi canlı yayında,NNNNNNNN
+Multi-beam now,GGGGG,ملتيبيم الآن,GGGGG,çoklu yayın,NNNNNNNN
+Top Viewers,GGGGG,مشاهدون,GGGGG,Seyirci,NNNNNNNN
+Only show the top 100 viewers,GGGGG, عرض  أفضل 100 داعما فقط,GGGGG,Sadece en iyi 100 kullanıcıyı göster,NNNNNNNN
+%@ joined the room,GGGGG, دخل الى الغرفة %@,GGGGG,Odaya katıldı,NNNNNNNN
+joined the room,GGGGG,دخل الى الغرفة,GGGGG,odaya katıldı,NNNNNNNN
+Congratulations! %@ reached the room quota!,GGGGG,مبروك! %@ أكمل حصة الغرفة,GGGGG,Tebrikler! %@ oda kotasına ulaştı!,NNNNNNNN
+Say hi to the livestreamer!,GGGGG,قل مرحبا لصاحبة البث,GGGGG,Yayıncıya selam ver!,NNNNNNNN
+Hi,GGGGG,مرحبا,GGGGG,Selam,NNNNNNNN
+Like her? Send a gift.,GGGGG, !ارسل لها هدية اذا  تعجبك,GGGGG,Onu beğendin mi? Bir hediye gönder!,NNNNNNNN
+"Don't miss any precious moment with her!
+
+Don't miss any precious moment with her.",GGGGG,!تابِعها ولا تفوتك لحظاتها المتميزة,GGGGG,Onunla birlikte yaşayacağınız değerli anları kaçırmayın,NNNNNNNN
+%@ sent a %@ to %@,GGGGG,%@ أرسل %@ الى %@,GGGGG,"%@, %@'ye bir %@ gönderdi",NNNNNNNN
+Sent,GGGGG,ارسل ,GGGGG,gönderdi,NNNNNNNN
+to,GGGGG,الى,GGGGG,a / 'e,NNNNNNNN
+Sent a %@ to ,GGGGG,ارسل %@ إلى,GGGGG,%@'a gönderdi,NNNNNNNN
+Sent to,GGGGG,ارسل ل,GGGGG,gönderdi,NNNNNNNN
+sent a gift to,GGGGG,ارسل هدية إلى,GGGGG,hediye gönderdi,NNNNNNNN
+Sent %@ by Lucky Box,GGGGG,ارسل %@  بصندوق الحظ,GGGGG,%@ tarafından şanslı kutu gönderildi,NNNNNNNN
+sent a luckybox to %@,GGGGG,ارسل صندوق الحظ الى %@,GGGGG,%@’a şanslı kutu gönderdi,NNNNNNNN
+"First 5 mins for free, then 20 coins/min",GGGGG,  الدقائق الخمس الأولى محانية ومن بعد 20 كوينز لدقيقة,GGGGG,İlk 5 dakika ücretsiz ve her ek dakika için 20 para,NNNNNNNN
+"First 5 mins for free, then %ld coins/min",GGGGG,سعر: خمس الدقائق الاولى مجانية، وبعد ذلك %ld كوينز لكل دقيقة,GGGGG,İlk 5 dakika ücretsiz ve her ek dakika için 20 para,NNNNNNNN
+%ld coins/min after 3 minutes,GGGGG,٪ld كوينز في الدقيقة بعد 3دقائق,GGGGG,3 dakika sonra %ld coins/dk,NNNNNNNN
+Go Private with her and she will be all yours!,GGGGG,كلمها في الخاص  وستكون لك!,GGGGG,Onunla özel konuş ve tamamen senin olsun!,NNNNNNNN
+Private chat,GGGGG,مكالمة فيديو خاصة,GGGGG,Özel görüntülü sohbet,NNNNNNNN
+Start the private chat,GGGGG,%@ و%@ بدأ المكالمة الخاصة,GGGGG,Özel sohbeti başlat,NNNNNNNN
+She is not available now,GGGGG,انها غير متوفرة لمكالمة خاصة الآن,GGGGG,Şu an müsait değil,NNNNNNNN
+"She is not available now, please wait her back or support other girls.",GGGGG,انها غير متوفرة الآ، انتظر حتى تعود او ادعم مضيفات أخريات,GGGGG,"Şu anda müsait değil, lütfen onu bekleyin veya diğer kızlara destek olun.",NNNNNNNN
+This host is engaged in a private call. Please come back later.,GGGGG,المضيفة في المكالمة الخاصة الآن،أعيد الاتصال بها لاحقا.,GGGGG,Bu yayıncı özel görüşmede. Lütfen daha sonra uğrayın.,NNNNNNNN
+More hosts,GGGGG,مضيفات أكثر,GGGGG,Daha fazla sunucu,NNNNNNNN
+Wait,GGGGG,انتظر!,GGGGG,Bekle,NNNNNNNN
+Mute,GGGGG,كتم الصوت,GGGGG,sustur,NNNNNNNN
+Unmute,GGGGG,ايغال كتمه,GGGGG,Susturmayı geri al,NNNNNNNN
+%@ has been muted,GGGGG,%@ تم كتم صوت ,GGGGG,%@ susturuldu!,NNNNNNNN
+%@ has been muted by admin,GGGGG,تم كتم صوت %@ بمشرفة,GGGGG,%@ admin tarafından susturuldu,NNNNNNNN
+host,GGGGG,مضيفة,GGGGG,Yayıncı,NNNNNNNN
+You've been muted by the host,GGGGG,لقد تم كتم صوتك من قبل المضيفة,GGGGG,Yayıncı tarafından susturuldun,NNNNNNNN
+The host unmutes you,GGGGG,قامت المضيفة بإلغاء كتم الصوت,GGGGG,Yayıncı susturmayı geri aldı,NNNNNNNN
+Send,GGGGG,أرسل,GGGGG,Gönder,NNNNNNNN
+Choose your unique medal,GGGGG,اختر علامة التعليق,GGGGG,Eşsiz etkinlik madalyanızı seçin,NNNNNNNN
+Please click your favorite label as your particular comment effect for Multibeam/Livestream below.,GGGGG,الرجاء النقر فوق التسمية المفضلة لديك كتأثير التعليق الخاص بك على العرض المباشر أو المتنوع  أدناه.,GGGGG,Lütfen aşağıdaki Çoklu yayın /Canlı yayın için özel yorum efektiniz olarak favori damgaya tıklayın.,NNNNNNNN
+Please select a medal below as your special comment effect. It will show when you comment.,GGGGG,!اختر من علامات الدردشة التالية الخاصة بك،ستظهر مع تعليقك ,GGGGG,Lütfen aşağıdaki Çoklu yayın /Canlı yayın için özel yorum efektiniz olarak favori madalyanıza tıklayın.,NNNNNNNN
+You don’t have any medal,GGGGG,ليس لديك أي علامة التعليق,GGGGG,Hiç madalyanız yok,NNNNNNNN
+The medal expired,GGGGG,لقد انتهت صلاحية العلامة.,GGGGG,Madalyanın süresi geçti,NNNNNNNN
+Permanent,GGGGG,دائمة,GGGGG,Kalıcı,NNNNNNNN
+Viewers,GGGGG,مشاهدون,GGGGG,Seyirci,NNNNNNNN
+Coins,GGGGG,مساهمة,GGGGG,Coins,NNNNNNNN
+Broadcast,GGGGG,إذاعة,GGGGG,Yayın,NNNNNNNN
+Broadcast on,GGGGG,إذاعة مشغلة,GGGGG,Yayın açık,NNNNNNNN
+Broadcast off,GGGGG,إذاعة مطفأة,GGGGG,Yayın kapalı,NNNNNNNN
+Broadcast is ON. You will receive top-placed notification of gifts from other rooms. ,GGGGG,إذاعة الهدايا مشغّلة،سترى اشعار هدايا الغرفة الاخرى على الجانب الاعلى من الشاشة.,GGGGG,Yayın AÇIK. Diğer odalardan gelen hediyelerle ilgili en üst bildirimleri alacaksınız.,NNNNNNNN
+Broadcast is OFF. You won't receive top-placed notification of gifts from other rooms. ,GGGGG,إذاعة الهدايا مقفلة،لا ترى اي اشعار هدايا الغرفة الاخرى على شاشتك.,GGGGG,Yayın KAPALI. Diğer odalardan gelen hediyelerin üst sıradaki bildirimlerini almayacaksınız.,NNNNNNNN
+We have received your report and will solve it ASAP.,GGGGG,لقد استلمنا الإبلاغ سنتحقق منه في اقرب وقت ممكن.,GGGGG,Sizin raporunuzu aldık ve hemen çözeceğiz.,NNNNNNNN
+Please describe the report detail (%ld/300),GGGGG,(%ld/300)يرجى وصف الإبلاغ بتفاصيل,GGGGG,Lütfen rapor detayını açıklayın (%ld/300),NNNNNNNN
+Please describe your report reasons,GGGGG,يرجى وصف الابلاغ بتفاصيل,GGGGG,Lütfen rapor nedenlerinizi açıklayın,NNNNNNNN
+Upload photo (Maximum 4 pics),GGGGG,حمل صور(4 على الاكثر),GGGGG,Resim yükle (Maksimum 4 resim),NNNNNNNN
+Official detection,GGGGG,كشف رسمي,GGGGG,Resmi tespit,NNNNNNNN
+Risky content in this room,GGGGG,محتويات خاطر في الغرفة,GGGGG,Bu odada riskli içerik,NNNNNNNN
+Chat with everyone,GGGGG,دردش مع كل واحد,GGGGG,Herkesle konuş,NNNNNNNN
+"To protect your privacy, screen recording is not allowed during the call/live.",GGGGG,من اجل ضمان خصوصيتكم، لايسمح لأي شخص بتسجيل مقطع فيديو أثناء المكالمة او البث المباشر,GGGGG,"Gizliliğinizi korumak için, özel aramada ekran kaydı kabul etmiyoruz.",NNNNNNNN
+Share to friends,GGGGG,شارك مع الأصدقاء,GGGGG,Arkadaşlarla paylaş,NNNNNNNN
+"New wheel fun, host's challenges begin!",GGGGG,تجربة السحب الجديدة،تحدي المضيف الآن!,GGGGG,"Yeni döndürme eğlencesi, yayıncı meydan okuması başlasın!",NNNNNNNN
+@f coins = 1 spin,GGGGG,@f  كوينز لسحب واحد,GGGGG,@f coins = 1 döndür,NNNNNNNN
+Wheel,GGGGG,سحب,GGGGG,Döndür,NNNNNNNN
+Top fans of blue team,GGGGG,أكبر داعمي الفريق الأزرق,GGGGG,Mavi takımın en iyi hayranları,NNNNNNNN
+Top fans of red team,GGGGG,أكبر داعمي الفريق الأحمر,GGGGG,Kırmızı takımın en iyi hayranları,NNNNNNNN
+waiting for you,GGGGG,انا انتظرك,GGGGG,Seni bekliyorum,NNNNNNNN
+Help the host win,GGGGG,ساعد المضيفة على الفوز,GGGGG,Yayıncının kazanmasına yardım et,NNNNNNNN
+Opposite,GGGGG,عكس,GGGGG,Karşı,NNNNNNNN
+The host quit and lost this round!,GGGGG,المضيفة غادرت وخسرت الجولة!,GGGGG,Yayıncı pes etti ve kaybetti!,NNNNNNNN
+"The other host quit. Congrats, your team wins this round!",GGGGG,لقد غادرة المذيعة الأخرى هنيئاً لك، لقد فزت في هذه الجولة.,GGGGG,"Diğer yayıncı pes etti. Tebrikler, bu sefer senin takımın kazandı!",NNNNNNNN
+Draw,GGGGG,مقابل,GGGGG,Berabere,NNNNNNNN
+WIN,GGGGG,无需,GGGGG,ZAFER,NNNNNNNN
+LOSE,GGGGG,无需,GGGGG,KAYBETTİ,NNNNNNNN
+PUNISHING,GGGGG,عقاب,GGGGG,CEZALANDIRIYOR,NNNNNNNN
+5 WINS,GGGGG,无需,GGGGG,5 ZAFER,NNNNNNNN
+This round of PK is over. Please wait for the next round.,GGGGG, انتهت هذه الجولة من PK ،انتظر لجولة قادمة,GGGGG,Bu PK turu sona erdi. Lütfen bir sonraki turu bekleyin.,NNNNNNNN
+Thank you for your support!,GGGGG,شكرا  على دعمكم!,GGGGG,Desteğin için teşekkürler!,NNNNNNNN
+READY,GGGGG,كن مستعدة,GGGGG,HAZIR,NNNNNNNN
+The host has temporarily turned off the camera.,GGGGG,المضيفة أطفأت الكاميرا مؤقتا,GGGGG,Yayıncı geçici olarak kamerayı kapattı.,NNNNNNNN
+Turn the camera on~,GGGGG,مشاهدون في انتظارك،لا تتركي كاميرا مطفأ لوقت طويل.,GGGGG,Kamerayı aç ~,NNNNNNNN
+The host is offline. Chat with other online hosts.,GGGGG,المضيفة غير متوفرة الآن،استمتع الاوقات مع مضيفات أخريات,GGGGG,Yayıncı çevrimdışı. Lütfen diğer çevrimiçi yayıncılarla görüşün.,NNNNNNNN
+The host has removed you; you can't continue watching.,GGGGG,لقد تم طردك من الغرفة ولا يمكن اعادة الانضمام إليها.,GGGGG,Sunucu sizi çıkardı; izlemeye devam edemezsiniz,NNNNNNNN
+Okay,GGGGG,حسنا,GGGGG,Tamam,NNNNNNNN
+The host has removed %@ from the room.,GGGGG,المضيفة طردت %@ من الغرفة.,GGGGG,Sunucu odadan %@'yi çıkardı.,NNNNNNNN
+Room Income,GGGGG,دخل الغرفة,GGGGG,Oda Geliri,NNNNNNNN
+%@reached the quota!,GGGGG,مضيفة %@ أكملة الحصة المطلوبة في الغرفة,GGGGG,%@kotaya ulaştı,NNNNNNNN
+gifts,GGGGG,ارسل هدايا,GGGGG,Hediye gönder,NNNNNNNN
+Boss,GGGGG,عرش,GGGGG,Patron,NNNNNNNN
+Join,GGGGG,انضم,GGGGG,Katıl,NNNNNNNN
+Free,GGGGG,مجاني,GGGGG,Ücretsiz,NNNNNNNN
+/min,GGGGG,كل دقيقة,GGGGG,/dakika,NNNNNNNN
+Please don't do anything inappropriate again.Try again in 5 minutes.,GGGGG,لا تفعل أي شيء غير مناسب وحاول مرة أخرى بعد 5 دقائ,GGGGG,Lütfen bir daha uygunsuz bir şey yapmayın. 5 dakika sonra tekrar deneyin.,NNNNNNNN
+You‘ve been kicked out by the host,GGGGG,المشرفة طردتك من مايك,GGGGG,Yayıncı tarafından atıldın.,NNNNNNNN
+Insufficient coins! You can stay in boss seat for %ld mins.,GGGGG,رصيدك سينتهي قريبا! يمكنك البقاء في مايك بوس ل%ldدقائق.,GGGGG,Yetersiz coins! %ld dakika boyunca patron koltuğunda kalabilirsiniz.,NNNNNNNN
+"We have a Boss now, please try again later.",GGGGG,.مقعد عرش مأخوذ حاليا،يرجى اعادة المحاولة لاحقا,GGGGG,Bir Patronumuz var. Lütfen daha sonra tekrar deneyin!,NNNNNNNN
+Be The Boss,GGGGG,خذ مايك بوس ,GGGGG,Patrol ol,NNNNNNNN
+Click to become boss and party together. ,GGGGG,اضغط هنا لأخذ مايك بوس واستمتع معا,GGGGG,Patron olup partilemek için tıkla,NNNNNNNN
+"Take the mic and become the party boss!
+You can:",GGGGG,خذ مايك وكن بوس الحفلة! يمكنك:,GGGGG,Mikrafonu al ve parti patronu ol. Yapabilirsin:,NNNNNNNN
+Play any music/game you like,GGGGG,تشغيل موسيقى او لعب اي لعبة,GGGGG,Sevdiğin herhangi bir müziği çal veya bir oyunu oyna,NNNNNNNN
+Stand out with premium display,GGGGG,تتميز بعرضك الفاخر,GGGGG,Premium görünüşüyle öne çık,NNNNNNNN
+Chat and enjoy with all hosts,GGGGG,دردشة واستمتاع الاوقات مع الكل,GGGGG,Tüm yayıncılarla konuş ve eğlen,NNNNNNNN
+Microphone,GGGGG,مايك,GGGGG,Mikrafon,NNNNNNNN
+Camera,GGGGG,كاميرا,GGGGG,Kamera,NNNNNNNN
+Cancel,GGGGG,إلغاء,GGGGG,İptal,NNNNNNNN
+Join ,GGGGG,خذ المايك,GGGGG,Katıl,NNNNNNNN
+JOIN AS BOSS,GGGGG,خذ المايك,GGGGG,Patron olarak katıl,NNNNNNNN
+Private chat,GGGGG,مكالمة خاصة,GGGGG,Özel arama,NNNNNNNN
+Click here to start a private video call.,GGGGG,اضغط هنا لبدء مكالمة الفيديو الخاصة,GGGGG,Özel video araması başlatmak için buraya tıkla,NNNNNNNN
+Gift All,GGGGG,ارسل لكل,GGGGG,Herkese hediye,NNNNNNNN
+"She is not available now, please wait her back or support other girls.",GGGGG,,GGGGG,"Şu anda müsait değil, lütfen onu bekleyin veya diğer kızlara destek olun.",NNNNNNNN
+Private(%lds),GGGGG,٪(ids) خاص,GGGGG,Özel(%lds),NNNNNNNN
+Go Private,GGGGG,ابدأ الخاصة,GGGGG,Özele git,NNNNNNNN
+%ld coins to get 3 minutes Private Video Show for free,GGGGG,ud_%ld كوينز لبدأ ثلاث دقائق من امكالمة خاصة بفيديو مجانا,GGGGG,Ücretsiz 3 dakikalık Özel Video Gösterisi kazanmak için %ld coins,NNNNNNNN
+%@ and %@ started a private chat,GGGGG,بدأ %@ و%@ مكالمة خاصة,GGGGG,%@ ve %@ özel bir sohbet başlattı,NNNNNNNN
+The user is not in the room,GGGGG,الداعم ليس في الغرفة,GGGGG,Bu kullanıcı odada değil,NNNNNNNN
+Live room has been closed.,GGGGG,.غرفة الملتيبيم مغلوقة,GGGGG,Canlı oda kapatıldı.,NNNNNNNN
+Multi-beam has been closed.,GGGGG,تم اغلاق غرفة الملتيبيم,GGGGG,Çoklu yayın kapatıldı.,NNNNNNNN
+Multi-beam has been closed. Swipe to other rooms for fun!,GGGGG,هذه غرفة مغلقة، اطلع على غرف اخرى!,GGGGG,Çoklu yayın kapatıldı. Eğlenmek için diğer odalara kaydırın!,NNNNNNNN
+Back,GGGGG,رجوع,GGGGG,Geri,NNNNNNNN
+Host on the way,GGGGG,المضيفة قادمة,GGGGG,Yayıncı yolda,NNNNNNNN
+Take her,GGGGG,خذها,GGGGG,Onu al,NNNNNNNN
+"First 3 mins = %ld coins, original call price afterwards",GGGGG,سعر:  %ldكوينز ل3 الدقائق الاولى، وبعد ذلك سعر اصلي لكل دقيقة,GGGGG,"İlk 3 dakika= %ld coins, ardından orijinal arama ücreti",NNNNNNNN
+"First 3 mins = %ld coins, original call price afterwards",GGGGG,سعر:  %ldكوينز ل3 الدقائق الاولى، وبعد ذلك سعر اصلي لكل دقيقة,GGGGG,"İlk 3 dakika= %ld coins, ardından orijinal arama ücreti",NNNNNNNN
+"First 3 mins for free, then %ld coins/min",GGGGG,مجانا ل3 الدقائق الاولى، وبعد ذلك %ld كوينز لكل دقيقة,GGGGG,İlk 3 dakika ücretsiz. Ardından %ld coins/dk,NNNNNNNN
+Matching successd,GGGGG,تم المطالبقة بنجاح,GGGGG,Eşleşme başarılı,NNNNNNNN
+private chat will start in no time!,GGGGG,ستبدأ الدردشة الخاصة فورا!,GGGGG,Özel konuşma hemen başlayacak!,NNNNNNNN
+"First 3 mins = %ld coins, then %ld coins/min.",GGGGG,سعر: %ld كوينز ل3 الدقائق الاولى، وبعد ذلك %ld كوينز لكل دقيقة,GGGGG,"İlk 3 dakika = %ld coins, ardından %ld coins/dk",NNNNNNNN
+Let's make it private!,GGGGG,خذنى الى برايفب!,GGGGG,Haydi bunu özel yapalım!,NNNNNNNN
+Room tools,GGGGG,أداء الغرفة,GGGGG,Oda araçları,NNNNNNNN
+Mute,GGGGG,ميوت,GGGGG,Sustur,NNNNNNNN
+Flip,GGGGG,قلّب,GGGGG,Döndür,NNNNNNNN
+Camera,GGGGG,كاميرا,GGGGG,Kamera,NNNNNNNN
+All hosts,GGGGG,كل المضيفات,GGGGG,Tüm yayıncılar,NNNNNNNN
+Room Quota,GGGGG,حصة الغرفة,GGGGG,Oda kotası,NNNNNNNN
+Discription,GGGGG,وصف,GGGGG,Açıklama,NNNNNNNN
+Send coins,GGGGG,ارسل قطع نقدية,GGGGG,Coins gönderin,NNNNNNNN
+Top Viewers,GGGGG,أكرم داعمين,GGGGG,En İyi İzleyiciler,NNNNNNNN
+Hosts,GGGGG,مضيفات,GGGGG,Yayıncılar,NNNNNNNN
+users,GGGGG,مستخدم,GGGGG,Kullanıcılar,NNNNNNNN
+Swipe up and down to switch rooms quickly,GGGGG,مرر للأعلى او الاسفل بتغير الغرف بسرعة,GGGGG,Odaları hızlı bir şekilde değiştirmek için yukarı ve aşağı kaydırın,NNNNNNNN
+More Events,GGGGG,المزيد,GGGGG,Daha fazla etkinlik,NNNNNNNN
+Total %ld medals,GGGGG,عدد العلامات:%ld,GGGGG,Toplam %ld madalyalar,NNNNNNNN
+medal,GGGGG,علامة,GGGGG,Madalya,NNNNNNNN
+no medal,GGGGG,لا علامة,GGGGG,Madalya yok,NNNNNNNN
+Medals,GGGGG,علامات,GGGGG,Madalyalar,NNNNNNNN
+Medal list,GGGGG,قائمة العلامات,GGGGG,Madalya listesi,NNNNNNNN
+Permanent,GGGGG,دائمة,GGGGG,Kalıcı,NNNNNNNN
+"Oops, you don't have any medal for now~",GGGGG,ليس لديك اي علامة الآن,GGGGG,"Oops, şimdilik hiç madalyanız yok~",NNNNNNNN
+Announcement,GGGGG,الاعلان,GGGGG,Duyuru,NNNNNNNN
+"Tell users about your room and invite them to play. For example:
+- Room introduction or theme
+- Room type: Party/Music/Dance…
+- Room game and activities",GGGGG,أخبر المشاهدين عن غرفتك: مثل موضوع الغرفة ، ونوع الغرفة (الحفلات ، والموسيقى ، والرقص) وأنشطة الغرف ودعوهم لاستمتاع معك,GGGGG,Kullanıcılara odanızdan bahsedin ve onları oynamaya davet edin. Örneğin: - Oda tanıtımı veya teması - Oda tipi: Parti/Müzik/Dans… - Oda oyunu ve aktiviteleri,NNNNNNNN
+"Your announcement contains sensitive words, please revise it.",GGGGG,إعلانك يحتوي على كلمة حساسية غير مسموحة،يلزم تغييرها.,GGGGG,"Duyurunuz hassas ifadeler içeriyor, lütfen gözden geçirin.",NNNNNNNN
+Saved,GGGGG,محفوظ,GGGGG,Kaydedildi,NNNNNNNN
+"Saved, you didn't fill the announcement",GGGGG,الاعلان الافتراضي محفوط,GGGGG,"Kaydedildi, duyuruyu doldurmadınız",NNNNNNNN
+"Glad to have you here, welcome!",GGGGG,مرحبا بك في غرفتي!,GGGGG,"Seni burda görmek harika, hoşgeldin!",NNNNNNNN
+This post has been deleted,GGGGG,.لقد تم حذف نشرة,GGGGG,Bu gönderi silindi,NNNNNNNN
+This comment has been deleted,GGGGG,.لقد تم حذف هذا التعليق,GGGGG,Bu yorum silindi,NNNNNNNN
+Say something,GGGGG,!قل مرحبا,GGGGG,Bir şey söyle~,NNNNNNNN
+Please enter comment,GGGGG,لا يسمح تعليق فارغ,GGGGG,Yorum boş olamaz,NNNNNNNN
+Each greeting will cost 2 coins. Become SVIP to send messages for free.,GGGGG,!واستمتع بارسال رسائل مجاناSVIPكل رسالة خاصة سوف تكلف 2 كوينز،كن ,GGGGG,Her selamlama için 2 coins harcanacaktır. Ücretsiz mesaj göndermek için SVIP satın alın.,NNNNNNNN
+Greeting sent,GGGGG,تحية بنجاح,GGGGG,Başarısı selamlandı!,NNNNNNNN
+Say hi to her,GGGGG,سلّم عليها,GGGGG,Ona selam söyle,NNNNNNNN
+Hi,GGGGG,مرحبا,GGGGG,Selam,NNNNNNNN
+Don't remind again,GGGGG,لا يظهر مرة أخرى,GGGGG,Bana bir daha hatırlatma,NNNNNNNN
+Just now,GGGGG,قبل قليل,GGGGG,Az önce,NNNNNNNN
+%@ mins ago,GGGGG,قبل %@ دقائق,GGGGG,%@ dakika önce,NNNNNNNN
+Today,GGGGG,اليوم,GGGGG,Bugün,NNNNNNNN
+Yesterday,GGGGG,أمس,GGGGG,Dün,NNNNNNNN
+Delete successfully!,GGGGG, !حذف بنجاح,GGGGG,Başarıyla silindi!,NNNNNNNN
+Failed to delete!,GGGGG,!فشل في الحذف,GGGGG,Silme hatasi oluştu!,NNNNNNNN
+Report successfully!,GGGGG,!تم إبلاغ بنجاح,GGGGG,Başarıyla rapor edildi!,NNNNNNNN
+"Report error, please try again.",GGGGG,فشل في ابلاغ، يرجى المحاولة مرة أخرى.,GGGGG,"Rapor başarısız, lütfen tekrar deneyin",NNNNNNNN
+Failed to report!,GGGGG,!فشل في الإبلاغ,GGGGG,Rapor verme başarısız!,NNNNNNNN
+View more replies,GGGGG,عرض المزيد,GGGGG,Daha fazla yanıt görüntüle,NNNNNNNN
+Comments,GGGGG,تعليقات,GGGGG,Yorumlar,NNNNNNNN
+Reply successfully!,GGGGG,تم الرد بنجاح!,GGGGG,Başarıyla yanıtlandı!,NNNNNNNN
+Reply,GGGGG,رد,GGGGG,Yanıtla,NNNNNNNN
+Comment details,GGGGG,تفاصيل التعليق,GGGGG,Yorum Detayı,NNNNNNNN
+"You are on Live now, full screen mode is not available.",GGGGG,.انت في البث الآن، ووضع الشاشة الكاملة غير متاح الآن.,GGGGG,Şimdi oda açıyorsunuz ve tam ekran modu mevcut değil.,NNNNNNNN
+You cannot post when you are on Live.,GGGGG,.لا يمكن النشر عندما  تقومين بالبث.,GGGGG,Oda açarken mesaj gönderemezsiniz.,NNNNNNNN
+post,GGGGG,منشور,GGGGG,Gönderi,NNNNNNNN
+Unable to load video,GGGGG,فشل تحميل الفيديو,GGGGG,Video yüklenemedi,NNNNNNNN
+Moments,GGGGG,لحظات,GGGGG,an,NNNNNNNN
+My moments,GGGGG,تعليقي,GGGGG,anım,NNNNNNNN
+Say hi~,GGGGG,~قل مرحبا,GGGGG,Selam verin~,NNNNNNNN
+"Failed to send message, please try again.",GGGGG,فشل في ارسال رسالة، يرجى إعادة المحاولة,GGGGG,"Mesaj gönderme başarısız, lütfen tekrar deneyin.",NNNNNNNN
+Greeted,GGGGG,تم تحيتها,GGGGG,Selamladı,NNNNNNNN
+Long press the comment to report or delete,GGGGG,اضغط على تعليق باستمرار من اجل إبلاغ او حذف,GGGGG,Bildirmek veya silmek için yoruma uzun basın,NNNNNNNN
+This post has been deleted.,GGGGG,المنشور محذوف,GGGGG,Bu gönderi silindi,NNNNNNNN
+Release to refresh,GGGGG,حرر للتحديث,GGGGG,Yenilemek için bırakın,NNNNNNNN
+Pull down to refresh,GGGGG,اسحب للأسفل لتحديث,GGGGG,Daha fazlasını yüklemek için aşağı çekin.,NNNNNNNN
+Tap or pull up to load more,GGGGG,انقر او حرّر لتحميل الاكثر,GGGGG,Daha fazlasını yüklemek için dokunun veya yukarı çekin,NNNNNNNN
+Release to load more,GGGGG,حرّر لتحميل الاكثر,GGGGG,Daha fazlasını yüklemek için bırakın,NNNNNNNN
+No more data,GGGGG,لا مزيد من البيانات,GGGGG,Daha fazla data yok,NNNNNNNN
+Last update: ,GGGGG,آخر تحديث,GGGGG,Son güncelleme:,NNNNNNNN
+Unavailable,GGGGG,غير متوفرة,GGGGG,Müsait değil,NNNNNNNN
+private chat,GGGGG,مكالمة خاصة,GGGGG,Özel konuşma,NNNNNNNN
+Arabic,GGGGG,عربي,GGGGG,Arapça,NNNNNNNN
+,GGGGG,,GGGGG,Türkçe,NNNNNNNN
+coins,GGGGG,كوينزات,GGGGG,Coins,NNNNNNNN
+coin,GGGGG,كوينز,GGGGG,Coins,NNNNNNNN
+Install our iOS app,GGGGG,ثبّت تطبيقنا لنظام iOS,GGGGG,Bizim IOS uygulamamızı indirin,NNNNNNNN
+iOS version,GGGGG,إصدار iOS ,GGGGG,IOS versiyonu,NNNNNNNN
+Please scan the QR code to download our app,GGGGG,إمسح رمز QR لتنزيل تطبيقنا,GGGGG,Uygulamamızı indirmek için lütfen QR kodunu tarayın,NNNNNNNN
+Please do not show your private area!,GGGGG,,GGGGG,Lütfen özel alanınızı göstermeyin!,NNNNNNNN
+Please be polite!,GGGGG,,GGGGG,Lütfen kibar olun!,NNNNNNNN
+Game,GGGGG,,GGGGG,Oyun,NNNNNNNN
+New users offer,GGGGG,,GGGGG,Yeni kullanıcılar teklifi,NNNNNNNN
+offer,GGGGG,,GGGGG,teklif,NNNNNNNN
+Private chat will start in no time!,GGGGG,,GGGGG,Özel sohbet kısa sürede başlayacak!,NNNNNNNN
+Official,GGGGG,الرسمي,GGGGG,resmi,NNNNNNNN
+Explore,GGGGG,,GGGGG,Keşfetmek,NNNNNNNN
+Combo,GGGGG,كومبو,GGGGG,Kombo,NNNNNNNN
+Long press,GGGGG,اضغط طويلاً,GGGGG,Uzun basma,NNNNNNNN
+TOP,GGGGG,,GGGGG,Üst,NNNNNNNN
+Goddess,GGGGG,,GGGGG,Tanrıça,NNNNNNNN
+Honourable,GGGGG,,GGGGG,Onurlu,NNNNNNNN
+New messages,GGGGG,,GGGGG,Yeni mesajlar,NNNNNNNN
+Good,GGGGG,,GGGGG,güzel,NNNNNNNN
+ID:%ld Followers:%ld,GGGGG,أيدي:%ldمتابع: %ld,GGGGG,Kimlik: %Id Takipçiler:%Id,NNNNNNNN
+New users only: 1 coin will be returned if they don't win.,GGGGG,فقط لداعمين جدد، سيتم ارجال كوينز واحد اذا لم يفوزا بأية جائزة.,GGGGG,Sadece yeni kullanıcılar: Eğer kazanamazlarsa 1 coins iade edilecek.,NNNNNNNN
+Each user can only bet once. Thank you for joining!,GGGGG,يمكن لكل داعم لعب لمرة واحدة فقط، شكرا لك.,GGGGG,Her kullanıcı sadece bir kez iddia yapabilir. Katıldığınız için teşekkürler.,NNNNNNNN
+Congratulations %@ got %ld,GGGGG,مبروك!لقد فاز %@ ب %ld,GGGGG,Tebrikler %@ %ld kazandı.,NNNNNNNN
+"Sorry, you didn't win a prize. 1 coin will be returned soon. ",GGGGG,عذرا، لم تفز بأية جائزة،سيرجع لك كوينز واحد.,GGGGG,"Üzgünüz, bir ödül kazanamadınız. 1 coin yakında iade edilecek.",NNNNNNNN
+Congratulations! You won %@,GGGGG,مبروك!لقد فاز ب%@,GGGGG,Tebrikler! %@ kazandınız.,NNNNNNNN
+"Sorry, you didn't win a prize. ",GGGGG,للأسف،لم تفز باية جائزة!,GGGGG,"Üzgünüz, bir ödül kazanamadınız.",NNNNNNNN
+New feature~ Fulfill her wish with one click!,GGGGG,وظيفة جديدة: تحقيق أمنيتها بضغط واحد,GGGGG,Yeni özellik ~ Onun hayalini bir tıkla gerçekleştir!,NNNNNNNN
+Reminder,GGGGG,اشعار,GGGGG,Hatırlatma,NNNNNNNN
+You'll send this gift with one click. Confirm to send?,GGGGG,متأكد من ارسال هذه الهدية بضغط واحد؟,GGGGG,Bu hediyeyi tek tıkla göndereceksiniz. Göndermeyi onaylayın?,NNNNNNNN
+Don't remind again,GGGGG,لا تذكر مرة أخرى.,GGGGG,Bana bir daha hatırlatma,NNNNNNNN
+Cancel,GGGGG,إلغاء,GGGGG,İptal,NNNNNNNN
+Send,GGGGG,ارسل,GGGGG,Gönder,NNNNNNNN
+The host deleted the wish gift widget.,GGGGG,المضيفة حذفت هدية الأمنية.,GGGGG,Toplantı sahibi dilek hediyesi widget'ını sildi.,NNNNNNNN
+"Sorry, the call ended due to the host hanging up/poor network within 1 min. We will return your coins soon.",GGGGG,انتهت المكالمة بسس خلل في شبكة الانترنت او المضيفة أغلقت الخط، والمكالمة ما تجاوزت دقيقة واحدة، سيتم ارجاع الكوينزات الى حاسابك لاحقا.,GGGGG,"Üzgünüz, ana makinenin 1 dakika içinde kapatılması/şebeke ağının zayıf olması nedeniyle çağrı sona erdi. Coinsleri yakında iade edeceğiz.",NNNNNNNN
+We will return your coins soon.,GGGGG, سيتم ارجاع الكوينزات الى حاسابك لاحقا.,GGGGG,Coinslerinizi yakında iade edeceğiz.,NNNNNNNN
+You hung up the call within 1 min. No charge for the user and he is unable to rate.,GGGGG,المضيفة أغلقت الخط، والمكالمة ما تجاوزت دقيقة واحدة، سيتم ارجاع الكوينزات الى حاسابك لاحقا ولا يمكن ان تقيّم هذا المكالمة.,GGGGG,Aramayı 1 dakika içinde kapattınız. Kullanıcıdan ücret alınmaz ve derecelendirme yapılamaz.,NNNNNNNN
+It costs %ld coins to send the gift. Confirm to send?,GGGGG,متأكد لارسال الهدية بسعر %ld كوينز؟,GGGGG,Hediyeyi göndermenin maliyeti %ld coinstir. Göndermeyi onaylıyor musunuz?,NNNNNNNN
+Don't remind again,GGGGG,لا تظهر مرة اخرى,GGGGG,Bana bir daha hatırlatma,NNNNNNNN
+Cancel,GGGGG,الغاء,GGGGG,İptal,NNNNNNNN
+Send,GGGGG,ارسال,GGGGG,Gönder,NNNNNNNN
+%@ will see your message first once you send gifts.,GGGGG,ستظهر رسالتك في أعلى قائمة رسائل %@ بعد ارسال لها هدية.,GGGGG,Hediye gönderdiğinizde %@ mesajınızı ilk olarak görecek.,NNNNNNNN
+You sent,GGGGG,أرسلتَ,GGGGG,Siz gönderdiniz,NNNNNNNN
+You received,GGGGG,إستلمتِ,GGGGG,Siz teslim aldınız,NNNNNNNN
+"As a host, you can only view the gifts without the option to send  them.",GGGGG,يمكن لمضيفة رؤية هدايا ولا يمكن ارسال اي هدية.,GGGGG,Bir host olarak hediyeleri gönderme seçeneği olmadan yalnızca görüntüleyebilirsiniz.,NNNNNNNN
+Best Wishes!,GGGGG,أطيب التمنيات!,GGGGG,En iyi dilekler,NNNNNNNN
+Please enter the number,GGGGG,حدّد العدد,GGGGG,Lütfen numarayı girin,NNNNNNNN
+1 COIN DRAW,GGGGG,سحب الحظ بكوينز واحد,GGGGG,1 COIN ÇEKİLİŞİ,NNNNNNNN
+New Users Treat: Enjoy 100% Win!,GGGGG,بونص لداعم جديد:الفوز مائة بالمائة!,GGGGG,Yeni Kullanıcılara Ödül: %100 Kazanmanın Keyfini Çıkarın!,NNNNNNNN
+1 COIN DRAW 100% Win Assured！,GGGGG,سحب الحظ بكوينز واحد والفوز مضمون مائة بالمائة!,GGGGG,1 COINS ÇEKİLİŞİ %100 Kazanma Garantisi！,NNNNNNNN
+try,GGGGG,إلعب,GGGGG,Dene,NNNNNNNN
+You now have: %@ coins. The coins will be added to your balance every Monday at GMT 00:00.,GGGGG,"لديك حالياً: %@ كوينز. سيتم إضافة الكوينزات إلى رصيدك كل يوم اثنين في تمام الساعة 00:00GMT  .
+
+",GGGGG,Artık elinizde: %@ coins. Coins her Pazartesi GMT 00:00'da bakiyenize eklenecektir.,NNNNNNNN
+Sending the following gifts awards host 10% of coins; 90% adds to the prize pool.,GGGGG,إهداء الهدايا التالية يمنح المضيفة 10% من الكوينزات ؛ والـ 90% الباقية تُضاف إلى مجموع جوائز.,GGGGG,"Aşağıdaki hediyeleri göndermek, ödüllerin %10'unu ev sahibine verir; %90'ı ödül havuzuna eklenir.",NNNNNNNN
+Super Lucky,GGGGG,سوبر محظوظ,GGGGG,Çok Şanslı,NNNNNNNN
+Prize Pool,GGGGG,مجموع جوائز,GGGGG,Ödül havuzu,NNNNNNNN
+Congratulations to %@ for sending %@ and winning %@x,GGGGG,تهانينا لـ %@ لإرساله %@ والفوز بـ %@ مرات.,GGGGG,%@'ı gönderip %@x'i kazandığı için %@'ı tebrik ederiz,NNNNNNNN
+"Send lucky gifts, chance to earn coins rewards 0-100x",GGGGG,إهداء الهدايا المحظوظة، والحصول على مكافآت العملات بنسبة 0-100 مرة بشكل عشوائي.,GGGGG,"Şanslı hediyeler gönderin, 0-100x jeton ödülü kazanma şansı",NNNNNNNN
+Top 10 users on the leaderboard share the remaining coins in the prize pool proportionally.,GGGGG,أعلى 10 مستخدمين في قائمة المتصدرين يشاركون في تقسيم الكوينزات المتبقية في مجموع جوائز بنسبة متناسبة.,GGGGG,"Skor tablosundaki ilk 10 kullanıcı, ödül havuzunda kalan paraları orantılı olarak paylaşır.",NNNNNNNN
+Winning coins,GGGGG,الكوينزات الفائزة,GGGGG,Kazanan coinsler,NNNNNNNN
+Rewards,GGGGG,المكافآت,GGGGG,Ödüller,NNNNNNNN
+Real time winners ,GGGGG,الفائزون في الوقت الحالي,GGGGG,Gerçek zamanlı kazananlar,NNNNNNNN
+Lucky Leaderboard,GGGGG,قائمة المتصدرين المحظوظين,GGGGG,Şanslı Lider Sıralaması,NNNNNNNN
+This Week,GGGGG,هذا الأسبوع,GGGGG,Bu hafta,NNNNNNNN
+Last Week,GGGGG,الأسبوع الماضي,GGGGG,Geçen hafta,NNNNNNNN
+Join,GGGGG,انضم,GGGGG,Katıl,NNNNNNNN
+More,GGGGG,التفاصيل,GGGGG,Daha fazla,NNNNNNNN
+win 5 times,GGGGG,فوز 5 مرات,GGGGG,5 kez oazan,NNNNNNNN
+"100% win 1-100x coins, instantly added to balance by sending these gifts.",GGGGG,بعد إرسال احدى هدايا الحظ، الفوز المضمون ب 1-100 مرة من الكوينزات، ويتم إضافتها فورًا إلى رصيدك.,GGGGG,Bu hediyeleri göndererek anında bakiyeye eklenen 1-100x jeton %100 kazanılır.,NNNNNNNN
+"10% goes to the hosts, 90% adds to the prize pool",GGGGG,10بالمائة يضاف الى إلى المضيفة، و90 بالمائة يضاف إلى جائزة الفائزين.,GGGGG,"%10'u hostlara gidiyor, %90'ı ödül havuzuna ekleniyor",NNNNNNNN
+Top 10 share coins from the pool. Added to balance Mondays at 00:00 GMT.,GGGGG,أعلى 10 يحصلون على حصة الكوينزات من الجائزة. سيتم إضافتها إلى الرصيد في كل يوم إثنين في الساعة 00:00 بتوقيت جرينتش.,GGGGG,Havuzdaki en iyi 10 hisse parası. Pazartesi günleri 00:00 GMT'de bakiyeye eklenir.,NNNNNNNN
+,GGGGG,,GGGGG,,NNNNNNNN
+Winning Records,GGGGG,سجلات الفوز,GGGGG,Kazanma rekorları,NNNNNNNN
+Empty,GGGGG,فارغ,GGGGG,Boş,NNNNNNNN
+Monthly,GGGGG,شهريا,GGGGG,Aylık ,NNNNNNNN
+Free Coins,GGGGG,كوينزات مجانية,GGGGG,Ücretsiz coins,NNNNNNNN
+"
+Get 50 coins now, then 30 coins weekly (170 coins/month)",GGGGG,احصل على 80 كوينز الآن، ثم 30 كوينز أسبوعيًا (170 كوينز شهريًا),GGGGG,"Şimdi 50 coins al, ardından haftalık 30 coins (170 coins/aylık)",NNNNNNNN
+170 + Free messages,GGGGG,170 + رسائل مجانية,GGGGG,170+ ücretsiz mesajlar,NNNNNNNN
+"50 coins added, followed by 30 coins weekly.",GGGGG,تمت إضافة 50 كوينز، تليها 30 كوينز أسبوعيًا.,GGGGG,"50 coins eklendi, haftalık 30 coinsle birlikte.",NNNNNNNN
+50 coins for opening SVIP and 30 coins weekly bonus have been added.,GGGGG,تمت إضافة 50 كوينز لاشتراك SVIP و30 كوينز للأسبوع.,GGGGG,Açılış SVIP için 50 altın ve haftalık 30 altın ödülü geldi.,NNNNNNNN
+Go have fun!,GGGGG,اذهب واستمتع!,GGGGG,Haydi tadını çıkarın!,NNNNNNNN
+30 coins for this week have been added. Have fun and enjoy~,GGGGG,تمت إضافة 30 كوينز لهذا الأسبوع. استمتع بوقتك!,GGGGG,Bu hafta için 30 coins eklendi. Eğlenin ve tadını çıkarın~,NNNNNNNN
+Got it,GGGGG,فهمت,GGGGG,Anladım,NNNNNNNN
+Welcome!,GGGGG,,GGGGG,Hoşgeldiniz!,NNNNNNNN
+"Enjoy free coins for you. Use them for video chatting, gifting in Live/Multi-beam rooms, and more! Have a great time!",GGGGG,,GGGGG,"Sizin için ücretsiz paraların tadını çıkarın. Bunları görüntülü sohbet etmek, Canlı/Çok ışınlı odalarda hediye vermek ve daha fazlası için kullanın! Harika vakit geçirin!",NNNNNNNN
+Explore more!,GGGGG,,GGGGG,Daha fazlasını keşfedin!,NNNNNNNN
+Online customer service,GGGGG,,GGGGG,Çevrimiçi müşteri hizmetleri,NNNNNNNN
+"If you have any questions, please feel free to contact our official staff via WhatsApp to resolve the issue.",GGGGG,,GGGGG,"Herhangi bir sorunuz varsa, sorunu çözmek için lütfen resmi personelimizle WhatsApp aracılığıyla iletişime geçmekten çekinmeyin.",NNNNNNNN
+Office hours: Monday-Friday: 01:00-10:00 AM GMT,GGGGG,,GGGGG,Çalışma saatleri: Pazartesi-Cuma: 01:00-10:00 GMT,NNNNNNNN
+Official Account 1:+44 7561894151,GGGGG,,GGGGG,Resmi Hesap 1:+44 7561894151,NNNNNNNN
+Official Account 2:+44 7579055725,GGGGG,,GGGGG,Resmi Hesap 2:+44 7579055725,NNNNNNNN
+Official Account 3:+44 7845961037,GGGGG,,GGGGG,Resmi Hesap 3:+44 7845961037,NNNNNNNN
+Official Account 4:+44 7410487091,GGGGG,,GGGGG,Resmi Hesap 4:+44 7410487091,NNNNNNNN
+Official Account 5:+44 7849767050,GGGGG,,GGGGG,Resmi Hesap 5:+44 7849767050,NNNNNNNN
+FAQ,GGGGG,,GGGGG,SSS,NNNNNNNN
+1.  How can I recharge and buy coins?,GGGGG,,GGGGG,1. Nasıl coins yükleyebilir ve satın alabilirim?,NNNNNNNN
+You can recharge in 2 ways:,GGGGG,,GGGGG,İki şekilde yükleme yapabilirsin:,NNNNNNNN
+"1)Visit your profile page > Tap on ""Wallet"" or ""Coins"" > Choose suitable methods to top up",GGGGG,,GGGGG,"1)Profil sayfanızı ziyaret edin > ""Cüzdan"" veya ""Coins"" üzerine dokunun > Yükleme için uygun yöntemleri seçin",NNNNNNNN
+"2)Enter any Live or Multibeam room > Tap on ""Wallet"" or ""Gift"" icon in the bottom right corner.",GGGGG,,GGGGG,"2) Herhangi bir Canlı veya Çoklu Yayın odasına girin > Sağ alt köşedeki ""Cüzdan"" veya ""Hediye"" simgesine dokunun",NNNNNNNN
+"2. I recharged, but I haven't received the coins.",GGGGG,,GGGGG,2. Yükleme yaptım ancak coinsleri almadım.,NNNNNNNN
+Sorry for the inconvenience. Please contact any official via WhatsApp and send the info below. Our customer service will help you check it.,GGGGG,,GGGGG,Rahatsızlıktan dolayı özür dileriz. Lütfen WhatsApp aracılığıyla herhangi bir yetkiliyle iletişime geçin ve aşağıdaki bilgileri gönderin. Müşteri hizmetlerimiz kontrol etmenize yardımcı olacaktır.,NNNNNNNN
+"1. Top-up details: time, date and amount",GGGGG,,GGGGG,"1. Yükleme ayrıntıları: saat, tarih ve tutar",NNNNNNNN
+2. Screenshot of the Payment Receipt,GGGGG,,GGGGG,2. Ödeme Makbuzunun Ekran Görüntüsü,NNNNNNNN
+3. Your user ID in the app,GGGGG,,GGGGG,3. Uygulamadaki kullanıcı adınız,NNNNNNNN
+3. I can't top up or my purchase failed. What should I do?,GGGGG,,GGGGG,3. Yükleme yapamıyorum veya satın alma işlemim başarısız oldu. Ne yapmalıyım?,NNNNNNNN
+"Please send messages via WhatsApp with the following information, and our officials will help check and fix the problem.",GGGGG,,GGGGG,Lütfen aşağıdaki bilgileri WhatsApp aracılığıyla mesaj gönderin; yetkililerimiz sorunun kontrol edilip düzeltilmesine yardımcı olacaktır.,NNNNNNNN
+1. Time & date of purchase,GGGGG,,GGGGG,1. Satın alma saati ve tarihi,NNNNNNNN
+2. Purchase method,GGGGG,,GGGGG,2. Satın alma yöntemi,NNNNNNNN
+3. Screenshot or video recording of the failed notification,GGGGG,,GGGGG,3. Başarısız olan bildirimin ekran görüntüsü veya video kaydı,NNNNNNNN
+4. How can I get a customized gift?,GGGGG,,GGGGG,4. Kişiye özel hediyeyi nasıl alabilirim?,NNNNNNNN
+You have a chance to get a customized gift of your own design. You can get a customized gift in 4 ways:,GGGGG,,GGGGG,Kendi tasarımınız olan kişiye özel bir hediye alma şansınız var. Kişiselleştirilmiş bir hediyeyi 4 şekilde alabilirsiniz:,NNNNNNNN
+1)Win Top 1 in monthly Livestream event,GGGGG,,GGGGG,1)Aylık Canlı Yayın etkinliğinde İlk 1'i kazanın,NNNNNNNN
+2)Win Top 3 in monthly Multibeam event for 3 times,GGGGG,,GGGGG,2) Aylık Toplu canlı yayın etkinliğinde 3 kez İlk 3'ü kazanın,NNNNNNNN
+3)The biggest reward in Lottery game,GGGGG,,GGGGG,3) Piyango oyunundaki en büyük ödül,NNNNNNNN
+"4)Cumulative recharge bonus in special holiday events (Anniversary, Halloween, Christmas, New Year, etc.)",GGGGG,,GGGGG,"4)Özel tatil etkinliklerinde (Yıldönümü, Cadılar Bayramı, Noel, Yeni Yıl vb.) kümülatif yükleme bonusu",NNNNNNNN
+"5. I called a host, but there was a black/white screen. How can I get back the coins?",GGGGG,,GGGGG,5. Bir yayıncıyı aradım ama siyah/beyaz bir ekran vardı. Coinsi nasıl geri alabilirim?,NNNNNNNN
+Sorry for the inconvenience. Please contact any official via WhatsApp and send the info below. Our customer service will help with it.,GGGGG,,GGGGG,Rahatsızlıktan dolayı özür dileriz. Lütfen WhatsApp aracılığıyla herhangi bir yetkiliyle iletişime geçin ve aşağıdaki bilgileri gönderin. Müşteri hizmetlerimiz bu konuda yardımcı olacaktır.,NNNNNNNN
+1.Your user ID and host ID,GGGGG,,GGGGG,1.Kullanıcı ID'niz ve yayıncı ID'si,NNNNNNNN
+"2.Call history screenshots, time and date",GGGGG,,GGGGG,"2.Arama geçmişi ekran görüntüleri, saat ve tarih",NNNNNNNN
+6. How to delete my account?,GGGGG,,GGGGG,6. Hesabımı nasıl silebilirim?,NNNNNNNN
+"Our officials can't delete your account. If you want to delete your account, please follow the steps below:",GGGGG,,GGGGG,Yetkililerimiz hesabınızı silemez. Hesabınızı silmek istiyorsanız lütfen aşağıdaki adımları izleyin:,NNNNNNNN
+"Visit your profile page > Tap on ""Settings"" > Delete Account > Confirm to delete.",GGGGG,,GGGGG,"Profil sayfanızı ziyaret edin > ""Ayarlar""a dokunun > Hesabı Sil > Silme işlemini onaylayın.",NNNNNNNN
+"Please think carefully before deleting. After deletion, you will not be able to log in, use or restore this account.",GGGGG,,GGGGG,"Lütfen silmeden önce dikkatlice düşünün. Silme işleminden sonra bu hesaba giriş yapamayacak, bu hesabı kullanamayacak veya geri yükleyemeyeceksiniz.",NNNNNNNN
+7. How can I change my password?,GGGGG,,GGGGG,7. Şifremi nasıl değiştirebilirim?,NNNNNNNN
+"To protect your account, only official staff can change your password.",GGGGG,,GGGGG,Hesabınızı korumak için şifrenizi yalnızca resmi personel değiştirebilir.,NNNNNNNN
+Please contact any official via WhatsApp and send the info below.,GGGGG,,GGGGG,Lütfen WhatsApp aracılığıyla herhangi bir yetkiliyle iletişime geçin ve aşağıdaki bilgileri gönderin.,NNNNNNNN
+1.Your register email,GGGGG,,GGGGG,1. Kayıt e-postanız,NNNNNNNN
+2.Your last call info: the name of the host you called,GGGGG,,GGGGG,2.Son arama bilgileriniz: aradığınız yayıncının adı,NNNNNNNN
+3.Your last purchase history,GGGGG,,GGGGG,3.Son satın alma geçmişiniz,NNNNNNNN
+8. How can I open livestream or have a host account?,GGGGG,,GGGGG,8. Canlı yayın nasıl açabilirim veya yayıncı hesabına nasıl sahip olabilirim?,NNNNNNNN
+"We offer host accounts to royal users who reach Level 66 (recharge amount over $36,000). Please contact any official via WhatsApp to create a host account if you meet the requirement.",GGGGG,,GGGGG,"Seviye 66'ya ulaşan (yeniden yükleme tutarı 36.000 $'ın üzerinde) royal kullanıcılarına yayıncı hesapları sunuyoruz. Gereksinimi karşılıyorsanız, bir yayıncı hesabı oluşturmak için lütfen WhatsApp aracılığıyla herhangi bir yetkiliyle iletişime geçin.",NNNNNNNN
+9. How can I change my user ID?,GGGGG,,GGGGG,9. Kullanıcı kimliğimi (ID) nasıl değiştirebilirim?,NNNNNNNN
+User ID is set automaticaaly and can't be changed. But we offer customized ID as rewards in several events. You can change any ID you like if you win the reward.,GGGGG,,GGGGG,Kullanıcı Kimliği (ID) otomatik olarak ayarlanır ve değiştirilemez. Ancak çeşitli etkinliklerde ödül olarak özelleştirilmiş kimlik sunuyoruz. Ödülü kazanırsanız istediğiniz kimliğe değiştirebilirsiniz.,NNNNNNNN
+Nice,GGGGG,جيد,GGGGG,Hoş.,NNNNNNNN
+Good,GGGGG,رائع,GGGGG,Güzel,NNNNNNNN
+Super,GGGGG,ممتاز,GGGGG,Süper,NNNNNNNN
+Epic,GGGGG,مميز,GGGGG,Epik,NNNNNNNN
+Call Price: XX coins/minute,GGGGG,سعر المكالمة: XX كوينز/دقيقة,GGGGG,Çağrı Fiyatı: XX jeton/dakika,NNNNNNNN
+Ringing~ Answer time!,GGGGG,رنين~ وقت الرد!,GGGGG,Çınlama~ Cevap zamanı!,NNNNNNNN
+"To protect your privacy, screenshots or screen recordings are not allowed.",GGGGG,لحماية خصوصيتك، لا يُسمح بالتقاط لقطات شاشة أو تسجيل الشاشة.,GGGGG,"Gizliliğinizi korumak için, ekran görüntülerine veya ekran kayıtlarına izin verilmez.",NNNNNNNN
+Turn off screen recording to close the pop-up window.,GGGGG,قم بإيقاف  تسجيل الشاشة لإغلاق اشعار الحذار. ,GGGGG,Açılır pencereyi kapatmak için ekran kaydını kapatın.,NNNNNNNN
+Recently liked,GGGGG,أعجبت بهن مؤخرًا,GGGGG,Son Beğeniler,NNNNNNNN
+Discover,GGGGG,اكتشاف,GGGGG,Keşfedin,NNNNNNNN
+Enter,GGGGG,دخول,GGGGG,Girin,NNNNNNNN
+Call her to discover more about her~,GGGGG,اتصل بها لتكتشف المزيد عنها~,GGGGG,Hakkında daha fazla bilgi edinmek için onu arayın~,NNNNNNNN
+Crush on her? Go for it!,GGGGG,إذا كنت معجبًا بها؟ انطلق!,GGGGG,Ona aşık mısın? Hadi yap!,NNNNNNNN
+Call her~She'll be all yours.,GGGGG,اتصل بها، ستصبح لك.,GGGGG,Ara onu~Senin olacak.,NNNNNNNN
+Ready to connect deeper?,GGGGG,هل أنت جاهز للاتصال بعمق؟,GGGGG,Daha derin bir bağ kurmaya hazır mısın?,NNNNNNNN
+"Call her, seize the moment.",GGGGG,اتصل بها، استغل اللحظة.,GGGGG,"Onu arayın, anı yakalayın.",NNNNNNNN
+Call and uncover more~,GGGGG,اتصل واكتشف المزيد.,GGGGG,Arayın ve daha fazlasını ortaya çıkarın~,NNNNNNNN
+Tap for details,GGGGG,اضغط للحصول على التفاصيل.,GGGGG,Ayrıntılar için dokunun,NNNNNNNN
+Hi~,GGGGG,مرحبا ~,GGGGG,Selam~,NNNNNNNN
+"Hey, it's good to see you!",GGGGG,مهلا، من الجيد أن أراك!,GGGGG,"Hey, seni görmek ne güzel!",NNNNNNNN
+"Hey, how's it going?",GGGGG,مهلا، كيف الحال؟,GGGGG,"Hey, nasıl gidiyor?",NNNNNNNN
+"Hi, ready for a chat?",GGGGG,مرحبا، على استعداد للدردشة؟,GGGGG,"Merhaba, konuşmaya hazır mısın?",NNNNNNNN
+"Hey, you caught my eye.",GGGGG,هاه لقد لفتت انتباهي,GGGGG,"Hey, gözüme çarptın.",NNNNNNNN
+View next photo,GGGGG,مشاهدة الصورة التالية,GGGGG,Sonraki fotoğrafı görüntüle,NNNNNNNN
+View last photo,GGGGG,مشاهدة الصورة السابقة,GGGGG,Önceki fotoğrafı görüntüle,NNNNNNNN
+Check the profile,GGGGG,التحقق من الملف الشخصي,GGGGG,Profili kontrol edin,NNNNNNNN
+Let her know your feelings~,GGGGG,أخبرها بمشاعرك.,GGGGG,Ona duygularını söyle~,NNNNNNNN
+No preferred hosts for now; Swipe to explore.,GGGGG,لا توجد مضيفات مفضلات في الوقت الحالي؛ مرر الشاشة للاستكشاف.,GGGGG,Şimdilik tercih edilen host yok; keşfetmek için kaydırın.,NNNNNNNN
+Display 30 recently liked hosts,GGGGG,عرض 30 مضيفة تم الإعجاب بهن مؤخرًا,GGGGG,Son zamanlarda beğenilen 30 ev sahibini görüntüle,NNNNNNNN
+Discover more hosts in,GGGGG,اكتشف المزيد من المضيفات في,GGGGG,Daha fazla ev sahibi keşfedin,NNNNNNNN
+No swipes left today. Chat with liked hosts!,GGGGG,لا تبقى تمريرات اليوم. ابدأ محادثة مع المضيفات اللاتي قمت بالإعجاب بهن.,GGGGG,Bugün hiç kaydırma kalmadı. Sevilen ev sahipleri ile sohbet edin!,NNNNNNNN

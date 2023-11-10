@@ -10,75 +10,72 @@ import SwiftUI
 struct ContentView: View {
     @EnvironmentObject var store: Store
     
-    @State var step = 1
+    @State var text = ""
+    @State var lineSeperator = ",NNNNNNNN"
+    @State var itemSeperator = ",GGGGG,"
     
     var state: AppState {
         store.state
     }
     
+    var stateBinding: Binding<AppState> {
+        $store.state
+    }
+    
     var body: some View {
         VStack {
+            
             HStack {
-                Button("1.Process CSV") {
-                    step = 2
-                    store.dispatch(.processLanguageFiles)
+                Button("Process CSV") {
+                    let model = CSVModel(content: text, lineSeperator: lineSeperator, itemSeperator: itemSeperator)
+                    
+                    store.dispatch(.processCSVString(scvModel: model))
                 }
                 
-                Button("2.Conbine Datas") {
-                    step = 3
-                    store.dispatch(.conbineDatas)
-                }
-                
-                Button("3.General Files") {
+                Button("General File") {
                     store.dispatch(.generalFiles)
                 }
+                
+                Button("Clear") {
+                    text = ""
+                }
             }
             
-            if step < 3 {
-                lanuageFilesView
-            } else {
-                combineDatasView
+            HStack {
+                TextField("Line Seperator", text: $lineSeperator)
+                TextField("Item Seperator", text: $itemSeperator)
             }
-            
+            TextEditor(text: $text)
+                .frame(height: 300)
+            resultsList
+                .frame(height: 300)
         }
         .padding()
     }
     
-    var combineDatasView: some View {
-        List(state.allKeys, id:\.self) { key in
+    var resultsList: some View {
+        
+        List(stateBinding.results) { modelBinding in
+            let model = modelBinding.wrappedValue
             HStack(alignment: .bottom) {
-                Text(key)
+                Text(model.key)
                     .textSelection(.enabled)
                 
                 Spacer()
                 
-                Text(state.enDictionary[key] ?? "")
+                Text(model.en)
                     .textSelection(.enabled)
                 
                 Spacer()
                 
-                Text(state.arDictionary[key] ?? "")
+                Text(model.ar)
+                    .textSelection(.enabled)
+                Spacer()
+                
+                Text(model.tr)
                     .textSelection(.enabled)
             }
             .border(.blue)
-        }
-    }
-    
-    var lanuageFilesView: some View {
-        HStack {
-            keyValueListView("Enum", keys: state.enumKeys, values: state.enumValues)
-            keyValueListView("CSV", keys: state.enFileValues, values: state.arFileValues)
-        }
-    }
-    
-    func keyValueListView(_ title: String, keys: [String], values: [String]) -> some View {
-        VStack {
-            Text(title)
-                .fontWeight(.semibold)
-            List(keys.indices, id: \.self) { index in
-                Text("\(keys[index])    \(values[index])")
-
-            }
         }
     }
 }
@@ -86,5 +83,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(Store())
     }
 }

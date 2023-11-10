@@ -10,17 +10,6 @@ import Foundation
 
 struct AppState {
     
-    var step: Step = .processEnum
-    
-    var enumKeys: [String] = []
-    var enumValues: [String] = []
-    
-    var enFileValues: [String] = []
-    var arFileValues: [String] = []
-    
-    
-    var allKeys: [String] = []
-    var arDictionary: [String: String] = [:]
-    var enDictionary: [String: String] = [:]
+    var results: [ResultModel] = []
     
 }

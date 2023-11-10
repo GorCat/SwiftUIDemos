@@ -12,11 +12,7 @@ enum AppError: Error {
 }
 
 enum AppAction {
-    case processEnum
-    case processEnumDone(_ result: ([String], [String]))
-    case processLanguageFiles
-    case processLanguageFilesDone(_ result: ([String], [String]))
-    case conbineDatas
-    case conbineDatasDone(_ result: ([String], [String: String], [String: String]))
+    case processCSVString(scvModel: CSVModel)
+    case processCSVStringDone(_ result: [ResultModel])
     case generalFiles
 }

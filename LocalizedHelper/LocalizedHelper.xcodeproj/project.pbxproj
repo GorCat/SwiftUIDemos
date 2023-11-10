@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4D52F7982A413A58009CB360 /* i18N.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4D52F7972A413A58009CB360 /* i18N.csv */; };
+		4DD651B72AFE20B9000723F3 /* ResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD651B62AFE20B9000723F3 /* ResultModel.swift */; };
+		4DD651B92AFE32BB000723F3 /* CSVModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD651B82AFE32BB000723F3 /* CSVModel.swift */; };
 		4DF83C472A40008D002CA6A2 /* LocalizedHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF83C462A40008D002CA6A2 /* LocalizedHelperApp.swift */; };
 		4DF83C492A40008D002CA6A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF83C482A40008D002CA6A2 /* ContentView.swift */; };
 		4DF83C4B2A40008D002CA6A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF83C4A2A40008D002CA6A2 /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		4D52F7972A413A58009CB360 /* i18N.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = i18N.csv; sourceTree = "<group>"; };
+		4DD651B62AFE20B9000723F3 /* ResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultModel.swift; sourceTree = "<group>"; };
+		4DD651B82AFE32BB000723F3 /* CSVModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVModel.swift; sourceTree = "<group>"; };
 		4DF83C432A40008D002CA6A2 /* LocalizedHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizedHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF83C462A40008D002CA6A2 /* LocalizedHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedHelperApp.swift; sourceTree = "<group>"; };
 		4DF83C482A40008D002CA6A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 				4DF83C582A4005A4002CA6A2 /* AppState.swift */,
 				4DF83C5C2A4005D7002CA6A2 /* AppAction.swift */,
 				4DF83C5A2A4005CB002CA6A2 /* AppCommand.swift */,
+				4DD651B62AFE20B9000723F3 /* ResultModel.swift */,
+				4DD651B82AFE32BB000723F3 /* CSVModel.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -196,6 +202,8 @@
 				4DF83C492A40008D002CA6A2 /* ContentView.swift in Sources */,
 				4DF83C472A40008D002CA6A2 /* LocalizedHelperApp.swift in Sources */,
 				4DF83C592A4005A4002CA6A2 /* AppState.swift in Sources */,
+				4DD651B72AFE20B9000723F3 /* ResultModel.swift in Sources */,
+				4DD651B92AFE32BB000723F3 /* CSVModel.swift in Sources */,
 				4DF83C5B2A4005CB002CA6A2 /* AppCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

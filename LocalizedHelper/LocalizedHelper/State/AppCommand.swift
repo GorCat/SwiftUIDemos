@@ -13,125 +13,78 @@ protocol AppCommand {
     func execute(in store: Store)
 }
 
-struct ProcessEnumCommand: AppCommand {
+struct ProcessCSVCommand: AppCommand {
+    let csvModel: CSVModel
     
     func execute(in store: Store) {
-        var results: ([String], [String]) = ([], [])
-        guard let enumPath = Bundle.main.path(forResource: "EnumFile", ofType: "") else { return }
-        
-        do {
-            let enumString = try String(contentsOfFile: enumPath, encoding: String.Encoding.utf8).trimmingCharacters(in: .whitespacesAndNewlines)
-            let array = enumString.components(separatedBy: "case")
-            for item in array {
-                if item.isEmpty {
-                    continue
-                }
-                
-                let itemArray = item.components(separatedBy: "=")
-                let itemKey = itemArray[0].trimmingCharacters(in: .whitespacesAndNewlines)
-                let itemValue = itemArray[1].trimmingCharacters(in: .whitespacesAndNewlines)
-                    .replacingOccurrences(of: "\"", with: "")
-                results.0.append(itemKey)
-                results.1.append(itemValue)
-            }
-        } catch{
-            print(error)
-        }
-        
-        store.dispatch(.processEnumDone(results))
-    }
-}
-
-struct ProcessLanguageCommand: AppCommand {
-    
-    func execute(in store: Store) {
-        var results: ([String], [String]) = ([], [])
-        
-        
+        /* 通过 i18N 文件来解析
         guard let csvPath = Bundle.main.path(forResource: "i18N", ofType: "csv") else { return }
         do {
             let csvString = try String(contentsOfFile: csvPath, encoding: String.Encoding.utf8).trimmingCharacters(in: .whitespacesAndNewlines)
-            let csvArray = csvString.components(separatedBy: ",NNNNNNNN,")
-            
-            for csvItem in csvArray {
-                if csvItem.isEmpty {
-                    continue
-                }
-                let items = csvItem.components(separatedBy: ",GGGGG,")
-                if items.isEmpty {
-                    continue
-                }
-                
-                var en = items[0].trimmingCharacters(in: .whitespacesAndNewlines)
-                var ar = items[1].trimmingCharacters(in: .whitespacesAndNewlines)
-                
-                if en.noContent {
-                    continue
-                }
-                if en.hasPrefix("\"") {
-                    en = String(en.dropFirst())
-                }
-                if en.hasSuffix("\"") {
-                    en = String(en.dropLast())
-                }
-                
-                if ar.hasPrefix("\"") {
-                    ar = String(ar.dropFirst())
-                }
-                if ar.hasSuffix("\"") {
-                    ar = String(ar.dropLast())
-                }
-                
-                results.0.append(en)
-                results.1.append(ar)
-            }
-            
-            
-        } catch {
-            print(error)
-        }
-        store.dispatch(.processLanguageFilesDone(results))
+         
+         } catch {
+             print(error)
+         }
+         */
+        
+        let languegesArray = getLanguagesArray(from: csvModel)
+        let results = tranformLanguagesArrayToModels(languegesArray)
+        
+        store.dispatch(.processCSVStringDone(results))
     }
-}
-
-struct ConbineDatasCommand: AppCommand {
     
-    func execute(in store: Store) {
-        let appState = store.state
+    func getLanguagesArray(from csvModel: CSVModel) -> ([[String]]) {
+        let csvString = csvModel.content
+        let lineSeperator = csvModel.lineSeperator
+        let itemSeperator = csvModel.itemSeperator
         
-        var allkeys: [String] = []
-//        var lowercasedEnumKey: [String] = []
-        var arDictionary: [String: String] = [:]
-        var enDictionary: [String: String] = [:]
-        for item in zip(appState.enumKeys, appState.enumValues) {
-            let key = item.0
-            allkeys.append(key)
-//            lowercasedEnumKey.append(key.lowercased())
+        var results: [[String]] = []
+        let csvItems = csvString.components(separatedBy: lineSeperator)
+        for csvItem in csvItems {
+            if csvItem.isEmpty {
+                continue
+            }
+            let textItems = csvItem.components(separatedBy: itemSeperator)
+            if textItems.isEmpty {
+                continue
+            }
             
-            enDictionary[key] = item.1
-            arDictionary[key] = ""
+            var translateTexts: [String] = []
+            
+            // 1.en
+            let en = textItems[0].trimmingCharacters(in: .whitespacesAndNewlines).formatterTranlatedText(en: "")
+            if en.noContent {
+                continue
+            }
+            translateTexts.append(en)
+            
+            // 2.ar、tr、...
+            for item in textItems.dropFirst() {
+                let translateText = item.trimmingCharacters(in: .whitespacesAndNewlines).formatterTranlatedText(en: en)
+                translateTexts.append(translateText)
+            }
+            
+            results.append(translateTexts)
         }
         
-        for item in zip(appState.enFileValues, appState.arFileValues) {
-            var key = item.0.enumTextFormatter.filter{ $0.isLetter }
-            if let keyIndex = allkeys.firstIndex(of: key) {
-                key = allkeys[keyIndex]
-            } else {
-                allkeys.append(String(key))
-            }
-            enDictionary[key] = item.0
-            if item.1.isEmpty {
-                arDictionary[key] = item.0
-            } else {
-                arDictionary[key] = item.1
-            }
+        return results
+    }
+    
+    func tranformLanguagesArrayToModels(_ languegesArray: [[String]]) -> [ResultModel] {
+        var models: [ResultModel] = []
+        
+        for item in languegesArray {
+            let model = ResultModel(languages: item)
+            models.append(model)
         }
         
-        let set = Set(allkeys)
-        allkeys = set.sorted()
+        // 1.去重
+        let modelsSet = Set(models)
         
-        // deduplication
-        store.dispatch(.conbineDatasDone((allkeys, enDictionary, arDictionary)))
+        // 2.排序
+        let results = modelsSet.sorted(by: { $0.key < $1.key})
+        
+        return results
     }
 }
 
@@ -143,26 +96,37 @@ struct GeneralFilesCommand: AppCommand {
         var enumString = ""
         var enString = ""
         var arString = ""
-        for keyItem in appState.allKeys {
-            enumString.append("case \(keyItem)\n")
+        var trString = ""
+        
+        let results = appState.results
+        for item in results {
             
-            let en = "\"\(keyItem)\" = \"\(appState.enDictionary[keyItem] ?? "")\";\n"
+            let key = item.key
+            enumString.append("case \(key)\n")
+            
+            let en = "\"\(key)\" = \"\(item.en)\";\n"
             enString.append(en)
             
-            let ar = "\"\(keyItem)\" = \"\(appState.arDictionary[keyItem] ?? "")\";\n"
+            let ar = "\"\(key)\" = \"\(item.ar)\";\n"
             arString.append(ar)
+            
+            let tr = "\"\(key)\" = \"\(item.tr)\";\n"
+            trString.append(tr)
         }
+        
         
         let documentsUrl = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
         let enumPath = documentsUrl.appendingPathComponent("EnumResults")
         let enPath = documentsUrl.appendingPathComponent("EnLocalized")
         let arPath = documentsUrl.appendingPathComponent("ARLocalized")
+        let trPath = documentsUrl.appendingPathComponent("TRLocalized")
         NSWorkspace.shared.activateFileViewerSelecting([documentsUrl])
 
         do {
             try enumString.write(to: enumPath, atomically: true, encoding: String.Encoding.utf8)
             try enString.write(to: enPath, atomically: true, encoding: String.Encoding.utf8)
             try arString.write(to: arPath, atomically: true, encoding: String.Encoding.utf8)
+            try trString.write(to: trPath, atomically: true, encoding: String.Encoding.utf8)
         } catch {
             debugPrint(error.localizedDescription)
         }
@@ -171,14 +135,30 @@ struct GeneralFilesCommand: AppCommand {
     }
 }
 
-extension StringProtocol {
+fileprivate extension StringProtocol {
     var noContent: Bool {
         self.replacingOccurrences(of: "\r", with: "")
             .replacingOccurrences(of: "\n", with: "")
             .isEmpty
     }
-    
-    var enumTextFormatter: String {
-        return prefix(1).lowercased() + self.capitalized.dropFirst()
-    }
 }
+
+fileprivate extension String {
+    
+    func formatterTranlatedText(en: String) -> String {
+        var result = self
+        if result.hasPrefix("\"") {
+            result = String(result.dropFirst())
+        }
+        if result.hasSuffix("\"") {
+            result = String(result.dropLast())
+        }
+        // 不翻译
+        if ["无", "无需"].contains(result) {
+            result = en
+        }
+        return result
+    }
+    
+}
+
