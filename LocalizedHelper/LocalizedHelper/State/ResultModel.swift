@@ -18,14 +18,19 @@ extension ResultModel: Identifiable {
     var id: String {
         key
     }
-    
-    
 }
 
 extension ResultModel: Hashable {
     
     func hash(into hasher: inout Hasher) {
         hasher.combine(key)
+    }
+}
+
+extension ResultModel: Equatable {
+    
+    static func == (lhs: Self, rhs: Self) -> Bool {
+        lhs.key == rhs.key
     }
 }
 
