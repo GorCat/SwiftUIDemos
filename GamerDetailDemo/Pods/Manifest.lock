@@ -1,20 +1,24 @@
 PODS:
   - JXPagingView/Paging (2.1.2)
   - JXSegmentedView (1.3.0)
+  - MJRefresh (3.7.6)
 
 DEPENDENCIES:
   - JXPagingView/Paging
   - JXSegmentedView
+  - MJRefresh
 
 SPEC REPOS:
   trunk:
     - JXPagingView
     - JXSegmentedView
+    - MJRefresh
 
 SPEC CHECKSUMS:
   JXPagingView: 90924b364a2ff7e94db534fad1fa50925ff69ee4
   JXSegmentedView: fec0d335355b6e019c494fe2e030bde8a36d2df6
+  MJRefresh: 2fe7fb43a5167ceda20bb7e63f130c04fd1814a5
 
-PODFILE CHECKSUM: 4f11e73bf4cc1912ce151c209a7373a13481192c
+PODFILE CHECKSUM: c91ce3ace4ada344a01754c4b0916d7c7fd811ee
 
 COCOAPODS: 1.12.0
