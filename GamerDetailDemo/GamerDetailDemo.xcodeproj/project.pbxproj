@@ -20,8 +20,8 @@
 		E2FF43CA2B1B920F008629B0 /* PagingViewTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FF43C92B1B920F008629B0 /* PagingViewTableHeaderView.swift */; };
 		E2FF43CC2B1B9225008629B0 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FF43CB2B1B9225008629B0 /* ListViewController.swift */; };
 		E2FF43CE2B1B9294008629B0 /* lufei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2FF43CD2B1B9294008629B0 /* lufei.jpg */; };
-		E2FF43D02B1B93D4008629B0 /* GamerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FF43CF2B1B93D4008629B0 /* GamerDetailView.swift */; };
 		E2FF43D32B1BA2FF008629B0 /* MgcHomeDtailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FF43D22B1BA2FF008629B0 /* MgcHomeDtailController.swift */; };
+		E2FF43D72B1BB620008629B0 /* MgcUserPhotosBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FF43D62B1BB620008629B0 /* MgcUserPhotosBannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,8 +40,8 @@
 		E2FF43C92B1B920F008629B0 /* PagingViewTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingViewTableHeaderView.swift; sourceTree = "<group>"; };
 		E2FF43CB2B1B9225008629B0 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		E2FF43CD2B1B9294008629B0 /* lufei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lufei.jpg; sourceTree = "<group>"; };
-		E2FF43CF2B1B93D4008629B0 /* GamerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamerDetailView.swift; sourceTree = "<group>"; };
 		E2FF43D22B1BA2FF008629B0 /* MgcHomeDtailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MgcHomeDtailController.swift; sourceTree = "<group>"; };
+		E2FF43D62B1BB620008629B0 /* MgcUserPhotosBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MgcUserPhotosBannerView.swift; sourceTree = "<group>"; };
 		EC6804D76D3D1ECE7A826801 /* Pods-GamerDetailDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamerDetailDemo.release.xcconfig"; path = "Target Support Files/Pods-GamerDetailDemo/Pods-GamerDetailDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F95D554AF2E419641663A353 /* Pods-GamerDetailDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamerDetailDemo.debug.xcconfig"; path = "Target Support Files/Pods-GamerDetailDemo/Pods-GamerDetailDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,7 +90,7 @@
 				E24834382B1B5B05004DA4A7 /* AppDelegate.swift */,
 				E248343A2B1B5B05004DA4A7 /* SceneDelegate.swift */,
 				E248343C2B1B5B05004DA4A7 /* ViewController.swift */,
-				E2FF43CF2B1B93D4008629B0 /* GamerDetailView.swift */,
+				E2FF43D62B1BB620008629B0 /* MgcUserPhotosBannerView.swift */,
 				E2FF43D12B1BA2DE008629B0 /* HomeDetail */,
 				E2FF43B02B1B5CF8008629B0 /* Main */,
 				E248343E2B1B5B05004DA4A7 /* Main.storyboard */,
@@ -251,12 +251,12 @@
 				E2FF43D32B1BA2FF008629B0 /* MgcHomeDtailController.swift in Sources */,
 				E2FF43BE2B1B8A89008629B0 /* ListRefreshViewController.swift in Sources */,
 				E2FF43C22B1B8AA3008629B0 /* Tool.swift in Sources */,
-				E2FF43D02B1B93D4008629B0 /* GamerDetailView.swift in Sources */,
 				E24834392B1B5B05004DA4A7 /* AppDelegate.swift in Sources */,
 				E248343B2B1B5B05004DA4A7 /* SceneDelegate.swift in Sources */,
 				E2FF43CA2B1B920F008629B0 /* PagingViewTableHeaderView.swift in Sources */,
 				E2FF43CC2B1B9225008629B0 /* ListViewController.swift in Sources */,
 				E2FF43C82B1B91D2008629B0 /* BaseViewController.swift in Sources */,
+				E2FF43D72B1BB620008629B0 /* MgcUserPhotosBannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
