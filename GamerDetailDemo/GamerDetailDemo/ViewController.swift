@@ -20,5 +20,9 @@ class ViewController: UIViewController {
         navigationController?.pushViewController(vc, animated: true)
     }
     
+    @IBAction func homeDetailTaped(_ sender: Any) {
+        let vc = MgcHomeDtailController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }
 

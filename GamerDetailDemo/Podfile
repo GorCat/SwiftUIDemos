@@ -10,6 +10,7 @@ target 'GamerDetailDemo' do
   pod 'JXPagingView/Paging'
   
   pod 'MJRefresh'
+  pod 'SnapKit'
 end
 
 post_install do |installer|

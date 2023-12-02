@@ -26,6 +26,15 @@
                                     <action selector="buttonTaped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rly-RK-Yax"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4YR-gA-Phb">
+                                <rect key="frame" x="138" y="211" width="118" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home Detail"/>
+                                <connections>
+                                    <action selector="homeDetailTaped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GfT-gF-xcU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
