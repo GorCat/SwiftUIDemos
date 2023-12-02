@@ -12,8 +12,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
 
-
+    @IBAction func buttonTaped(_ sender: Any) {
+        let vc = ListRefreshViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }
 
