@@ -1,0 +1,20 @@
+PODS:
+  - JXPagingView/Paging (2.1.2)
+  - JXSegmentedView (1.3.0)
+
+DEPENDENCIES:
+  - JXPagingView/Paging
+  - JXSegmentedView
+
+SPEC REPOS:
+  trunk:
+    - JXPagingView
+    - JXSegmentedView
+
+SPEC CHECKSUMS:
+  JXPagingView: 90924b364a2ff7e94db534fad1fa50925ff69ee4
+  JXSegmentedView: fec0d335355b6e019c494fe2e030bde8a36d2df6
+
+PODFILE CHECKSUM: 4f11e73bf4cc1912ce151c209a7373a13481192c
+
+COCOAPODS: 1.12.0
