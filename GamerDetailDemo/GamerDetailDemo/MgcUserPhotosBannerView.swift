@@ -92,11 +92,13 @@ class MgcUserPhotosBannerView: UIView {
             button.addTarget(self, action: #selector(bgButtonTaped(_:)), for: .touchUpInside)
             button.kf.setImage(with: url, for: .normal, placeholder: UIImage(named: ""))
             button.imageView?.contentMode = .scaleAspectFill
-            button.clipsToBounds = true
-            button.layer.cornerRadius = 10
-            button.layer.borderWidth = 1
             bgScrollowView.addSubview(button)
             bgButtons.append(button)
+        }
+        
+        if bgURLs.count > 1 {
+            bgIndex = 1
+            bgScrollowView.setContentOffset(CGPoint(x: screenWidth, y: 0), animated: false)
         }
     }
     
@@ -135,6 +137,7 @@ class MgcUserPhotosBannerView: UIView {
             button.clipsToBounds = true
             button.layer.cornerRadius = 10
             button.layer.borderWidth = 1
+            button.layer.borderColor = UIColor.clear.cgColor
             miniScrollowView.addSubview(button)
             miniButtons.append(button)
         }
@@ -158,8 +161,12 @@ class MgcUserPhotosBannerView: UIView {
                 button.layer.borderColor = UIColor.clear.cgColor
             }
         }
-        
-        miniScrollowView.setContentOffset(CGPoint(x: 50 * miniIndex, y: 0), animated: true)
+    
+        var scrollIndex = max(miniIndex - 1, 0)
+        if urlsCount > 3 {
+            scrollIndex = min(scrollIndex, urlsCount - 2)
+        }
+        miniScrollowView.setContentOffset(CGPoint(x: 55 * scrollIndex, y: 0), animated: true)
     }
     
     @objc func miniButtonTaped(_ sender: UIButton) {
@@ -175,8 +182,7 @@ class MgcUserPhotosBannerView: UIView {
     }
     
     func mgc_startAnimiation() {
-        timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(timerFired), userInfo: nil, repeats: true)
-        
+        timer = Timer.scheduledTimer(timeInterval: 3.5, target: self, selector: #selector(timerFired), userInfo: nil, repeats: true)
     }
     
     func mgc_stopAnimation() {
@@ -189,12 +195,12 @@ class MgcUserPhotosBannerView: UIView {
             return
         }
         let nextBgIndex = bgIndex + 1
-        if nextBgIndex == bgURLs.count - 1 {
-            bgScrollowView.setContentOffset(CGPoint(x: 0, y: 0), animated: false)
-            bgScrollowView.setContentOffset(CGPoint(x: screenWidth, y: 0), animated: true)
-        } else {
-            bgScrollowView.setContentOffset(CGPoint(x: screenWidth * CGFloat(bgIndex), y: 0), animated: true)
+        if nextBgIndex >= bgURLs.count {
+            bgIndex = 1
+            bgScrollowView.setContentOffset(CGPoint(x: screenWidth, y: 0), animated: false)
+            return
         }
+        bgScrollowView.setContentOffset(CGPoint(x: screenWidth * CGFloat(nextBgIndex), y: 0), animated: true)
         
     }
 }
@@ -204,6 +210,7 @@ extension MgcUserPhotosBannerView: UIScrollViewDelegate {
         let offsetX = scrollView.contentOffset.x
         let i = Int(round(offsetX / screenWidth))
         let lastOffset = screenWidth * CGFloat(bgURLs.count - 1)
+        bgIndex = i
         
         if offsetX < screenWidth {
             scrollView.setContentOffset(CGPoint(x: lastOffset, y: 0), animated: false)
@@ -211,7 +218,6 @@ extension MgcUserPhotosBannerView: UIScrollViewDelegate {
             scrollView.setContentOffset(CGPoint(x: screenWidth, y: 0), animated: false)
         }
         
-        bgIndex = i
         updateMiniScrollow()
         
     }

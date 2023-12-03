@@ -29,6 +29,7 @@ class MgcHomeDtailController: UIViewController {
         super.viewDidLoad()
         
         setUI()
+        loadData()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -48,7 +49,24 @@ class MgcHomeDtailController: UIViewController {
 
         mgc_pagingView.frame = self.view.bounds
     }
-
+    
+    
+    // MARK: Data
+    func loadData() {
+        mgc_headerView.videoURLs = [
+            URL(string: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2Fac700d2c-3a87-476f-8781-518aede097ee%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1704199951&t=db9d26f96a94c43c48c39c4f8cf5b5a5")!,
+            URL(string: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2F60b2ae28-254d-4441-8ade-11aa660ba7f0%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1704199979&t=72d22b7c2ad9559ab0dd24be203261ec")!,
+        ]
+//        mgc_headerView.pictureURLs = [
+//            URL(string: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2F2ab34b87-15a3-4cf9-9144-26e59b6f4c33%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1704200002&t=ecb50773ccd2078a7dd590fbf3b02210")!,
+//            URL(string: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2F60b2ae28-254d-4441-8ade-11aa660ba7f0%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1704199979&t=72d22b7c2ad9559ab0dd24be203261ec")!,
+//            URL(string: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2F60b2ae28-254d-4441-8ade-11aa660ba7f0%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1704199979&t=72d22b7c2ad9559ab0dd24be203261ec")!,
+//            URL(string: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2F60b2ae28-254d-4441-8ade-11aa660ba7f0%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1704199979&t=72d22b7c2ad9559ab0dd24be203261ec")!,
+//            URL(string: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2F60b2ae28-254d-4441-8ade-11aa660ba7f0%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1704199979&t=72d22b7c2ad9559ab0dd24be203261ec")!,
+//            URL(string: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2F60b2ae28-254d-4441-8ade-11aa660ba7f0%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1704199979&t=72d22b7c2ad9559ab0dd24be203261ec")!
+//        ]
+        mgc_headerView.reloadDatas()
+    }
     
     // MARK: UI
     func setUI() {
