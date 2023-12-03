@@ -17,7 +17,7 @@ class MgcHomeDtailController: UIViewController {
     
     lazy var mgc_pagingView = JXPagingListRefreshView(delegate: self)
     
-    var mgc_headerView = UIView()
+    var mgc_headerView = MgcUserPhotosBannerView()
     var mgc_headerHeight: CGFloat = 0
     
     let mgc_segmentDataSource: JXSegmentedTitleDataSource = JXSegmentedTitleDataSource()
@@ -33,12 +33,13 @@ class MgcHomeDtailController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        mgc_headerView.mgc_startAnimiation()
         self.navigationController?.interactivePopGestureRecognizer?.isEnabled = (mgc_segmentedView.selectedIndex == 0)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-
+        mgc_headerView.mgc_stopAnimation()
         self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
     }
     
@@ -51,8 +52,6 @@ class MgcHomeDtailController: UIViewController {
     
     // MARK: UI
     func setUI() {
-        let topPadding =
-        
         view.backgroundColor = .white
         self.navigationController?.navigationBar.isTranslucent = false
         // 1
