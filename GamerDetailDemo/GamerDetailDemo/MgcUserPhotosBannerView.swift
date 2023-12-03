@@ -43,6 +43,8 @@ class MgcUserPhotosBannerView: UIView {
     
     let miniPageLabel = UILabel()
     
+    var timer: Timer?
+    
     // MARK: Life
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -173,10 +175,26 @@ class MgcUserPhotosBannerView: UIView {
     }
     
     func mgc_startAnimiation() {
+        timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(timerFired), userInfo: nil, repeats: true)
         
     }
     
     func mgc_stopAnimation() {
+        timer?.invalidate()
+        timer = nil
+    }
+    
+    @objc func timerFired() {
+        if bgURLs.count == 0 {
+            return
+        }
+        let nextBgIndex = bgIndex + 1
+        if nextBgIndex == bgURLs.count - 1 {
+            bgScrollowView.setContentOffset(CGPoint(x: 0, y: 0), animated: false)
+            bgScrollowView.setContentOffset(CGPoint(x: screenWidth, y: 0), animated: true)
+        } else {
+            bgScrollowView.setContentOffset(CGPoint(x: screenWidth * CGFloat(bgIndex), y: 0), animated: true)
+        }
         
     }
 }
