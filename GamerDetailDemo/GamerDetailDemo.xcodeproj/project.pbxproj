@@ -90,7 +90,6 @@
 				E24834382B1B5B05004DA4A7 /* AppDelegate.swift */,
 				E248343A2B1B5B05004DA4A7 /* SceneDelegate.swift */,
 				E248343C2B1B5B05004DA4A7 /* ViewController.swift */,
-				E2FF43D62B1BB620008629B0 /* MgcUserPhotosBannerView.swift */,
 				E2FF43D12B1BA2DE008629B0 /* HomeDetail */,
 				E2FF43B02B1B5CF8008629B0 /* Main */,
 				E248343E2B1B5B05004DA4A7 /* Main.storyboard */,
@@ -117,6 +116,7 @@
 		E2FF43D12B1BA2DE008629B0 /* HomeDetail */ = {
 			isa = PBXGroup;
 			children = (
+				E2FF43D62B1BB620008629B0 /* MgcUserPhotosBannerView.swift */,
 				E2FF43D22B1BA2FF008629B0 /* MgcHomeDtailController.swift */,
 			);
 			path = HomeDetail;
